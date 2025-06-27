@@ -20,7 +20,7 @@ function CancelPageContent() {
       try {
         const cartItems = JSON.parse(localStorage.getItem('cart_guest') || '[]');
         const userProfile = JSON.parse(localStorage.getItem('userProfile') || '{}');
-        
+
         if (cartItems.length > 0) {
           const customerInfo = userProfile.name ? {
             name: userProfile.name,
@@ -94,7 +94,7 @@ function CancelPageContent() {
         transition={{ duration: 0.5 }}
         className="w-full max-w-md"
       >
-        <Card className="bg-background/95 backdrop-blur-xl border border-white/10 shadow-2xl">
+        <Card className="bg-background/95 backdrop-blur-xl border border-black/5 dark:border-white/10 shadow-2xl">
           <CardHeader className="text-center">
             <motion.div
               initial={{ scale: 0 }}
@@ -132,18 +132,18 @@ function CancelPageContent() {
                   Continue Shopping
                 </Button>
               </Link>
-              
-              <Button 
-                variant="outline" 
-                className="w-full rounded-xl border-white/20 bg-background/50 backdrop-blur-sm hover:bg-background/80"
+
+              <Button
+                variant="outline"
+                className="w-full rounded-xl border-black/10 dark:border-white/20 bg-background/50 backdrop-blur-sm hover:bg-background/80"
                 onClick={() => router.back()}
               >
                 <ArrowLeft className="w-4 h-4 mr-2" />
                 Go Back
               </Button>
 
-              <Button 
-                variant="destructive" 
+              <Button
+                variant="destructive"
                 className="w-full rounded-xl bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600"
                 onClick={handleClearCart}
               >
@@ -167,7 +167,7 @@ export default function CancelPage() {
     <Suspense fallback={
       <div className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20 flex items-center justify-center p-4">
         <div className="w-full max-w-md">
-          <Card className="bg-background/95 backdrop-blur-xl border border-white/10 shadow-2xl">
+          <Card className="bg-background/95 backdrop-blur-xl border border-black/5 dark:border-white/10 shadow-2xl">
             <CardContent className="p-6 text-center">
               <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
               <p className="text-muted-foreground">Loading...</p>

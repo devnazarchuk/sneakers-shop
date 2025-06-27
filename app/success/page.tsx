@@ -156,11 +156,11 @@ function mergeOrderData(webhookOrder: {
       color: string;
       images?: string[];
     }) =>
-      item.productId === webhookItem.productId && 
-      item.size === webhookItem.size && 
+      item.productId === webhookItem.productId &&
+      item.size === webhookItem.size &&
       item.color === webhookItem.color
     );
-    
+
     return {
       ...webhookItem,
       images: localStorageItem?.images || [],
@@ -221,7 +221,7 @@ function SuccessPageContent() {
       try {
         localStorage.removeItem('active_checkout_session');
         localStorage.removeItem('checkout_started_at');
-        
+
         // Також очищаємо всі pending orders з localStorage які починаються з 'order_'
         const keys = Object.keys(localStorage);
         keys.forEach(key => {
@@ -253,8 +253,8 @@ function SuccessPageContent() {
       if (savedOrder) {
         try {
           const parsedOrder = JSON.parse(savedOrder);
-          // Якщо order pending — міняємо на paid і зберігаємо
-          if (parsedOrder.status === 'pending') {
+          // Якщо order pending/expired/cancelled — міняємо на paid і зберігаємо
+          if (['pending', 'expired', 'cancelled'].includes(parsedOrder.status)) {
             parsedOrder.status = 'paid';
             parsedOrder.updatedAt = new Date().toISOString();
             localStorage.setItem(`order_${sessionId}`, JSON.stringify(parsedOrder));
@@ -275,32 +275,32 @@ function SuccessPageContent() {
         try {
           const { getOrderBySessionId } = await import("@/lib/orders");
           const webhookOrder = getOrderBySessionId(sessionId);
-          
+
           // Get localStorage order data (contains images)
           const localStorageOrder = savedOrder ? JSON.parse(savedOrder) : null;
-          
+
           if (webhookOrder) {
-            // Якщо order pending — міняємо на paid і зберігаємо
-            if (webhookOrder.status === 'pending') {
+            // Якщо order pending/expired/cancelled — міняємо на paid і зберігаємо
+            if (['pending', 'expired', 'cancelled'].includes(webhookOrder.status)) {
               webhookOrder.status = 'paid';
               webhookOrder.updatedAt = new Date().toISOString();
               const { saveOrder } = await import("@/lib/orders");
               saveOrder(webhookOrder);
             }
-            
+
             // Merge webhook data with localStorage data to get images
             const mergedOrderData = mergeOrderData(webhookOrder, localStorageOrder);
             setOrderData(mergedOrderData);
-            
+
             // Update localStorage with merged data
             localStorage.setItem(`order_${sessionId}`, JSON.stringify(mergedOrderData));
           } else if (localStorageOrder) {
             // Fallback to localStorage data if webhook data not available
-            if (localStorageOrder.status === 'pending') {
+            if (['pending', 'expired', 'cancelled'].includes(localStorageOrder.status)) {
               localStorageOrder.status = 'paid';
               localStorageOrder.updatedAt = new Date().toISOString();
               localStorage.setItem(`order_${sessionId}`, JSON.stringify(localStorageOrder));
-              
+
               // Also update in orders system
               const { saveOrder } = await import("@/lib/orders");
               saveOrder(localStorageOrder);
@@ -321,28 +321,28 @@ function SuccessPageContent() {
       console.log('No session ID provided, looking for recent pending order...');
       try {
         const orders = JSON.parse(localStorage.getItem('orders') || '[]');
-        const pendingOrders = orders.filter((order: {
+        const validOrders = orders.filter((order: {
           status: string;
           date: string;
-        }) => order.status === 'pending');
-        
-        if (pendingOrders.length > 0) {
-          // Беремо найновіший pending order
-          const latestPendingOrder = pendingOrders[0];
-          latestPendingOrder.status = 'paid';
-          latestPendingOrder.updatedAt = new Date().toISOString();
-          
+        }) => ['pending', 'expired', 'cancelled'].includes(order.status));
+
+        if (validOrders.length > 0) {
+          // Беремо найновіший
+          const latestOrder = validOrders[0];
+          latestOrder.status = 'paid';
+          latestOrder.updatedAt = new Date().toISOString();
+
           // Оновлюємо в orders використовуючи saveOrder
           import("@/lib/orders").then(({ saveOrder }) => {
-            saveOrder(latestPendingOrder);
+            saveOrder(latestOrder);
           }).catch(error => {
             console.error('Error importing saveOrder:', error);
           });
-          
+
           // Встановлюємо orderData для відображення
-          const orderData = convertOrderToOrderData(latestPendingOrder);
+          const orderData = convertOrderToOrderData(latestOrder);
           setOrderData(orderData);
-          
+
           // Очищаємо активні checkout сесії
           localStorage.removeItem('active_checkout_session');
           localStorage.removeItem('checkout_started_at');
@@ -445,7 +445,7 @@ function SuccessPageContent() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.5 }}
               >
-                <Card className="bg-background/95 backdrop-blur-xl border border-white/10 shadow-2xl">
+                <Card className="bg-background/95 backdrop-blur-xl border border-black/5 dark:border-white/10 shadow-2xl">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-3">
                       <Package className="w-6 h-6 text-primary" />
@@ -461,7 +461,7 @@ function SuccessPageContent() {
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: 0.4 + index * 0.1 }}
-                            className="flex items-center gap-4 p-4 bg-muted/30 rounded-lg border border-white/10"
+                            className="flex items-center gap-4 p-4 bg-muted/30 rounded-lg border border-black/5 dark:border-white/10"
                           >
                             {/* Product Image */}
                             {item.images && item.images.length > 0 && (
@@ -474,7 +474,7 @@ function SuccessPageContent() {
                                 />
                               </div>
                             )}
-                            
+
                             <div className="flex-1 min-w-0">
                               <h3 className="font-semibold truncate">
                                 {item.title}
@@ -497,7 +497,7 @@ function SuccessPageContent() {
                           </motion.div>
                         ))}
 
-                        <div className="border-t border-white/10 pt-4 mt-6 space-y-2">
+                        <div className="border-t border-black/5 dark:border-white/10 pt-4 mt-6 space-y-2">
                           <div className="flex justify-between text-sm">
                             <span>Subtotal</span>
                             <span>€{(total / 1.19).toFixed(2)}</span>
@@ -510,7 +510,7 @@ function SuccessPageContent() {
                             <span>Shipping</span>
                             <span>Free</span>
                           </div>
-                          <div className="flex justify-between items-center pt-2 border-t border-white/10">
+                          <div className="flex justify-between items-center pt-2 border-t border-black/5 dark:border-white/10">
                             <span className="text-lg font-semibold">Total</span>
                             <span className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
                               €{total.toFixed(2)}
@@ -540,7 +540,7 @@ function SuccessPageContent() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.3, duration: 0.5 }}
                 >
-                  <Card className="bg-background/95 backdrop-blur-xl border border-white/10 shadow-2xl">
+                  <Card className="bg-background/95 backdrop-blur-xl border border-black/5 dark:border-white/10 shadow-2xl">
                     <CardHeader>
                       <CardTitle className="flex items-center gap-3">
                         <MapPin className="w-5 h-5 text-primary" />
@@ -569,7 +569,7 @@ function SuccessPageContent() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4, duration: 0.5 }}
               >
-                <Card className="bg-background/95 backdrop-blur-xl border border-white/10 shadow-2xl">
+                <Card className="bg-background/95 backdrop-blur-xl border border-black/5 dark:border-white/10 shadow-2xl">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-3">
                       <CreditCard className="w-5 h-5 text-primary" />
@@ -599,7 +599,7 @@ function SuccessPageContent() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.5, duration: 0.5 }}
               >
-                <Card className="bg-background/95 backdrop-blur-xl border border-white/10 shadow-2xl">
+                <Card className="bg-background/95 backdrop-blur-xl border border-black/5 dark:border-white/10 shadow-2xl">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-3">
                       <Truck className="w-5 h-5 text-primary" />
@@ -637,7 +637,7 @@ function SuccessPageContent() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.6, duration: 0.5 }}
               >
-                <Card className="bg-background/95 backdrop-blur-xl border border-white/10 shadow-2xl">
+                <Card className="bg-background/95 backdrop-blur-xl border border-black/5 dark:border-white/10 shadow-2xl">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-3">
                       <Mail className="w-5 h-5 text-primary" />
@@ -673,9 +673,9 @@ function SuccessPageContent() {
             className="flex flex-col sm:flex-row gap-4 justify-center mt-12"
           >
             <Link href="/catalog">
-              <Button 
-                variant="outline" 
-                className="w-full sm:w-auto rounded-xl border-white/20 bg-background/50 backdrop-blur-sm hover:bg-background/80"
+              <Button
+                variant="outline"
+                className="w-full sm:w-auto rounded-xl border-black/10 dark:border-white/20 bg-background/50 backdrop-blur-sm hover:bg-background/80"
               >
                 <ArrowLeft className="w-4 h-4 mr-2" />
                 Continue Shopping

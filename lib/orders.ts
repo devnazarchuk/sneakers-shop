@@ -56,40 +56,46 @@ const generateUniqueId = (): string => {
 // Save order to localStorage
 export const saveOrder = (order: Order): void => {
   try {
+    if (typeof window === 'undefined' || typeof localStorage === 'undefined') {
+      console.log('Server-side context: Order save requested but skipped (localStorage unavailable). Order data:', order);
+      return;
+    }
+
     const existingOrders = getOrders();
-    
+
     // Check if order with same ID already exists
     const existingOrderById = existingOrders.find(o => o.id === order.id);
     if (existingOrderById) {
       // Update existing order
-      const updatedOrders = existingOrders.map(o => 
+      const updatedOrders = existingOrders.map(o =>
         o.id === order.id ? { ...o, ...order } : o
       );
       localStorage.setItem('orders', JSON.stringify(updatedOrders));
-      
-      // Dispatch custom event to notify components about order update
+
       if (typeof window !== 'undefined') {
         window.dispatchEvent(new CustomEvent(ORDER_UPDATE_EVENT, { detail: { orders: updatedOrders } }));
       }
       return;
     }
-    
-    // Check if order with same sessionId already exists
-    const existingOrderIndex = existingOrders.findIndex(o => o.sessionId === order.sessionId);
-    
+
+    // Check if order with same sessionId already exists (if sessionId is provided)
+    const existingOrderIndex = order.sessionId
+      ? existingOrders.findIndex(o => o.sessionId === order.sessionId)
+      : -1;
+
     let updatedOrders: Order[];
     if (existingOrderIndex !== -1) {
-      // Update existing order
-      updatedOrders = existingOrders.map((o, index) => 
-        index === existingOrderIndex ? order : o
+      // Update existing order by session ID
+      updatedOrders = existingOrders.map((o, index) =>
+        index === existingOrderIndex ? { ...o, ...order } : o
       );
     } else {
       // Add new order
       updatedOrders = [order, ...existingOrders];
     }
-    
+
     localStorage.setItem('orders', JSON.stringify(updatedOrders));
-    
+
     // Dispatch custom event to notify components about order update
     if (typeof window !== 'undefined') {
       window.dispatchEvent(new CustomEvent(ORDER_UPDATE_EVENT, { detail: { orders: updatedOrders } }));
@@ -102,6 +108,9 @@ export const saveOrder = (order: Order): void => {
 // Get all orders from localStorage
 export const getOrders = (): Order[] => {
   try {
+    if (typeof window === 'undefined' || typeof localStorage === 'undefined') {
+      return [];
+    }
     const orders = localStorage.getItem('orders');
     return orders ? JSON.parse(orders) : [];
   } catch (error) {
@@ -126,11 +135,11 @@ export const getOrderBySessionId = (sessionId: string): Order | null => {
 export const updateOrderStatus = (id: string, status: Order['status']): void => {
   try {
     const orders = getOrders();
-    const updatedOrders = orders.map(order => 
+    const updatedOrders = orders.map(order =>
       order.id === id ? { ...order, status } : order
     );
     localStorage.setItem('orders', JSON.stringify(updatedOrders));
-    
+
     // Dispatch custom event to notify components about order update
     if (typeof window !== 'undefined') {
       window.dispatchEvent(new CustomEvent(ORDER_UPDATE_EVENT, { detail: { orders: updatedOrders } }));
@@ -146,7 +155,7 @@ export const calculateOrderTotals = (items: OrderItem[]) => {
   const tax = subtotal * 0.19; // 19% VAT
   const shipping = subtotal >= 100 ? 0 : 9.99; // Free shipping over €100
   const total = subtotal + tax + shipping;
-  
+
   return { subtotal, tax, shipping, total };
 };
 
@@ -171,7 +180,7 @@ const createOrderItems = (cartItems: Array<{
     color: item.selectedColor,
     quantity: item.quantity,
     price: item.product.price,
-    images: Array.isArray(item.product.images) 
+    images: Array.isArray(item.product.images)
       ? item.product.images.filter((img: string) => img && img.trim() !== '' && img !== 'undefined' && img !== 'null')
       : [],
   }));
@@ -190,7 +199,7 @@ export const createOrderFromCart = (
     selectedSize: string;
     selectedColor: string;
     quantity: number;
-  }>, 
+  }>,
   sessionId?: string,
   customerInfo?: Order['customerInfo']
 ): Order => {
@@ -225,7 +234,7 @@ export const createCancelledOrder = (
     selectedSize: string;
     selectedColor: string;
     quantity: number;
-  }>, 
+  }>,
   sessionId?: string,
   customerInfo?: Order['customerInfo'],
   reason: 'cancelled' | 'failed' = 'cancelled'
@@ -251,13 +260,13 @@ export const createCancelledOrder = (
 // Hook to listen for order updates
 export function useOrderUpdates(callback: (orders: Order[]) => void) {
   if (typeof window === 'undefined') return;
-  
+
   const handleOrderUpdate = (event: CustomEvent) => {
     callback(event.detail.orders);
   };
 
   window.addEventListener(ORDER_UPDATE_EVENT, handleOrderUpdate as EventListener);
-  
+
   // Return cleanup function
   return () => {
     window.removeEventListener(ORDER_UPDATE_EVENT, handleOrderUpdate as EventListener);
@@ -269,7 +278,7 @@ export const cleanupDuplicateOrders = (): void => {
   try {
     const orders = getOrders();
     const uniqueOrders = new Map<string, Order>();
-    
+
     // Keep the most recent order for each ID
     orders.forEach(order => {
       const existing = uniqueOrders.get(order.id);
@@ -277,13 +286,13 @@ export const cleanupDuplicateOrders = (): void => {
         uniqueOrders.set(order.id, order);
       }
     });
-    
+
     const cleanedOrders = Array.from(uniqueOrders.values());
-    
+
     if (cleanedOrders.length !== orders.length) {
       localStorage.setItem('orders', JSON.stringify(cleanedOrders));
       console.log(`Cleaned up ${orders.length - cleanedOrders.length} duplicate orders`);
-      
+
       // Dispatch custom event to notify components about order update
       if (typeof window !== 'undefined') {
         window.dispatchEvent(new CustomEvent(ORDER_UPDATE_EVENT, { detail: { orders: cleanedOrders } }));
@@ -300,14 +309,14 @@ export const checkAndUpdateExpiredOrders = (): void => {
     const orders = getOrders();
     const now = new Date();
     let hasUpdates = false;
-    
+
     const updatedOrders = orders.map(order => {
       if (order.status === 'pending') {
         const orderDate = new Date(order.date);
         const timeDiff = now.getTime() - orderDate.getTime();
-        const fiveMinutes = 5 * 60 * 1000; // 5 minutes in milliseconds
-        
-        if (timeDiff > fiveMinutes) {
+        const thirtyMinutes = 30 * 60 * 1000; // 30 minutes in milliseconds
+
+        if (timeDiff > thirtyMinutes) {
           hasUpdates = true;
           return {
             ...order,
@@ -318,11 +327,11 @@ export const checkAndUpdateExpiredOrders = (): void => {
       }
       return order;
     });
-    
+
     if (hasUpdates) {
       localStorage.setItem('orders', JSON.stringify(updatedOrders));
       console.log('Updated expired pending orders to expired status');
-      
+
       // Dispatch custom event to notify components about order update
       if (typeof window !== 'undefined') {
         window.dispatchEvent(new CustomEvent(ORDER_UPDATE_EVENT, { detail: { orders: updatedOrders } }));
@@ -346,11 +355,11 @@ export const generateTrackingInfo = (orderId: string): TrackingInfo => {
   const trackingNumber = generateTrackingNumber();
   const carriers = ['DHL Express', 'DHL Express', 'DHL Express', 'FedEx', 'UPS', 'DPD', 'GLS']; // Make DHL more common
   const carrier = carriers[Math.floor(Math.random() * carriers.length)];
-  
+
   // Generate estimated delivery date (3-7 days from now)
   const estimatedDate = new Date();
   estimatedDate.setDate(estimatedDate.getDate() + Math.floor(Math.random() * 5) + 3);
-  
+
   // Generate tracking events based on order status
   const events = [
     {
@@ -360,7 +369,7 @@ export const generateTrackingInfo = (orderId: string): TrackingInfo => {
       description: 'Order has been confirmed and is being prepared for shipment'
     }
   ];
-  
+
   // Only add shipping event if order is actually shipped or delivered
   const order = getOrderById(orderId);
   if (order && order.status === 'shipped') {
@@ -371,7 +380,7 @@ export const generateTrackingInfo = (orderId: string): TrackingInfo => {
       description: 'Package has been shipped and is in transit'
     });
   }
-  
+
   // Add delivery event if order is delivered
   if (order && order.status === 'delivered') {
     events.push({
@@ -381,14 +390,14 @@ export const generateTrackingInfo = (orderId: string): TrackingInfo => {
       description: 'Package has been delivered successfully'
     });
   }
-  
+
   return {
     trackingNumber,
     carrier,
     estimatedDelivery: estimatedDate.toISOString(),
-    currentStatus: order?.status === 'paid' ? 'processing' : 
-                   order?.status === 'shipped' ? 'shipped' : 
-                   order?.status === 'delivered' ? 'delivered' : 'processing',
+    currentStatus: order?.status === 'paid' ? 'processing' :
+      order?.status === 'shipped' ? 'shipped' :
+        order?.status === 'delivered' ? 'delivered' : 'processing',
     lastUpdate: new Date().toISOString(),
     trackingUrl: `https://tracking.${carrier.toLowerCase().replace(' ', '')}.com/track/${trackingNumber}`,
     events
@@ -399,11 +408,11 @@ export const generateTrackingInfo = (orderId: string): TrackingInfo => {
 export const updateOrderTracking = (orderId: string, trackingInfo: TrackingInfo): void => {
   try {
     const orders = getOrders();
-    const updatedOrders = orders.map(order => 
+    const updatedOrders = orders.map(order =>
       order.id === orderId ? { ...order, tracking: trackingInfo } : order
     );
     localStorage.setItem('orders', JSON.stringify(updatedOrders));
-    
+
     // Dispatch custom event to notify components about order update
     if (typeof window !== 'undefined') {
       window.dispatchEvent(new CustomEvent(ORDER_UPDATE_EVENT, { detail: { orders: updatedOrders } }));
@@ -417,14 +426,14 @@ export const updateOrderTracking = (orderId: string, trackingInfo: TrackingInfo)
 export const getOrderTracking = (orderId: string): TrackingInfo | null => {
   const order = getOrderById(orderId);
   if (!order) return null;
-  
+
   // If tracking info doesn't exist, generate it
   if (!order.tracking) {
     const trackingInfo = generateTrackingInfo(orderId);
     updateOrderTracking(orderId, trackingInfo);
     return trackingInfo;
   }
-  
+
   return order.tracking;
 };
 
@@ -432,22 +441,22 @@ export const getOrderTracking = (orderId: string): TrackingInfo | null => {
 export const simulateTrackingUpdate = (orderId: string): void => {
   const order = getOrderById(orderId);
   if (!order || !order.tracking) return;
-  
+
   const tracking = { ...order.tracking };
   const now = new Date();
-  
+
   // Check if enough time has passed since last update (minimum 30 minutes)
   if (tracking.lastUpdate) {
     const lastUpdateTime = new Date(tracking.lastUpdate).getTime();
     const timeSinceLastUpdate = now.getTime() - lastUpdateTime;
     const minimumInterval = 30 * 60 * 1000; // 30 minutes in milliseconds
-    
+
     if (timeSinceLastUpdate < minimumInterval) {
       // Not enough time has passed, don't update
       return;
     }
   }
-  
+
   // Calculate realistic time intervals based on current status
   const getNextEventTime = (currentStatus: string) => {
     const baseTime = now.getTime();
@@ -464,7 +473,7 @@ export const simulateTrackingUpdate = (orderId: string): void => {
         return new Date(baseTime - 2 * 60 * 60 * 1000); // Default 2 hours ago
     }
   };
-  
+
   // Simulate different tracking updates based on current status
   switch (tracking.currentStatus) {
     case 'processing':
@@ -504,10 +513,10 @@ export const simulateTrackingUpdate = (orderId: string): void => {
       });
       break;
   }
-  
+
   tracking.lastUpdate = now.toISOString();
   updateOrderTracking(orderId, tracking);
-  
+
   // Update order status if delivered
   if (tracking.currentStatus === 'delivered') {
     updateOrderStatus(orderId, 'delivered');
@@ -522,27 +531,27 @@ export const autoUpdateOrderStatuses = (): void => {
     const orders = getOrders();
     const now = new Date();
     let hasUpdates = false;
-    
+
     const updatedOrders = orders.map(order => {
       const orderDate = new Date(order.date);
       const hoursSinceOrder = (now.getTime() - orderDate.getTime()) / (1000 * 60 * 60);
       const minutesSinceOrder = (now.getTime() - orderDate.getTime()) / (1000 * 60);
       const lastUpdate = order.updatedAt ? new Date(order.updatedAt) : orderDate;
       const hoursSinceUpdate = (now.getTime() - lastUpdate.getTime()) / (1000 * 60 * 60);
-      
+
       // Skip orders that are too recent (less than 10 minutes old)
       if (minutesSinceOrder < 10) {
         return order;
       }
-      
+
       let newStatus = order.status;
       let newTracking = order.tracking;
-      
+
       // Realistic auto-update logic with proper sequence
       if (order.status === 'paid' && minutesSinceOrder >= 10 && hoursSinceUpdate >= 0.1) {
         // After 10 minutes, start processing
         newStatus = 'processing';
-        
+
         // Generate initial tracking info if it doesn't exist
         if (!order.tracking) {
           newTracking = generateTrackingInfo(order.id);
@@ -566,7 +575,7 @@ export const autoUpdateOrderStatuses = (): void => {
       } else if (order.status === 'processing' && hoursSinceOrder >= 4 && hoursSinceUpdate >= 4) {
         // After 4 hours, ship the order
         newStatus = 'shipped';
-        
+
         // Ensure we have tracking info with all required data
         if (!order.tracking || !order.tracking.trackingNumber) {
           newTracking = generateTrackingInfo(order.id);
@@ -658,7 +667,7 @@ export const autoUpdateOrderStatuses = (): void => {
         };
         hasUpdates = true;
       }
-      
+
       if (hasUpdates) {
         return {
           ...order,
@@ -667,18 +676,18 @@ export const autoUpdateOrderStatuses = (): void => {
           updatedAt: now.toISOString()
         };
       }
-      
+
       return order;
     });
-    
+
     if (hasUpdates) {
       localStorage.setItem('orders', JSON.stringify(updatedOrders));
-      
+
       // Dispatch custom event to notify components about order update
       if (typeof window !== 'undefined') {
         window.dispatchEvent(new CustomEvent(ORDER_UPDATE_EVENT, { detail: { orders: updatedOrders } }));
       }
-      
+
       console.log('Auto-updated order statuses based on time intervals');
     }
   } catch (error) {
@@ -690,10 +699,10 @@ export const autoUpdateOrderStatuses = (): void => {
 export const startAutoUpdateInterval = (): (() => void) => {
   // Update every 30 minutes
   const interval = setInterval(autoUpdateOrderStatuses, 30 * 60 * 1000);
-  
+
   // Also update immediately on start
   autoUpdateOrderStatuses();
-  
+
   // Return cleanup function
   return () => clearInterval(interval);
 }; 

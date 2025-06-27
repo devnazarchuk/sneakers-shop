@@ -3,7 +3,7 @@ import Stripe from 'stripe';
 import { logger } from '@/lib/utils/logger';
 
 // Initialize Stripe with your secret key
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || 'sk_test_placeholder', {
   apiVersion: '2025-05-28.basil',
 });
 
@@ -29,16 +29,16 @@ export async function POST(request: NextRequest) {
 
     // Get base URL dynamically
     const host = request.headers.get('host');
-    const protocol = request.headers.get('x-forwarded-proto') || 
-                    request.headers.get('x-forwarded-protocol') || 
-                    (request.headers.get('x-forwarded-ssl') === 'on' ? 'https' : 'http');
-    
+    const protocol = request.headers.get('x-forwarded-proto') ||
+      request.headers.get('x-forwarded-protocol') ||
+      (request.headers.get('x-forwarded-ssl') === 'on' ? 'https' : 'http');
+
     let baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
-    
+
     if (!baseUrl && host) {
       baseUrl = `${protocol}://${host}`;
     }
-    
+
     if (!baseUrl) {
       baseUrl = 'http://localhost:3000';
     }
@@ -116,20 +116,20 @@ export async function POST(request: NextRequest) {
       mode: 'payment',
       currency: 'eur',
       locale: 'en',
-      
+
       // Success and cancel URLs
       success_url: finalSuccessUrl,
       cancel_url: finalCancelUrl,
-      
+
       // Customer information collection
       billing_address_collection: 'required',
       shipping_address_collection: {
         allowed_countries: ['US', 'CA', 'GB', 'DE', 'FR', 'IT', 'ES', 'NL', 'BE', 'AT', 'CH', 'PL', 'CZ', 'SK', 'HU', 'RO', 'BG', 'HR', 'SI', 'EE', 'LV', 'LT', 'FI', 'SE', 'NO', 'DK', 'IE', 'PT', 'GR', 'CY', 'MT', 'LU'],
       },
-      
+
       // Payment settings
       allow_promotion_codes: true,
-      
+
       // Order metadata
       metadata: {
         orderType: 'checkout',
@@ -163,7 +163,7 @@ export async function POST(request: NextRequest) {
           }))
         ),
       },
-      
+
       // Shipping options
       shipping_options: [
         {
@@ -195,12 +195,12 @@ export async function POST(request: NextRequest) {
           },
         },
       ],
-      
+
       // Automatic tax calculation
       automatic_tax: {
         enabled: true,
       },
-      
+
       // Invoice creation
       invoice_creation: {
         enabled: true,
@@ -209,7 +209,7 @@ export async function POST(request: NextRequest) {
           metadata: { orderType: 'sneakers' },
         },
       },
-      
+
       // Session expiration (30 minutes)
       expires_at: Math.floor(Date.now() / 1000) + (30 * 60),
     });
@@ -220,10 +220,10 @@ export async function POST(request: NextRequest) {
       total: total
     });
 
-    return NextResponse.json({ 
+    return NextResponse.json({
       sessionId: session.id,
       url: session.url,
-      success: true 
+      success: true
     });
 
   } catch (error: unknown) {
@@ -232,10 +232,10 @@ export async function POST(request: NextRequest) {
       message: error instanceof Error ? error.message : 'Unknown error',
       type: error instanceof Error ? error.constructor.name : 'Unknown',
     });
-    
+
     if (error instanceof Stripe.errors.StripeError) {
       return NextResponse.json(
-        { 
+        {
           error: error.message,
           type: error.type,
           code: error.code,
@@ -244,7 +244,7 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       );
     }
-    
+
     return NextResponse.json(
       { error: 'Internal server error', details: error instanceof Error ? error.message : 'Unknown error' },
       { status: 500 }

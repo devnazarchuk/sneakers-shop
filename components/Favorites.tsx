@@ -31,7 +31,7 @@ export function Favorites() {
   const [showSparkles, setShowSparkles] = useState<number | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<any>(null);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
-  
+
   // Don't render favorites content until hydrated to prevent hydration mismatch
   if (!isHydrated) {
     return (
@@ -53,7 +53,7 @@ export function Favorites() {
       </div>
     );
   }
-  
+
   const handleAddToCart = async (productId: number) => {
     const product = favorites.find((fav) => fav.id === productId);
     if (!product) return;
@@ -90,85 +90,60 @@ export function Favorites() {
   };
 
   return (
-    <div className={`flex h-full flex-col${favorites.length === 0 ? ' overflow-hidden' : ''}`}>
-      <div className={`flex-1 ${favorites.length === 0 ? '' : 'overflow-y-auto'} p-2 sm:p-4 md:p-6 lg:p-8 xl:p-10 max-w-7xl mx-auto w-full`}>
-        <div className="flex items-center justify-between mb-8">
-          <div className="flex items-center gap-3">
-          <div className="relative">
-            <Heart className="h-8 w-8 text-pink-500" />
-            <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/20 to-rose-500/10 rounded-full blur-sm" />
+    <div className={`flex h-full flex-col bg-background ${favorites.length === 0 ? 'overflow-hidden' : ''}`}>
+      <div className={`flex-1 ${favorites.length === 0 ? '' : 'overflow-y-auto pb-48'} p-4 sm:p-6 md:p-8`}>
+        <div className="flex flex-col gap-6 items-start sm:flex-row sm:items-center sm:justify-between mb-12 sm:mb-16">
+          <div className="flex items-center gap-5">
+            <div className="h-16 w-1.5 bg-gradient-to-b from-red-500 to-transparent rounded-full shadow-[0_0_20px_rgba(239,68,68,0.5)]" />
+            <div className="space-y-1">
+              <h2 className="text-3xl sm:text-4xl font-black uppercase italic tracking-tighter text-foreground leading-none">
+                THE LOVED
+              </h2>
+              <p className="text-[10px] font-black uppercase tracking-[0.3em] text-muted-foreground/30">
+                {favorites.length} Masterpieces Saved
+              </p>
+            </div>
           </div>
-          <h2 className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">
-            Favorites
-          </h2>
-            {/* {favorites.length > 0 && (
-              <Badge variant="secondary" className="ml-2">
-                {favorites.length}
-              </Badge>
-            )} */}
-          </div>
-          
+
           {favorites.length > 0 && (
             <Button
-              variant="outline"
+              variant="ghost"
               size="sm"
               onClick={handleClearAllFavorites}
-              className="text-red-500 hover:text-red-600 hover:bg-red-50 border-red-200 hover:border-red-300"
+              className="w-full sm:w-auto h-12 px-6 rounded-2xl text-[10px] font-black uppercase tracking-widest text-muted-foreground/20 hover:text-foreground dark:hover:text-white hover:bg-foreground/5 dark:hover:bg-white/5 transition-all border border-black/5 dark:border-white/5 hover:border-black/10 dark:hover:border-white/10"
             >
-              <Trash2 className="h-4 w-4 mr-2" />
-              Clear All
+              Reset Collection
             </Button>
           )}
         </div>
-        
+
         {favorites.length === 0 ? (
-          <div className="flex flex-col items-center justify-center h-full text-center">
-            <motion.div 
-              className="w-24 h-24 mb-6 text-muted-foreground relative"
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ type: "spring", stiffness: 200, damping: 20 }}
-            >
-              <Heart className="w-full h-full" />
-              <div className="absolute -inset-2 bg-gradient-to-r from-pink-500/10 to-rose-500/5 rounded-full blur-lg" />
-            </motion.div>
-            <motion.h3 
-              className="text-xl font-semibold mb-3"
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.1 }}
-            >
-              No favorites yet
-            </motion.h3>
-            <motion.p 
-              className="text-muted-foreground max-w-md mb-6"
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.2 }}
-            >
-              Add some items to your favorites to see them here
-            </motion.p>
+          <div className="flex flex-col items-center justify-center h-[50vh] md:h-[60vh] text-center px-4 md:px-10">
             <motion.div
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.3 }}
+              className="w-24 h-24 md:w-32 md:h-32 mb-8 md:mb-10 text-foreground/5 dark:text-white/5 relative"
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, damping: 20 }}
             >
-              <SheetClose asChild>
-                <Button asChild className="bg-gradient-to-r from-pink-500 to-rose-500 hover:from-pink-600 hover:to-rose-600">
-                  <Link href="/catalog">
-                    <ShoppingBag className="h-4 w-4 mr-2" />
-                    Browse Products
-                  </Link>
-                </Button>
-              </SheetClose>
+              <Heart className="w-full h-full stroke-[0.3]" />
+              <div className="absolute inset-0 bg-red-500/10 blur-[120px] rounded-full animate-pulse" />
             </motion.div>
+            <h3 className="text-xl md:text-2xl font-black uppercase italic tracking-tighter text-foreground/80 dark:text-white/80 mb-4">
+              Purity in Silence
+            </h3>
+            <p className="text-xs md:text-sm text-foreground/20 dark:text-white/20 max-w-[280px] md:max-w-[320px] leading-relaxed mb-10 md:mb-12 font-medium">
+              Your private collection is currently empty. Curate your signature style by marking your favorite pairs.
+            </p>
+            <SheetClose asChild>
+              <Link href="/catalog">
+                <Button variant="premium" size="lg" className="rounded-[2rem] h-16 md:h-20 px-10 md:px-12 text-[10px] md:text-[11px] font-black uppercase tracking-[0.3em] shadow-2xl">
+                  Curate Now
+                </Button>
+              </Link>
+            </SheetClose>
           </div>
         ) : (
-          <div className="grid gap-4 sm:gap-6 md:gap-8"
-            style={{
-              gridTemplateColumns: 'repeat(auto-fit, minmax(clamp(260px, 30vw, 380px), 1fr))',
-            }}
-          >
+          <div className="grid grid-cols-1 gap-4 md:gap-8 pb-32">
             <AnimatePresence mode="popLayout">
               {favorites.map((product) => {
                 const cartItem = items.find((item) => String(item.product.id) === String(product.id));
@@ -176,192 +151,65 @@ export function Favorites() {
 
                 return (
                   <motion.div
-                    key={String(product.id)}
                     layout
-                    initial={{ opacity: 0, scale: 0.9 }}
+                    key={product.id}
+                    initial={{ opacity: 0, scale: 0.8 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                    className="group relative overflow-hidden rounded-2xl border border-white/10 bg-background/50 backdrop-blur-sm hover:bg-background/80 transition-all duration-300 hover:shadow-2xl hover:shadow-pink-500/10"
+                    exit={{ opacity: 0, scale: 0.8 }}
+                    className="group relative overflow-hidden rounded-[2rem] border border-black/5 dark:border-white/5 bg-white/50 dark:bg-white/[0.01] premium-glass cursor-pointer"
                     onClick={(e) => {
                       if ((e.target as HTMLElement).closest("button")) return;
                       setSelectedProduct(product);
                       setIsDialogOpen(true);
                     }}
                   >
-                    {/* Background gradient effect */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-pink-500/5 via-transparent to-rose-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                    
-                    <div className="relative aspect-square overflow-hidden bg-gradient-to-br from-muted/50 to-muted/30">
-                      <Image
-                        src={product.images && product.images.length > 0 ? product.images[product.images.length - 1] : '/placeholder.jpg'}
-                        alt={product.title}
-                        fill
-                        className="object-cover transition-all duration-500 group-hover:scale-110"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-                      />
-                      
-                      {/* Overlay gradient */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                      
-                      {/* Action buttons overlay */}
-                      <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-                        <motion.div
-                          initial={{ scale: 0.8, opacity: 0 }}
-                          animate={{ scale: 1, opacity: 1 }}
-                          transition={{ delay: 0.1 }}
-                          className="flex items-center gap-2"
-                        >
-                          <Button
-                            size="icon"
-                            variant="secondary"
-                            className="h-12 w-12 rounded-full bg-white/90 backdrop-blur-sm hover:bg-white shadow-lg"
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              setSelectedProduct(product);
-                              setIsDialogOpen(true);
-                            }}
-                          >
-                            <Eye className="h-5 w-5 text-gray-700" />
-                          </Button>
-                        </motion.div>
-                    </div>
-
-                      {/* Top right corner badges */}
-                      <div className="absolute top-3 right-3 flex flex-col gap-2">
-                        {/* Favorite button */}
-                        <motion.div
-                          whileHover={{ scale: 1.1 }}
-                          whileTap={{ scale: 0.9 }}
-                        >
-                        <Button
-                          variant="ghost"
-                          size="icon"
-                          onClick={() => handleRemoveFromFavorites(product.id)}
-                            className="h-10 w-10 rounded-full bg-pink-500/90 text-white hover:bg-pink-600/90 backdrop-blur-sm"
-                        >
-                            <Heart className="h-4 w-4" fill="currentColor" />
-                        </Button>
-                        </motion.div>
-
-                        {/* Cart status indicator */}
-                        {isInCart && (
-                          <motion.div
-                            initial={{ scale: 0 }}
-                            animate={{ scale: 1 }}
-                            className="h-10 w-10 rounded-full bg-green-500/90 backdrop-blur-sm flex items-center justify-center"
-                          >
-                            <Check className="h-4 w-4 text-white" />
-                          </motion.div>
-                        )}
+                    <div className="flex gap-4 p-4 items-center">
+                      {/* Image Section */}
+                      <div className="relative w-24 h-24 flex-shrink-0 overflow-hidden rounded-2xl bg-white/5">
+                        <Image
+                          src={product.images[0]}
+                          alt={product.title}
+                          fill
+                          className="object-cover transition-transform duration-700 group-hover:scale-110"
+                        />
                       </div>
 
-                      {/* Brand badge */}
-                      <div className="absolute bottom-3 left-3">
-                        <span className="px-3 py-1 rounded-full bg-white/90 backdrop-blur-sm text-xs font-medium text-gray-700 shadow-sm">
-                          {product.brand}
-                        </span>
-                      </div>
-                    </div>
-                    
-                    <div className="p-4 space-y-3">
-                      <div className="space-y-1">
-                        <h3 className="font-semibold text-lg line-clamp-2 group-hover:text-pink-500 transition-colors duration-200">
+                      {/* Content */}
+                      <div className="flex-1 min-w-0">
+                        <div className="flex justify-between items-start mb-1">
+                          <span className="text-[9px] font-black uppercase tracking-[0.2em] text-muted-foreground/60 truncate">{product.brand}</span>
+                        </div>
+                        <h3 className="text-base font-black uppercase italic tracking-tighter text-foreground leading-tight mb-2 truncate">
                           {product.title}
                         </h3>
-                        <p className="text-sm text-muted-foreground line-clamp-1">
-                          {product.category}
-                        </p>
-                      </div>
-                      
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                          <motion.p 
-                            className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent"
-                            whileHover={{ scale: 1.05 }}
-                            transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                          >
-                            €{product.price.toFixed(2)}
-                          </motion.p>
-                          {isInCart && (
-                            <motion.span
-                              initial={{ scale: 0 }}
-                              animate={{ scale: 1 }}
-                              className="px-2 py-1 rounded-full bg-green-100 text-green-700 text-xs font-medium"
+                        <div className="flex items-center justify-between">
+                          <p className="text-sm font-black text-muted-foreground/50">€{product.price}</p>
+                          <div className="flex gap-2">
+                            <Button
+                              size="sm"
+                              className={`h-8 rounded-lg font-bold text-[9px] uppercase tracking-wider ${isInCart
+                                ? "bg-green-500 text-white"
+                                : "bg-foreground text-background"
+                                }`}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleAddToCart(product.id);
+                              }}
                             >
-                              {cartItem.quantity} in cart
-                            </motion.span>
-                          )}
-                        </div>
-                        
-                        <div className="relative">
-                          <AnimatePresence>
-                            {showSparkles === product.id && (
-                              <>
-                                <Sparkle x={-10} y={-10} delay={0} />
-                                <Sparkle x={10} y={-10} delay={0.1} />
-                                <Sparkle x={-10} y={10} delay={0.2} />
-                                <Sparkle x={10} y={10} delay={0.3} />
-                              </>
-                            )}
-                          </AnimatePresence>
-                          <motion.div
-                            whileTap={{ scale: 0.95 }}
-                            transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                          >
+                              {isInCart ? "In Cart" : "Buy"}
+                            </Button>
                             <Button
                               size="icon"
-                              onClick={() => isInCart ? handleRemoveFromCart(product.id) : handleAddToCart(product.id)}
-                              disabled={!!isAddingToCart || !!isRemovingFromCart}
-                              variant={isInCart ? "destructive" : "default"}
-                              className={`relative overflow-hidden h-10 w-10 rounded-xl transition-all duration-200 ${
-                                isInCart 
-                                  ? "bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600" 
-                                  : "bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70"
-                              }`}
+                              variant="ghost"
+                              className="h-8 w-8 rounded-lg hover:bg-red-500/10 hover:text-red-500"
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleRemoveFromFavorites(product.id);
+                              }}
                             >
-                              <AnimatePresence mode="wait">
-                                {isAddingToCart === product.id ? (
-                                  <motion.div
-                                    key="check"
-                                    initial={{ scale: 0, rotate: -180 }}
-                                    animate={{ scale: 1, rotate: 0 }}
-                                    exit={{ scale: 0, rotate: 180 }}
-                                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                                    className="absolute inset-0 flex items-center justify-center"
-                                  >
-                                    <Check className="h-4 w-4" />
-                                  </motion.div>
-                                ) : isRemovingFromCart === product.id ? (
-                                  <motion.div
-                                    key="removing"
-                                    initial={{ scale: 0, rotate: -180 }}
-                                    animate={{ scale: 1, rotate: 0 }}
-                                    exit={{ scale: 0, rotate: 180 }}
-                                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                                    className="absolute inset-0 flex items-center justify-center"
-                                  >
-                                    <Trash2 className="h-4 w-4" />
-                                  </motion.div>
-                                ) : (
-                                  <motion.div
-                                    key="cart"
-                                    initial={{ scale: 0 }}
-                                    animate={{ scale: 1 }}
-                                    exit={{ scale: 0 }}
-                                    transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                                    className="flex items-center justify-center"
-                                  >
-                                    {isInCart ? (
-                                      <Trash2 className="h-4 w-4" />
-                                    ) : (
-                                      <ShoppingCart className="h-4 w-4" />
-                                    )}
-                                  </motion.div>
-                                )}
-                              </AnimatePresence>
+                              <Trash2 className="h-3.5 w-3.5" />
                             </Button>
-                          </motion.div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -371,16 +219,20 @@ export function Favorites() {
             </AnimatePresence>
           </div>
         )}
-      </div>
-      <ProductDialog
-  product={selectedProduct}
-  isOpen={isDialogOpen}
-  onClose={() => {
-    setIsDialogOpen(false);
-    setSelectedProduct(null);
-  }}
-  aria-label="Product details dialog"
-/>
-    </div>
-  );
-} 
+
+        {
+          selectedProduct && (
+            <ProductDialog
+              product={selectedProduct}
+              isOpen={isDialogOpen}
+              onClose={() => {
+                setIsDialogOpen(false);
+                setSelectedProduct(null);
+              }}
+            />
+          )
+        }
+      </div >
+    </div >
+  )
+}

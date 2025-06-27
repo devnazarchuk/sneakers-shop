@@ -10,13 +10,13 @@ import { ProductDialog } from "@/components/ProductDialog";
 import { useFavorites } from "@/context/favorites-context";
 import { useCart } from "@/context/cart-context";
 import Image from "next/image";
-import { 
-  Package, 
-  Calendar, 
-  Euro, 
-  ShoppingBag, 
-  Truck, 
-  CheckCircle, 
+import {
+  Package,
+  Calendar,
+  Euro,
+  ShoppingBag,
+  Truck,
+  CheckCircle,
   XCircle,
   Clock,
   User,
@@ -71,49 +71,49 @@ export default function ProfilePage() {
         // Check for cookies set by middleware
         const backFromCheckout = document.cookie.includes('back_from_checkout=true');
         const fromStripeCheckout = document.cookie.includes('from_stripe_checkout=true');
-        
+
         if (backFromCheckout || fromStripeCheckout) {
           // Get active checkout session
           const activeSessionId = localStorage.getItem('active_checkout_session');
           const checkoutStartedAt = localStorage.getItem('checkout_started_at');
-          
+
           if (activeSessionId && checkoutStartedAt) {
             const startTime = new Date(checkoutStartedAt).getTime();
             const timeDiff = Date.now() - startTime;
-            
-            // Check if this is a recent checkout (within 5 minutes)
-            if (timeDiff < 5 * 60 * 1000) {
+
+            // Check if this is a recent checkout (within 30 minutes)
+            if (timeDiff < 30 * 60 * 1000) {
               // Get order data from localStorage
               const orderData = localStorage.getItem(`order_${activeSessionId}`);
               if (orderData) {
                 const order = JSON.parse(orderData);
-                
+
                 // Only mark as cancelled if it's still pending
                 if (order.status === 'pending') {
                   order.status = 'cancelled';
                   order.updatedAt = new Date().toISOString();
                   order.cancellationReason = 'navigation_away';
-                  
+
                   // Save updated order
                   localStorage.setItem(`order_${activeSessionId}`, JSON.stringify(order));
-                  
+
                   // Update in orders array using saveOrder function
                   const { saveOrder } = require("@/lib/orders");
                   saveOrder(order);
-                  
+
                   console.log('Order cancelled due to back navigation from Stripe:', order);
-                  
+
                   // Show notification
                   toast.info('Your pending order has been cancelled due to navigation away from checkout');
                 }
               }
             }
-            
+
             // Clean up active checkout session
             localStorage.removeItem('active_checkout_session');
             localStorage.removeItem('checkout_started_at');
           }
-          
+
           // Clear cookies
           document.cookie = 'back_from_checkout=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
           document.cookie = 'from_stripe_checkout=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
@@ -129,18 +129,18 @@ export default function ProfilePage() {
     const loadOrders = () => {
       try {
         const { getOrders, cleanupDuplicateOrders, checkAndUpdateExpiredOrders } = require("@/lib/orders");
-        
+
         // Clean up any duplicate orders first
         cleanupDuplicateOrders();
-        
+
         // Check and update expired orders
         checkAndUpdateExpiredOrders();
-        
+
         const orders = getOrders();
-        
+
         // Merge orders with localStorage data to get images
         const mergedOrders = orders.map(mergeOrderWithLocalStorage);
-        
+
         setOrders(mergedOrders);
       } catch (error) {
         console.error('Error loading orders:', error);
@@ -165,14 +165,14 @@ export default function ProfilePage() {
         const { checkAndUpdateExpiredOrders, autoUpdateOrderStatuses } = require("@/lib/orders");
         checkAndUpdateExpiredOrders();
         autoUpdateOrderStatuses();
-        
+
         // Reload orders to reflect any changes
         const { getOrders } = require("@/lib/orders");
         const updatedOrders = getOrders();
-        
+
         // Merge orders with localStorage data to get images
         const mergedOrders = updatedOrders.map(mergeOrderWithLocalStorage);
-        
+
         setOrders(mergedOrders);
       } catch (error) {
         console.error('Error checking expired orders:', error);
@@ -188,14 +188,14 @@ export default function ProfilePage() {
       try {
         const { autoUpdateOrderStatuses } = require("@/lib/orders");
         autoUpdateOrderStatuses();
-        
+
         // Reload orders to reflect any changes
         const { getOrders } = require("@/lib/orders");
         const updatedOrders = getOrders();
-        
+
         // Merge orders with localStorage data to get images
         const mergedOrders = updatedOrders.map(mergeOrderWithLocalStorage);
-        
+
         setOrders(mergedOrders);
       } catch (error) {
         console.error('Error auto-updating order statuses:', error);
@@ -210,10 +210,10 @@ export default function ProfilePage() {
     const handleOrderUpdate = (event: CustomEvent) => {
       try {
         const updatedOrders = event.detail.orders;
-        
+
         // Merge orders with localStorage data to get images
         const mergedOrders = updatedOrders.map(mergeOrderWithLocalStorage);
-        
+
         setOrders(mergedOrders);
       } catch (error) {
         console.error('Error handling order update:', error);
@@ -235,7 +235,7 @@ export default function ProfilePage() {
       const localStorageOrder = localStorage.getItem(`order_${order.id}`);
       if (localStorageOrder) {
         const parsedLocalStorageOrder = JSON.parse(localStorageOrder);
-        
+
         // Merge items with images from localStorage
         const mergedItems = order.items.map(orderItem => {
           const localStorageItem = parsedLocalStorageOrder.items?.find((item: {
@@ -243,18 +243,18 @@ export default function ProfilePage() {
             size: string;
             color: string;
             images?: string[];
-          }) => 
-            item.productId === orderItem.productId && 
-            item.size === orderItem.size && 
+          }) =>
+            item.productId === orderItem.productId &&
+            item.size === orderItem.size &&
             item.color === orderItem.color
           );
-          
+
           return {
             ...orderItem,
             images: localStorageItem?.images || orderItem.images || [], // Use images from localStorage if available
           };
         });
-        
+
         return {
           ...order,
           items: mergedItems,
@@ -263,7 +263,7 @@ export default function ProfilePage() {
     } catch (error) {
       console.error('Error merging order with localStorage:', error);
     }
-    
+
     return order;
   };
 
@@ -275,7 +275,7 @@ export default function ProfilePage() {
         title: item.title,
         brand: item.brand,
         price: item.price,
-        images: Array.isArray(item.images) 
+        images: Array.isArray(item.images)
           ? item.images.filter((img: string) => img && img.trim() !== '' && img !== 'undefined' && img !== 'null')
           : [],
         category: 'Sneakers',
@@ -302,25 +302,25 @@ export default function ProfilePage() {
       // Clear current cart
       localStorage.removeItem('cart_guest');
       window.dispatchEvent(new CustomEvent('clearCart'));
-      
+
       // Add items from order to cart with images
       const cartItems = createCartItemsFromOrder(order);
-      
+
       localStorage.setItem('cart_guest', JSON.stringify(cartItems));
-      
+
       // Dispatch cart update event
       window.dispatchEvent(new CustomEvent('cartUpdate'));
-      
+
       // Show success message with item count
       const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
       const uniqueProducts = cartItems.length;
-      
+
       if (uniqueProducts === 1) {
         toast.success(`${totalItems} item added to cart!`);
       } else {
         toast.success(`${totalItems} items from ${uniqueProducts} products added to cart!`);
       }
-      
+
     } catch (error) {
       console.error('Error buying again:', error);
       toast.error('Failed to add items to cart');
@@ -357,19 +357,19 @@ export default function ProfilePage() {
       // Clear cart
       localStorage.removeItem('cart_guest');
       window.dispatchEvent(new CustomEvent('clearCart'));
-      
+
       // Add order items to cart with images
       const cartItems = createCartItemsFromOrder(order);
-      
+
       localStorage.setItem('cart_guest', JSON.stringify(cartItems));
-      
+
       // Notify cart context
       window.dispatchEvent(new CustomEvent('cartUpdated', { detail: { items: cartItems } }));
-      
+
       // Show success message with item count
       const totalItems = cartItems.reduce((sum, item) => sum + item.quantity, 0);
       const uniqueProducts = cartItems.length;
-      
+
       if (uniqueProducts === 1) {
         toast.success(`${totalItems} item added to cart!`);
       } else {
@@ -384,20 +384,20 @@ export default function ProfilePage() {
   const totalSpent = orders
     .filter(order => order.status === 'paid' || order.status === 'delivered')
     .reduce((sum, order) => sum + order.total, 0);
-  const favoriteBrand = orders.length > 0 
+  const favoriteBrand = orders.length > 0
     ? orders
-        .flatMap(order => order.items)
-        .reduce((acc, item) => {
-          acc[item.brand] = (acc[item.brand] || 0) + item.quantity;
-          return acc;
-        }, {} as Record<string, number>)
+      .flatMap(order => order.items)
+      .reduce((acc, item) => {
+        acc[item.brand] = (acc[item.brand] || 0) + item.quantity;
+        return acc;
+      }, {} as Record<string, number>)
     : {};
 
   const topBrand = Object.entries(favoriteBrand)
-    .sort(([,a], [,b]) => b - a)[0]?.[0] || 'Nike';
+    .sort(([, a], [, b]) => b - a)[0]?.[0] || 'Nike';
 
   // Get user profile data
-  const userProfile = typeof window !== 'undefined' 
+  const userProfile = typeof window !== 'undefined'
     ? JSON.parse(localStorage.getItem('userProfile') || '{}')
     : {};
 
@@ -500,10 +500,10 @@ export default function ProfilePage() {
   const handleSaveProfile = () => {
     // Save to localStorage
     localStorage.setItem('userProfile', JSON.stringify(editedProfile));
-    
+
     // Update the userProfile state by reloading
     window.location.reload();
-    
+
     toast.success('Profile updated successfully');
     setIsEditingProfile(false);
   };
@@ -535,22 +535,22 @@ export default function ProfilePage() {
   const handleLogout = () => {
     // Clear all localStorage data
     localStorage.clear();
-    
+
     // Clear sessionStorage if any
     sessionStorage.clear();
-    
+
     // Clear all cookies
-    document.cookie.split(";").forEach(function(c) { 
-      document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); 
+    document.cookie.split(";").forEach(function (c) {
+      document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/");
     });
-    
+
     // Dispatch events to clear contexts
     window.dispatchEvent(new CustomEvent('clearCart'));
     window.dispatchEvent(new CustomEvent('clearFavorites'));
-    
+
     // Show logout message
     toast.success('Logged out successfully');
-    
+
     // Reload the page after a short delay
     setTimeout(() => {
       window.location.reload();
@@ -559,7 +559,7 @@ export default function ProfilePage() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+      <div className="min-h-screen bg-background text-foreground selection:bg-primary/30">
         <div className="container mx-auto px-4 py-8">
           <div className="flex items-center justify-center h-64">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
@@ -570,7 +570,7 @@ export default function ProfilePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+    <div className="min-h-screen bg-background text-foreground selection:bg-primary/30">
       <div className="container mx-auto px-2 sm:px-4 py-4 sm:py-8">
         {/* Header Section */}
         <motion.div
@@ -600,7 +600,7 @@ export default function ProfilePage() {
           </div>
 
           {/* User Info Card */}
-          <Card className="bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border-0 shadow-lg">
+          <Card className="bg-background/50 dark:bg-background/50 backdrop-blur-sm border-0 shadow-lg">
             <CardContent className="p-4 sm:p-6">
               <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
                 <div className="relative mb-2 sm:mb-0">
@@ -622,11 +622,11 @@ export default function ProfilePage() {
                 </div>
                 <div className="flex-1 w-full text-center sm:text-left">
                   <h2 className="text-lg sm:text-xl font-semibold">
-                    {userProfile.name || 'Guest User'}
+                    {userProfile.name || 'Nazarchuk'}
                   </h2>
                   <p className="text-muted-foreground flex items-center gap-2 mt-1 justify-center sm:justify-start text-xs sm:text-base">
                     <Mail className="h-4 w-4" />
-                    {userProfile.email || 'guest@example.com'}
+                    {userProfile.email || 'devnazarchuk@gmail.com'}
                   </p>
                   {userProfile.phone && (
                     <p className="text-muted-foreground flex items-center gap-2 mt-1 justify-center sm:justify-start text-xs sm:text-base">
@@ -666,7 +666,7 @@ export default function ProfilePage() {
           transition={{ delay: 0.1 }}
           className="mb-6 sm:mb-8"
         >
-          <div className="flex overflow-x-auto no-scrollbar space-x-1 bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm rounded-lg p-1 shadow-lg">
+          <div className="flex overflow-x-auto no-scrollbar space-x-1 bg-background/50 dark:bg-background/50 backdrop-blur-sm rounded-lg p-1 shadow-lg">
             {[
               { id: 'overview', label: 'Overview', icon: TrendingUp },
               { id: 'orders', label: 'Orders', icon: Package },
@@ -676,11 +676,10 @@ export default function ProfilePage() {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as any)}
-                className={`flex items-center gap-2 px-3 sm:px-4 py-2 rounded-md text-xs sm:text-sm font-medium transition-all whitespace-nowrap ${
-                  activeTab === tab.id
-                    ? 'bg-primary text-white shadow-md dark:bg-background dark:text-white'
-                    : 'text-muted-foreground hover:text-foreground hover:bg-white/50 dark:hover:bg-slate-700/50 dark:text-slate-300 dark:hover:text-white'
-                }`}
+                className={`flex items-center gap-2 px-3 sm:px-4 py-2 rounded-md text-xs sm:text-sm font-medium transition-all whitespace-nowrap ${activeTab === tab.id
+                  ? 'bg-primary text-white shadow-md dark:bg-background dark:text-white'
+                  : 'text-muted-foreground hover:text-foreground hover:bg-foreground/5 dark:hover:bg-background/50 dark:text-muted-foreground dark:hover:text-white'
+                  }`}
               >
                 <tab.icon className="h-4 w-4" />
                 {tab.label}
@@ -751,7 +750,7 @@ export default function ProfilePage() {
               </div>
 
               {/* Recent Orders */}
-              <Card className="bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border-0 shadow-lg">
+              <Card className="bg-background/50 dark:bg-background/50 backdrop-blur-sm border-0 shadow-lg">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Package className="h-5 w-5" />
@@ -764,7 +763,7 @@ export default function ProfilePage() {
                       {orders.slice(0, 3).map((order) => (
                         <div key={order.id}>
                           <div
-                            className="flex items-center justify-between p-3 bg-white/50 dark:bg-slate-700/50 rounded-lg border border-white/20 cursor-pointer hover:shadow-lg transition-all duration-200"
+                            className="flex items-center justify-between p-3 bg-background/50 dark:bg-background/50 rounded-lg border border-black/5 dark:border-white/5 cursor-pointer hover:shadow-lg transition-all duration-200"
                             onClick={() => toggleOrderExpansion(order.id)}
                           >
                             <div className="flex items-center gap-4">
@@ -794,7 +793,7 @@ export default function ProfilePage() {
                               </div>
                             </div>
                           </div>
-                          
+
                           {/* Expanded Order Details */}
                           <AnimatePresence>
                             {expandedOrder === order.id && (
@@ -804,7 +803,7 @@ export default function ProfilePage() {
                                 exit={{ height: 0, opacity: 0 }}
                                 className="overflow-hidden mt-2"
                               >
-                                <Card className="bg-white/30 dark:bg-slate-700/30 border border-white/20">
+                                <Card className="bg-background/30 dark:bg-background/30 border border-black/5 dark:border-white/5">
                                   <CardContent className="p-3 sm:p-6">
                                     {/* Order Items */}
                                     <div className="space-y-4 mb-6">
@@ -852,15 +851,15 @@ export default function ProfilePage() {
                                       {['cancelled', 'expired'].includes(order.status) ? (
                                         <div className="text-center p-3 bg-red-50 dark:bg-red-900/20 rounded-lg border border-red-200 dark:border-red-800">
                                           <p className="text-sm text-red-600 dark:text-red-400 font-medium">
-                                            {order.status === 'cancelled' 
+                                            {order.status === 'cancelled'
                                               ? 'Order was cancelled - no delivery'
                                               : 'Order expired - no delivery'
                                             }
                                           </p>
                                         </div>
                                       ) : (
-                                        <Button 
-                                          variant="outline" 
+                                        <Button
+                                          variant="outline"
                                           className="w-full h-9 text-xs sm:h-11 sm:text-base"
                                           onClick={(e) => {
                                             e.stopPropagation();
@@ -908,7 +907,7 @@ export default function ProfilePage() {
                   {orders.map((order, index) => (
                     <Card
                       key={order.id}
-                      className="bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border-0 shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-all duration-200"
+                      className="bg-background/50 dark:bg-background/50 backdrop-blur-sm border-0 shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-all duration-200"
                       onClick={() => toggleOrderExpansion(order.id)}
                     >
                       <CardContent className="p-3 sm:p-6">
@@ -951,7 +950,7 @@ export default function ProfilePage() {
                               exit={{ height: 0, opacity: 0 }}
                               className="overflow-hidden"
                             >
-                              <div className="p-3 sm:p-6 bg-white/30 dark:bg-slate-700/30">
+                              <div className="p-3 sm:p-6 bg-background/30 dark:bg-background/30">
                                 {/* Order Items */}
                                 <div className="space-y-4 mb-6">
                                   {order.items.map((item, itemIndex) => (
@@ -998,15 +997,15 @@ export default function ProfilePage() {
                                   {['cancelled', 'expired'].includes(order.status) ? (
                                     <div className="text-center p-3 bg-red-50 dark:bg-red-900/20 rounded-lg border border-red-200 dark:border-red-800">
                                       <p className="text-sm text-red-600 dark:text-red-400 font-medium">
-                                        {order.status === 'cancelled' 
+                                        {order.status === 'cancelled'
                                           ? 'Order was cancelled - no delivery'
                                           : 'Order expired - no delivery'
                                         }
                                       </p>
                                     </div>
                                   ) : (
-                                    <Button 
-                                      variant="outline" 
+                                    <Button
+                                      variant="outline"
                                       className="w-full h-9 text-xs sm:h-11 sm:text-base"
                                       onClick={(e) => {
                                         e.stopPropagation();
@@ -1027,7 +1026,7 @@ export default function ProfilePage() {
                   ))}
                 </div>
               ) : (
-                <Card className="bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border-0 shadow-lg">
+                <Card className="bg-background/50 dark:bg-background/50 backdrop-blur-sm border-0 shadow-lg">
                   <CardContent className="text-center py-8 sm:py-12">
                     <Package className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
                     <h3 className="text-lg font-semibold mb-2">No Orders Yet</h3>
@@ -1080,12 +1079,12 @@ export default function ProfilePage() {
                   {favorites.map((product) => (
                     <Card
                       key={product.id}
-                      className="bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border-0 shadow-lg overflow-hidden hover:shadow-xl transition-all duration-200 group cursor-pointer"
+                      className="bg-background/50 dark:bg-background/50 backdrop-blur-sm border-0 shadow-lg overflow-hidden hover:shadow-xl transition-all duration-200 group cursor-pointer"
                       onClick={() => handleViewProduct(product)}
                     >
                       <CardContent className="p-3 sm:p-4">
                         {/* Product Image */}
-                        <div className="relative h-28 sm:h-48 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-slate-700 dark:to-slate-600 overflow-hidden">
+                        <div className="relative h-28 sm:h-48 bg-gradient-to-br from-foreground/5 to-foreground/10 dark:from-background/40 dark:to-background/30 overflow-hidden">
                           {product.images && product.images.length > 0 ? (
                             <Image
                               src={product.images[0]}
@@ -1100,13 +1099,13 @@ export default function ProfilePage() {
                               <Package className="h-12 w-12 text-muted-foreground" />
                             </div>
                           )}
-                          
+
                           {/* Overlay with action buttons */}
                           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
                             <Button
                               size="icon"
                               variant="secondary"
-                              className="h-12 w-12 rounded-full bg-white/90 text-gray-700 hover:bg-white"
+                              className="h-12 w-12 rounded-full bg-background/90 dark:bg-white/90 text-foreground dark:text-gray-700 hover:bg-background dark:hover:bg-white"
                               onClick={(e) => {
                                 e.stopPropagation();
                                 handleViewProduct(product);
@@ -1115,7 +1114,7 @@ export default function ProfilePage() {
                               <Eye className="h-5 w-5" />
                             </Button>
                           </div>
-                          
+
                           {/* Remove Button */}
                           <Button
                             size="sm"
@@ -1200,7 +1199,7 @@ export default function ProfilePage() {
                                 </div>
                               </div>
                             )}
-                            
+
                             {product.colors && product.colors.length > 0 && (
                               <div>
                                 <p className="text-xs text-muted-foreground mb-1">Colors:</p>
@@ -1225,7 +1224,7 @@ export default function ProfilePage() {
                   ))}
                 </div>
               ) : (
-                <Card className="bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border-0 shadow-lg">
+                <Card className="bg-background/50 dark:bg-background/50 backdrop-blur-sm border-0 shadow-lg">
                   <CardContent className="text-center py-8 sm:py-12">
                     <Heart className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
                     <h3 className="text-lg font-semibold mb-2">No Favorites Yet</h3>
@@ -1266,7 +1265,7 @@ export default function ProfilePage() {
               </div>
 
               {/* Profile Settings */}
-              <Card className="bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border-0 shadow-lg">
+              <Card className="bg-background/50 dark:bg-background/50 backdrop-blur-sm border-0 shadow-lg">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <User className="h-5 w-5" />
@@ -1331,7 +1330,7 @@ export default function ProfilePage() {
                     <div className="flex-1 w-full text-center sm:text-left">
                       <h3 className="text-lg font-semibold mb-2">Profile Picture</h3>
                       <p className="text-sm text-muted-foreground">
-                        {isEditingProfile 
+                        {isEditingProfile
                           ? 'Click the icon to upload a new profile picture'
                           : 'Your profile picture will appear across the app'
                         }
@@ -1417,7 +1416,7 @@ export default function ProfilePage() {
               </Card>
 
               {/* Account Actions */}
-              <Card className="bg-white/50 dark:bg-slate-800/50 backdrop-blur-sm border-0 shadow-lg">
+              <Card className="bg-background/50 dark:bg-background/50 backdrop-blur-sm border-0 shadow-lg">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Shield className="h-5 w-5" />

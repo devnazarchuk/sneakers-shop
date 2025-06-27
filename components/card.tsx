@@ -51,18 +51,17 @@ export function Card({ loading, ...product }: CardProps) {
             fill
             className="object-cover transition-transform duration-300 group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-black/40 opacity-0 transition-opacity group-hover:opacity-100" />
+          <div className="absolute inset-0 bg-black/20 dark:bg-black/40 opacity-0 transition-opacity group-hover:opacity-100" />
           <div className="absolute right-2 top-2 flex gap-2">
             <Button
               variant="ghost"
               size="icon"
-              className="h-8 w-8 rounded-full bg-white/90 text-black hover:bg-white hover:text-black"
+              className="h-8 w-8 rounded-full bg-background/90 dark:bg-white/90 text-foreground dark:text-black hover:bg-background dark:hover:bg-white"
               onClick={() => addToFavorites(product)}
             >
               <Heart
-                className={`h-4 w-4 ${
-                  isInFavorites(product.id) ? "fill-red-500 text-red-500" : ""
-                }`}
+                className={`h-4 w-4 ${isInFavorites(product.id) ? "fill-red-500 text-red-500" : ""
+                  }`}
               />
             </Button>
           </div>
@@ -77,11 +76,10 @@ export function Card({ loading, ...product }: CardProps) {
             <Button
               variant="ghost"
               size="icon"
-              className={`h-8 w-8 rounded-full ${
-                isInCart(product.id, '', '')
+              className={`h-8 w-8 rounded-full ${isInCart(product.id, '', '')
                   ? "bg-primary text-primary-foreground hover:bg-primary/90"
-                  : "bg-white/90 text-black hover:bg-white"
-              }`}
+                  : "bg-background/90 dark:bg-white/90 text-foreground dark:text-black hover:bg-background dark:hover:bg-white"
+                }`}
               onClick={() => setShowDialog(true)}
             >
               <ShoppingCart className="h-4 w-4" />

@@ -2,11 +2,18 @@ import { NextRequest, NextResponse } from 'next/server';
 import Stripe from 'stripe';
 import { headers } from 'next/headers';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-  apiVersion: '2025-05-28.basil',
-});
+export const dynamic = 'force-dynamic';
 
-const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET!;
+let stripe: Stripe;
+try {
+  stripe = new Stripe(process.env.STRIPE_SECRET_KEY || 'fake_key', {
+    apiVersion: '2025-05-28.basil',
+  });
+} catch (e) {
+  console.log('Stripe initialization skipped or failed during build');
+}
+
+const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET || '';
 
 export async function POST(request: NextRequest) {
   try {
@@ -39,23 +46,23 @@ export async function POST(request: NextRequest) {
       case 'checkout.session.completed':
         await handleCheckoutSessionCompleted(event.data.object as Stripe.Checkout.Session);
         break;
-      
+
       case 'checkout.session.expired':
         await handleCheckoutSessionExpired(event.data.object as Stripe.Checkout.Session);
         break;
-      
+
       case 'payment_intent.succeeded':
         await handlePaymentIntentSucceeded(event.data.object as Stripe.PaymentIntent);
         break;
-      
+
       case 'payment_intent.payment_failed':
         await handlePaymentIntentFailed(event.data.object as Stripe.PaymentIntent);
         break;
-      
+
       case 'invoice.payment_succeeded':
         await handleInvoicePaymentSucceeded(event.data.object as Stripe.Invoice);
         break;
-      
+
       default:
         console.log(`Unhandled event type: ${event.type}`);
     }
@@ -83,10 +90,10 @@ async function handleCheckoutSessionCompleted(session: Stripe.Checkout.Session) 
   // Save order to your database or order management system
   try {
     const { saveOrder, calculateOrderTotals } = await import("@/lib/orders");
-    
+
     // Parse items from metadata (without images due to Stripe's 500 character limit)
     const itemsWithoutImages = session.metadata?.items ? JSON.parse(session.metadata.items) : [];
-    
+
     // Note: Images are stored in localStorage on the client side
     // The webhook can't access localStorage, so we'll save the order without images
     // Images will be available when the user returns to the success page
@@ -163,7 +170,7 @@ async function handleCheckoutSessionExpired(session: Stripe.Checkout.Session) {
   // Save order to your database or order management system
   try {
     const { saveOrder, calculateOrderTotals } = await import("@/lib/orders");
-    
+
     // Parse items from metadata (without images due to Stripe's 500 character limit)
     const itemsWithoutImages = session.metadata?.items ? JSON.parse(session.metadata.items) : [];
     const { subtotal, tax, shipping, total } = calculateOrderTotals(itemsWithoutImages);
@@ -250,7 +257,7 @@ async function handlePaymentIntentFailed(paymentIntent: Stripe.PaymentIntent) {
   // Save failed order if we have session data
   try {
     const { saveOrder, calculateOrderTotals } = await import("@/lib/orders");
-    
+
     // Try to get session data from payment intent metadata
     const sessionId = paymentIntent.metadata?.session_id;
     if (sessionId) {
@@ -268,13 +275,13 @@ async function handlePaymentIntentFailed(paymentIntent: Stripe.PaymentIntent) {
         shipping: shipping,
         total: total,
         status: 'failed' as const,
-        customerInfo: paymentIntent.metadata?.customer_info ? 
+        customerInfo: paymentIntent.metadata?.customer_info ?
           JSON.parse(paymentIntent.metadata.customer_info) : undefined,
       };
 
       saveOrder(order);
       console.log('Failed order saved successfully');
-      
+
       // Check and update expired orders
       try {
         const { checkAndUpdateExpiredOrders } = await import("@/lib/orders");

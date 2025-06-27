@@ -45,11 +45,10 @@ const DialogContent = React.forwardRef<
       {children}
       <DialogDescription />
       <DialogPrimitive.Close
-        className="absolute top-3 right-3 z-50 rounded-full bg-white/90 dark:bg-zinc-900/90 border border-primary/70 dark:border-white/20 shadow-2xl text-primary dark:text-white hover:bg-primary/90 hover:text-white dark:hover:bg-zinc-800/90 dark:hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 flex items-center justify-center transition-all duration-150"
-        style={{ width: 30, height: 30, boxShadow: '0 4px 24px 0 rgba(0,0,0,0.18)' }}
+        className="absolute top-4 right-4 md:top-6 md:right-6 z-50 rounded-full h-8 w-8 md:h-12 md:w-12 bg-white/90 dark:bg-zinc-900/90 border border-black/10 dark:border-white/20 shadow-xl text-foreground dark:text-white hover:bg-primary hover:text-white hover:border-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 flex items-center justify-center transition-all duration-300"
         aria-label="Close dialog"
       >
-        <X className="h-8 w-8" />
+        <X className="h-4 w-4 md:h-6 md:w-6" />
         <span className="sr-only">Close</span>
       </DialogPrimitive.Close>
     </DialogPrimitive.Content>

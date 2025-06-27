@@ -130,7 +130,7 @@ export function ContactList({ userId, initialContacts }: ContactListProps) {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="john@example.com"
+                placeholder="devnazarchuk@gmail.com"
               />
             </div>
           </div>
