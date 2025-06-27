@@ -1,0 +1,2770 @@
+[
+  {
+    "styleCode": "302519-113",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Leather Masculino Branco 1",
+    "images": [
+      "/sneakers_dataset/302519-113_Tenis-Nike-Air-Max-90-Leather-Masculino-Branco-1.jpg",
+      "/sneakers_dataset/302519-113_Tenis-Nike-Air-Max-90-Leather-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/302519-113_Tenis-Nike-Air-Max-90-Leather-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/302519-113_Tenis-Nike-Air-Max-90-Leather-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/302519-113_Tenis-Nike-Air-Max-90-Leather-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/302519-113_Tenis-Nike-Air-Max-90-Leather-Masculino-Branco-6.jpg"
+    ],
+    "price": 100
+  },
+  {
+    "styleCode": "307960-010",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/307960-010_Tenis-Nike-Air-Max-95-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/307960-010_Tenis-Nike-Air-Max-95-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/307960-010_Tenis-Nike-Air-Max-95-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/307960-010_Tenis-Nike-Air-Max-95-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/307960-010_Tenis-Nike-Air-Max-95-Feminino-Preto-6.jpg",
+      "/sneakers_dataset/307960-010_Tenis-Nike-Air-Max-95-Feminino-Preto.jpg"
+    ],
+    "price": 105
+  },
+  {
+    "styleCode": "307960-015",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Feminino Amarelo 2",
+    "images": [
+      "/sneakers_dataset/307960-015_Tenis-Nike-Air-Max-95-Feminino-Amarelo-2.jpg",
+      "/sneakers_dataset/307960-015_Tenis-Nike-Air-Max-95-Feminino-Amarelo-3.jpg",
+      "/sneakers_dataset/307960-015_Tenis-Nike-Air-Max-95-Feminino-Amarelo-4.jpg",
+      "/sneakers_dataset/307960-015_Tenis-Nike-Air-Max-95-Feminino-Amarelo-5.jpg",
+      "/sneakers_dataset/307960-015_Tenis-Nike-Air-Max-95-Feminino-Amarelo.jpg"
+    ],
+    "price": 112
+  },
+  {
+    "styleCode": "307960-020",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/307960-020_Tenis-Nike-Air-Max-95-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/307960-020_Tenis-Nike-Air-Max-95-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/307960-020_Tenis-Nike-Air-Max-95-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/307960-020_Tenis-Nike-Air-Max-95-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/307960-020_Tenis-Nike-Air-Max-95-Feminino-Preto.jpg"
+    ],
+    "price": 118
+  },
+  {
+    "styleCode": "307960-022",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/307960-022_Tenis-Nike-Air-Max-95-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/307960-022_Tenis-Nike-Air-Max-95-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/307960-022_Tenis-Nike-Air-Max-95-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/307960-022_Tenis-Nike-Air-Max-95-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/307960-022_Tenis-Nike-Air-Max-95-Feminino-Branco-6.jpg",
+      "/sneakers_dataset/307960-022_Tenis-Nike-Air-Max-95-Feminino-Branco.jpg"
+    ],
+    "price": 123
+  },
+  {
+    "styleCode": "307960-023",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Feminino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/307960-023_Tenis-Nike-Air-Max-95-Feminino-Multicolor-2.jpg",
+      "/sneakers_dataset/307960-023_Tenis-Nike-Air-Max-95-Feminino-Multicolor-3.jpg",
+      "/sneakers_dataset/307960-023_Tenis-Nike-Air-Max-95-Feminino-Multicolor-4.jpg",
+      "/sneakers_dataset/307960-023_Tenis-Nike-Air-Max-95-Feminino-Multicolor-5.jpg",
+      "/sneakers_dataset/307960-023_Tenis-Nike-Air-Max-95-Feminino-Multicolor-6.jpg",
+      "/sneakers_dataset/307960-023_Tenis-Nike-Air-Max-95-Feminino-Multicolor.jpg"
+    ],
+    "price": 132
+  },
+  {
+    "styleCode": "307960-116",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/307960-116_Tenis-Nike-Air-Max-95-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/307960-116_Tenis-Nike-Air-Max-95-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/307960-116_Tenis-Nike-Air-Max-95-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/307960-116_Tenis-Nike-Air-Max-95-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/307960-116_Tenis-Nike-Air-Max-95-Feminino-Rosa-6.jpg",
+      "/sneakers_dataset/307960-116_Tenis-Nike-Air-Max-95-Feminino-Rosa.jpg"
+    ],
+    "price": 141
+  },
+  {
+    "styleCode": "307960-117",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/307960-117_Tenis-Nike-Air-Max-95-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/307960-117_Tenis-Nike-Air-Max-95-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/307960-117_Tenis-Nike-Air-Max-95-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/307960-117_Tenis-Nike-Air-Max-95-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/307960-117_Tenis-Nike-Air-Max-95-Feminino-Branco-6.jpg",
+      "/sneakers_dataset/307960-117_Tenis-Nike-Air-Max-95-Feminino-Branco-7.jpg",
+      "/sneakers_dataset/307960-117_Tenis-Nike-Air-Max-95-Feminino-Branco.jpg"
+    ],
+    "price": 146
+  },
+  {
+    "styleCode": "307960-306",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Feminino Verde 2",
+    "images": [
+      "/sneakers_dataset/307960-306_Tenis-Nike-Air-Max-95-Feminino-Verde-2.jpg",
+      "/sneakers_dataset/307960-306_Tenis-Nike-Air-Max-95-Feminino-Verde-3.jpg",
+      "/sneakers_dataset/307960-306_Tenis-Nike-Air-Max-95-Feminino-Verde-4.jpg",
+      "/sneakers_dataset/307960-306_Tenis-Nike-Air-Max-95-Feminino-Verde-5.jpg",
+      "/sneakers_dataset/307960-306_Tenis-Nike-Air-Max-95-Feminino-Verde-6.jpg",
+      "/sneakers_dataset/307960-306_Tenis-Nike-Air-Max-95-Feminino-Verde-7.jpg",
+      "/sneakers_dataset/307960-306_Tenis-Nike-Air-Max-95-Feminino-Verde.jpg"
+    ],
+    "price": 155
+  },
+  {
+    "styleCode": "307960-405",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/307960-405_Tenis-Nike-Air-Max-95-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/307960-405_Tenis-Nike-Air-Max-95-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/307960-405_Tenis-Nike-Air-Max-95-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/307960-405_Tenis-Nike-Air-Max-95-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/307960-405_Tenis-Nike-Air-Max-95-Feminino-Branco-6.jpg",
+      "/sneakers_dataset/307960-405_Tenis-Nike-Air-Max-95-Feminino-Branco.jpg"
+    ],
+    "price": 165
+  },
+  {
+    "styleCode": "312834-008",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 97 PRM Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/312834-008_Tenis-Nike-Air-Max-97-PRM-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/312834-008_Tenis-Nike-Air-Max-97-PRM-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/312834-008_Tenis-Nike-Air-Max-97-PRM-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/312834-008_Tenis-Nike-Air-Max-97-PRM-Masculino-Preto.jpg",
+      "/sneakers_dataset/312834-008_Tenis-Nike-Air-Max-97-PRM-Masculino-Preto5.jpg"
+    ],
+    "price": 174
+  },
+  {
+    "styleCode": "312834-205",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 97 Premium Masculino Beje 2",
+    "images": [
+      "/sneakers_dataset/312834-205_Tenis-Nike-Air-Max-97-Premium-Masculino-Beje-2.jpg",
+      "/sneakers_dataset/312834-205_Tenis-Nike-Air-Max-97-Premium-Masculino-Beje-3.jpg",
+      "/sneakers_dataset/312834-205_Tenis-Nike-Air-Max-97-Premium-Masculino-Beje-4.jpg",
+      "/sneakers_dataset/312834-205_Tenis-Nike-Air-Max-97-Premium-Masculino-Beje-5.jpg",
+      "/sneakers_dataset/312834-205_Tenis-Nike-Air-Max-97-Premium-Masculino-Beje-6.jpg",
+      "/sneakers_dataset/312834-205_Tenis-Nike-Air-Max-97-Premium-Masculino-Beje-7.jpg",
+      "/sneakers_dataset/312834-205_Tenis-Nike-Air-Max-97-Premium-Masculino-Beje.jpg"
+    ],
+    "price": 180
+  },
+  {
+    "styleCode": "312834-401",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 97 PRM Masculino Azul 2",
+    "images": [
+      "/sneakers_dataset/312834-401_Tenis-Nike-Air-Max-97-PRM-Masculino-Azul-2.jpg",
+      "/sneakers_dataset/312834-401_Tenis-Nike-Air-Max-97-PRM-Masculino-Azul-3.jpg",
+      "/sneakers_dataset/312834-401_Tenis-Nike-Air-Max-97-PRM-Masculino-Azul-4.jpg",
+      "/sneakers_dataset/312834-401_Tenis-Nike-Air-Max-97-PRM-Masculino-Azul-5.jpg",
+      "/sneakers_dataset/312834-401_Tenis-Nike-Air-Max-97-PRM-Masculino-Azul.jpg"
+    ],
+    "price": 186
+  },
+  {
+    "styleCode": "314192-009",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 06 GS Preto 1",
+    "images": [
+      "/sneakers_dataset/314192-009_Tenis-Nike-Air-Force-1-06-GS-Preto-1.jpg",
+      "/sneakers_dataset/314192-009_Tenis-Nike-Air-Force-1-06-GS-Preto-2.jpg",
+      "/sneakers_dataset/314192-009_Tenis-Nike-Air-Force-1-06-GS-Preto-3.jpg",
+      "/sneakers_dataset/314192-009_Tenis-Nike-Air-Force-1-06-GS-Preto-4.jpg",
+      "/sneakers_dataset/314192-009_Tenis-Nike-Air-Force-1-06-GS-Preto-5.jpg",
+      "/sneakers_dataset/314192-009_Tenis-Nike-Air-Force-1-06-GS-Preto-6.jpg"
+    ],
+    "price": 192
+  },
+  {
+    "styleCode": "314192-117",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 06 GS Branco 2",
+    "images": [
+      "/sneakers_dataset/314192-117_Tenis-Nike-Air-Force-1-06-GS-Branco-2.jpg",
+      "/sneakers_dataset/314192-117_Tenis-Nike-Air-Force-1-06-GS-Branco-3.jpg",
+      "/sneakers_dataset/314192-117_Tenis-Nike-Air-Force-1-06-GS-Branco-4.jpg",
+      "/sneakers_dataset/314192-117_Tenis-Nike-Air-Force-1-06-GS-Branco-5.jpg",
+      "/sneakers_dataset/314192-117_Tenis-Nike-Air-Force-1-06-GS-Branco-6.jpg",
+      "/sneakers_dataset/314192-117_Tenis-Nike-Air-Force-1-06-GS-Branco.jpg"
+    ],
+    "price": 104
+  },
+  {
+    "styleCode": "314193-009",
+    "brand": "Nike",
+    "name": "Tenis Nike Force 1 PS Infantil 2",
+    "images": [
+      "/sneakers_dataset/314193-009_Tenis-Nike-Force-1-PS-Infantil-2.jpg",
+      "/sneakers_dataset/314193-009_Tenis-Nike-Force-1-PS-Infantil-3.jpg",
+      "/sneakers_dataset/314193-009_Tenis-Nike-Force-1-PS-Infantil-4.jpg",
+      "/sneakers_dataset/314193-009_Tenis-Nike-Force-1-PS-Infantil-5.jpg",
+      "/sneakers_dataset/314193-009_Tenis-Nike-Force-1-PS-Infantil.jpg"
+    ],
+    "price": 109
+  },
+  {
+    "styleCode": "314996-405",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Foamposite One Masculino Azul 2",
+    "images": [
+      "/sneakers_dataset/314996-405_Tenis-Nike-Air-Foamposite-One-Masculino-Azul-2.jpg",
+      "/sneakers_dataset/314996-405_Tenis-Nike-Air-Foamposite-One-Masculino-Azul-3.jpg",
+      "/sneakers_dataset/314996-405_Tenis-Nike-Air-Foamposite-One-Masculino-Azul-4.jpg",
+      "/sneakers_dataset/314996-405_Tenis-Nike-Air-Foamposite-One-Masculino-Azul-5.jpg",
+      "/sneakers_dataset/314996-405_Tenis-Nike-Air-Foamposite-One-Masculino-Azul-6.jpg",
+      "/sneakers_dataset/314996-405_Tenis-Nike-Air-Foamposite-One-Masculino-Azul.jpg"
+    ],
+    "price": 115
+  },
+  {
+    "styleCode": "315115-038",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 07 Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/315115-038_Tenis-Nike-Air-Force-1-07-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/315115-038_Tenis-Nike-Air-Force-1-07-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/315115-038_Tenis-Nike-Air-Force-1-07-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/315115-038_Tenis-Nike-Air-Force-1-07-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/315115-038_Tenis-Nike-Air-Force-1-07-Feminino-Preto-6.jpg",
+      "/sneakers_dataset/315115-038_Tenis-Nike-Air-Force-1-07-Feminino-Preto.jpg"
+    ],
+    "price": 120
+  },
+  {
+    "styleCode": "315122-001",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 07 Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/315122-001_Tenis-Nike-Air-Force-1-07-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/315122-001_Tenis-Nike-Air-Force-1-07-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/315122-001_Tenis-Nike-Air-Force-1-07-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/315122-001_Tenis-Nike-Air-Force-1-07-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/315122-001_Tenis-Nike-Air-Force-1-07-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/315122-001_Tenis-Nike-Air-Force-1-07-Masculino-Preto.jpg"
+    ],
+    "price": 129
+  },
+  {
+    "styleCode": "315122-111",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 07 Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/315122-111_Tenis-Nike-Air-Force-1-07-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/315122-111_Tenis-Nike-Air-Force-1-07-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/315122-111_Tenis-Nike-Air-Force-1-07-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/315122-111_Tenis-Nike-Air-Force-1-07-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/315122-111_Tenis-Nike-Air-Force-1-07-Masculino-Branco-6.jpg",
+      "/sneakers_dataset/315122-111_Tenis-Nike-Air-Force-1-07-Masculino-Branco.jpg"
+    ],
+    "price": 135
+  },
+  {
+    "styleCode": "315123-001",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 Mid 07 Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/315123-001_Tenis-Nike-Air-Force-1-Mid-07-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/315123-001_Tenis-Nike-Air-Force-1-Mid-07-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/315123-001_Tenis-Nike-Air-Force-1-Mid-07-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/315123-001_Tenis-Nike-Air-Force-1-Mid-07-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/315123-001_Tenis-Nike-Air-Force-1-Mid-07-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/315123-001_Tenis-Nike-Air-Force-1-Mid-07-Masculino-Preto.jpg"
+    ],
+    "price": 144
+  },
+  {
+    "styleCode": "325213-047",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/325213-047_Tenis-Nike-Air-Max-90-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/325213-047_Tenis-Nike-Air-Max-90-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/325213-047_Tenis-Nike-Air-Max-90-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/325213-047_Tenis-Nike-Air-Max-90-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/325213-047_Tenis-Nike-Air-Max-90-Feminino-Preto-6.jpg",
+      "/sneakers_dataset/325213-047_Tenis-Nike-Air-Max-90-Feminino-Preto.jpg"
+    ],
+    "price": 154
+  },
+  {
+    "styleCode": "325213-064",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/325213-064_Tenis-Nike-Air-Max-90-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/325213-064_Tenis-Nike-Air-Max-90-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/325213-064_Tenis-Nike-Air-Max-90-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/325213-064_Tenis-Nike-Air-Max-90-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/325213-064_Tenis-Nike-Air-Max-90-Feminino-Preto-6.jpg",
+      "/sneakers_dataset/325213-064_Tenis-Nike-Air-Max-90-Feminino-Preto.jpg"
+    ],
+    "price": 161
+  },
+  {
+    "styleCode": "325213-131",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/325213-131_Tenis-Nike-Air-Max-90-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/325213-131_Tenis-Nike-Air-Max-90-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/325213-131_Tenis-Nike-Air-Max-90-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/325213-131_Tenis-Nike-Air-Max-90-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/325213-131_Tenis-Nike-Air-Max-90-Feminino-Branco.jpg"
+    ],
+    "price": 168
+  },
+  {
+    "styleCode": "325213-136",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/325213-136_Tenis-Nike-Air-Max-90-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/325213-136_Tenis-Nike-Air-Max-90-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/325213-136_Tenis-Nike-Air-Max-90-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/325213-136_Tenis-Nike-Air-Max-90-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/325213-136_Tenis-Nike-Air-Max-90-Feminino-Branco.jpg"
+    ],
+    "price": 178
+  },
+  {
+    "styleCode": "325213-138",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Feminino Amarelo 2",
+    "images": [
+      "/sneakers_dataset/325213-138_Tenis-Nike-Air-Max-90-Feminino-Amarelo-2.jpg",
+      "/sneakers_dataset/325213-138_Tenis-Nike-Air-Max-90-Feminino-Amarelo-3.jpg",
+      "/sneakers_dataset/325213-138_Tenis-Nike-Air-Max-90-Feminino-Amarelo-4.jpg",
+      "/sneakers_dataset/325213-138_Tenis-Nike-Air-Max-90-Feminino-Amarelo-5.jpg",
+      "/sneakers_dataset/325213-138_Tenis-Nike-Air-Max-90-Feminino-Amarelo-6.jpg",
+      "/sneakers_dataset/325213-138_Tenis-Nike-Air-Max-90-Feminino-Amarelo.jpg"
+    ],
+    "price": 183
+  },
+  {
+    "styleCode": "325213-140",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Feminino Bege 2",
+    "images": [
+      "/sneakers_dataset/325213-140_Tenis-Nike-Air-Max-90-Feminino-Bege-2.jpg",
+      "/sneakers_dataset/325213-140_Tenis-Nike-Air-Max-90-Feminino-Bege-3.jpg",
+      "/sneakers_dataset/325213-140_Tenis-Nike-Air-Max-90-Feminino-Bege-4.jpg",
+      "/sneakers_dataset/325213-140_Tenis-Nike-Air-Max-90-Feminino-Bege-5.jpg",
+      "/sneakers_dataset/325213-140_Tenis-Nike-Air-Max-90-Feminino-Bege-6.jpg",
+      "/sneakers_dataset/325213-140_Tenis-Nike-Air-Max-90-Feminino-Bege.jpg"
+    ],
+    "price": 190
+  },
+  {
+    "styleCode": "325213-213",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Feminino Amarelo 2",
+    "images": [
+      "/sneakers_dataset/325213-213_Tenis-Nike-Air-Max-90-Feminino-Amarelo-2.jpg",
+      "/sneakers_dataset/325213-213_Tenis-Nike-Air-Max-90-Feminino-Amarelo-3.jpg",
+      "/sneakers_dataset/325213-213_Tenis-Nike-Air-Max-90-Feminino-Amarelo-4.jpg",
+      "/sneakers_dataset/325213-213_Tenis-Nike-Air-Max-90-Feminino-Amarelo-5.jpg",
+      "/sneakers_dataset/325213-213_Tenis-Nike-Air-Max-90-Feminino-Amarelo.jpg"
+    ],
+    "price": 196
+  },
+  {
+    "styleCode": "325213-419",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Feminino Azul 2",
+    "images": [
+      "/sneakers_dataset/325213-419_Tenis-Nike-Air-Max-90-Feminino-Azul-2.jpg",
+      "/sneakers_dataset/325213-419_Tenis-Nike-Air-Max-90-Feminino-Azul-3.jpg",
+      "/sneakers_dataset/325213-419_Tenis-Nike-Air-Max-90-Feminino-Azul-4.jpg",
+      "/sneakers_dataset/325213-419_Tenis-Nike-Air-Max-90-Feminino-Azul-5.jpg",
+      "/sneakers_dataset/325213-419_Tenis-Nike-Air-Max-90-Feminino-Azul-6.jpg",
+      "/sneakers_dataset/325213-419_Tenis-Nike-Air-Max-90-Feminino-Azul.jpg"
+    ],
+    "price": 105
+  },
+  {
+    "styleCode": "325213-702",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Feminino Multicolor 1",
+    "images": [
+      "/sneakers_dataset/325213-702_Tenis-Nike-Air-Max-90-Feminino-Multicolor-1.jpg",
+      "/sneakers_dataset/325213-702_Tenis-Nike-Air-Max-90-Feminino-Multicolor-2.jpg",
+      "/sneakers_dataset/325213-702_Tenis-Nike-Air-Max-90-Feminino-Multicolor-3.jpg",
+      "/sneakers_dataset/325213-702_Tenis-Nike-Air-Max-90-Feminino-Multicolor-4.jpg",
+      "/sneakers_dataset/325213-702_Tenis-Nike-Air-Max-90-Feminino-Multicolor-5.jpg",
+      "/sneakers_dataset/325213-702_Tenis-Nike-Air-Max-90-Feminino-Multicolor-6.jpg"
+    ],
+    "price": 113
+  },
+  {
+    "styleCode": "366731-001",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 07 MID Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/366731-001_Tenis-Nike-Air-Force-1-07-MID-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/366731-001_Tenis-Nike-Air-Force-1-07-MID-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/366731-001_Tenis-Nike-Air-Force-1-07-MID-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/366731-001_Tenis-Nike-Air-Force-1-07-MID-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/366731-001_Tenis-Nike-Air-Force-1-07-MID-Feminino-Preto-6.jpg",
+      "/sneakers_dataset/366731-001_Tenis-Nike-Air-Force-1-07-MID-Feminino-Preto.jpg"
+    ],
+    "price": 128
+  },
+  {
+    "styleCode": "366731-100",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 MID 07 Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/366731-100_Tenis-Nike-Air-Force-1-MID-07-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/366731-100_Tenis-Nike-Air-Force-1-MID-07-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/366731-100_Tenis-Nike-Air-Force-1-MID-07-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/366731-100_Tenis-Nike-Air-Force-1-MID-07-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/366731-100_Tenis-Nike-Air-Force-1-MID-07-Feminino-Branco-6.jpg",
+      "/sneakers_dataset/366731-100_Tenis-Nike-Air-Force-1-MID-07-Feminino-Branco.jpg"
+    ],
+    "price": 138
+  },
+  {
+    "styleCode": "537384-077",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Essential Masculino 2",
+    "images": [
+      "/sneakers_dataset/537384-077_Tenis-Nike-Air-Max-90-Essential-Masculino-2.jpg",
+      "/sneakers_dataset/537384-077_Tenis-Nike-Air-Max-90-Essential-Masculino-3.jpg",
+      "/sneakers_dataset/537384-077_Tenis-Nike-Air-Max-90-Essential-Masculino-4.jpg",
+      "/sneakers_dataset/537384-077_Tenis-Nike-Air-Max-90-Essential-Masculino-5.jpg",
+      "/sneakers_dataset/537384-077_Tenis-Nike-Air-Max-90-Essential-Masculino.jpg"
+    ],
+    "price": 144
+  },
+  {
+    "styleCode": "537384-090",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Essential Masculino Preto 1",
+    "images": [
+      "/sneakers_dataset/537384-090_Tenis-Nike-Air-Max-90-Essential-Masculino-Preto-1.jpg",
+      "/sneakers_dataset/537384-090_Tenis-Nike-Air-Max-90-Essential-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/537384-090_Tenis-Nike-Air-Max-90-Essential-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/537384-090_Tenis-Nike-Air-Max-90-Essential-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/537384-090_Tenis-Nike-Air-Max-90-Essential-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/537384-090_Tenis-Nike-Air-Max-90-Essential-Masculino-Preto-6.jpg"
+    ],
+    "price": 154
+  },
+  {
+    "styleCode": "538416-018",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 PRM Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/538416-018_Tenis-Nike-Air-Max-95-PRM-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/538416-018_Tenis-Nike-Air-Max-95-PRM-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/538416-018_Tenis-Nike-Air-Max-95-PRM-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/538416-018_Tenis-Nike-Air-Max-95-PRM-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/538416-018_Tenis-Nike-Air-Max-95-PRM-Masculino-Preto.jpg"
+    ],
+    "price": 164
+  },
+  {
+    "styleCode": "538416-020",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 PRM Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/538416-020_Tenis-Nike-Air-Max-95-PRM-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/538416-020_Tenis-Nike-Air-Max-95-PRM-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/538416-020_Tenis-Nike-Air-Max-95-PRM-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/538416-020_Tenis-Nike-Air-Max-95-PRM-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/538416-020_Tenis-Nike-Air-Max-95-PRM-Masculino-Preto.jpg"
+    ],
+    "price": 172
+  },
+  {
+    "styleCode": "538416-021",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 PRM Masculino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/538416-021_Tenis-Nike-Air-Max-95-PRM-Masculino-Multicolor-2.jpg",
+      "/sneakers_dataset/538416-021_Tenis-Nike-Air-Max-95-PRM-Masculino-Multicolor-3.jpg",
+      "/sneakers_dataset/538416-021_Tenis-Nike-Air-Max-95-PRM-Masculino-Multicolor-4.jpg",
+      "/sneakers_dataset/538416-021_Tenis-Nike-Air-Max-95-PRM-Masculino-Multicolor-5.jpg",
+      "/sneakers_dataset/538416-021_Tenis-Nike-Air-Max-95-PRM-Masculino-Multicolor-6.jpg",
+      "/sneakers_dataset/538416-021_Tenis-Nike-Air-Max-95-PRM-Masculino-Multicolor.jpg"
+    ],
+    "price": 178
+  },
+  {
+    "styleCode": "538416-102",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Premium Masculino Beje 2",
+    "images": [
+      "/sneakers_dataset/538416-102_Tenis-Nike-Air-Max-95-Premium-Masculino-Beje-2.jpg",
+      "/sneakers_dataset/538416-102_Tenis-Nike-Air-Max-95-Premium-Masculino-Beje-3.jpg",
+      "/sneakers_dataset/538416-102_Tenis-Nike-Air-Max-95-Premium-Masculino-Beje-4.jpg",
+      "/sneakers_dataset/538416-102_Tenis-Nike-Air-Max-95-Premium-Masculino-Beje-5.jpg",
+      "/sneakers_dataset/538416-102_Tenis-Nike-Air-Max-95-Premium-Masculino-Beje.jpg"
+    ],
+    "price": 187
+  },
+  {
+    "styleCode": "538416-602",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Premium Masculino Vermelho 2",
+    "images": [
+      "/sneakers_dataset/538416-602_Tenis-Nike-Air-Max-95-Premium-Masculino-Vermelho-2.jpg",
+      "/sneakers_dataset/538416-602_Tenis-Nike-Air-Max-95-Premium-Masculino-Vermelho-3.jpg",
+      "/sneakers_dataset/538416-602_Tenis-Nike-Air-Max-95-Premium-Masculino-Vermelho-4.jpg",
+      "/sneakers_dataset/538416-602_Tenis-Nike-Air-Max-95-Premium-Masculino-Vermelho-5.jpg",
+      "/sneakers_dataset/538416-602_Tenis-Nike-Air-Max-95-Premium-Masculino-Vermelho.jpg"
+    ],
+    "price": 195
+  },
+  {
+    "styleCode": "BQ2728-007",
+    "brand": "Nike",
+    "name": "Tenis Nike React Element 55 Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/BQ2728-007_Tenis-Nike-React-Element-55-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/BQ2728-007_Tenis-Nike-React-Element-55-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/BQ2728-007_Tenis-Nike-React-Element-55-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/BQ2728-007_Tenis-Nike-React-Element-55-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/BQ2728-007_Tenis-Nike-React-Element-55-Feminino-Rosa-6.jpg",
+      "/sneakers_dataset/BQ2728-007_Tenis-Nike-React-Element-55-Feminino-Rosa.jpg"
+    ],
+    "price": 117
+  },
+  {
+    "styleCode": "BQ2728-200",
+    "brand": "Nike",
+    "name": "Tenis Nike React Element 55 Feminino Bege 2",
+    "images": [
+      "/sneakers_dataset/BQ2728-200_Tenis-Nike-React-Element-55-Feminino-Bege-2.jpg",
+      "/sneakers_dataset/BQ2728-200_Tenis-Nike-React-Element-55-Feminino-Bege-3.jpg",
+      "/sneakers_dataset/BQ2728-200_Tenis-Nike-React-Element-55-Feminino-Bege-4.jpg",
+      "/sneakers_dataset/BQ2728-200_Tenis-Nike-React-Element-55-Feminino-Bege-5.jpg",
+      "/sneakers_dataset/BQ2728-200_Tenis-Nike-React-Element-55-Feminino-Bege.jpg"
+    ],
+    "price": 125
+  },
+  {
+    "styleCode": "BQ2728-300",
+    "brand": "Nike",
+    "name": "Tenis Nike React Element 55 Feminino Verde 2",
+    "images": [
+      "/sneakers_dataset/BQ2728-300_Tenis-Nike-React-Element-55-Feminino-Verde-2.jpg",
+      "/sneakers_dataset/BQ2728-300_Tenis-Nike-React-Element-55-Feminino-Verde-3.jpg",
+      "/sneakers_dataset/BQ2728-300_Tenis-Nike-React-Element-55-Feminino-Verde-4.jpg",
+      "/sneakers_dataset/BQ2728-300_Tenis-Nike-React-Element-55-Feminino-Verde-5.jpg",
+      "/sneakers_dataset/BQ2728-300_Tenis-Nike-React-Element-55-Feminino-Verde-6.jpg",
+      "/sneakers_dataset/BQ2728-300_Tenis-Nike-React-Element-55-Feminino-Verde.jpg"
+    ],
+    "price": 133
+  },
+  {
+    "styleCode": "BQ2728-600",
+    "brand": "Nike",
+    "name": "Tenis Nike React Element 55 Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/BQ2728-600_Tenis-Nike-React-Element-55-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/BQ2728-600_Tenis-Nike-React-Element-55-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/BQ2728-600_Tenis-Nike-React-Element-55-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/BQ2728-600_Tenis-Nike-React-Element-55-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/BQ2728-600_Tenis-Nike-React-Element-55-Feminino-Rosa.jpg"
+    ],
+    "price": 138
+  },
+  {
+    "styleCode": "BQ2728-601",
+    "brand": "Nike",
+    "name": "Tenis Nike React Element 55 Feminino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/BQ2728-601_Tenis-Nike-React-Element-55-Feminino-Multicolor-2.jpg",
+      "/sneakers_dataset/BQ2728-601_Tenis-Nike-React-Element-55-Feminino-Multicolor-3.jpg",
+      "/sneakers_dataset/BQ2728-601_Tenis-Nike-React-Element-55-Feminino-Multicolor-4.jpg",
+      "/sneakers_dataset/BQ2728-601_Tenis-Nike-React-Element-55-Feminino-Multicolor-5.jpg",
+      "/sneakers_dataset/BQ2728-601_Tenis-Nike-React-Element-55-Feminino-Multicolor-6.jpg",
+      "/sneakers_dataset/BQ2728-601_Tenis-Nike-React-Element-55-Feminino-Multicolor.jpg"
+    ],
+    "price": 143
+  },
+  {
+    "styleCode": "BQ2728-602",
+    "brand": "Nike",
+    "name": "Tenis Nike React Element 55 Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/BQ2728-602_Tenis-Nike-React-Element-55-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/BQ2728-602_Tenis-Nike-React-Element-55-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/BQ2728-602_Tenis-Nike-React-Element-55-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/BQ2728-602_Tenis-Nike-React-Element-55-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/BQ2728-602_Tenis-Nike-React-Element-55-Feminino-Rosa-6.jpg",
+      "/sneakers_dataset/BQ2728-602_Tenis-Nike-React-Element-55-Feminino-Rosa.jpg"
+    ],
+    "price": 150
+  },
+  {
+    "styleCode": "BQ2728-603",
+    "brand": "Nike",
+    "name": "Tenis Nike React Element 55 Feminino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/BQ2728-603_Tenis-Nike-React-Element-55-Feminino-Multicolor-2.jpg",
+      "/sneakers_dataset/BQ2728-603_Tenis-Nike-React-Element-55-Feminino-Multicolor-3.jpg",
+      "/sneakers_dataset/BQ2728-603_Tenis-Nike-React-Element-55-Feminino-Multicolor-4.jpg",
+      "/sneakers_dataset/BQ2728-603_Tenis-Nike-React-Element-55-Feminino-Multicolor-5.jpg",
+      "/sneakers_dataset/BQ2728-603_Tenis-Nike-React-Element-55-Feminino-Multicolor-6.jpg",
+      "/sneakers_dataset/BQ2728-603_Tenis-Nike-React-Element-55-Feminino-Multicolor.jpg"
+    ],
+    "price": 160
+  },
+  {
+    "styleCode": "BQ3060-008",
+    "brand": "Nike",
+    "name": "Tenis Nike Kyrie Flytrap III Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/BQ3060-008_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/BQ3060-008_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/BQ3060-008_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/BQ3060-008_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/BQ3060-008_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/BQ3060-008_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Preto.jpg"
+    ],
+    "price": 169
+  },
+  {
+    "styleCode": "BQ3060-011",
+    "brand": "Nike",
+    "name": "Tenis Nike Kyrie Flytrap III Masulino Preto 2",
+    "images": [
+      "/sneakers_dataset/BQ3060-011_Tenis-Nike-Kyrie-Flytrap-III-Masulino-Preto-2.jpg",
+      "/sneakers_dataset/BQ3060-011_Tenis-Nike-Kyrie-Flytrap-III-Masulino-Preto-3.jpg",
+      "/sneakers_dataset/BQ3060-011_Tenis-Nike-Kyrie-Flytrap-III-Masulino-Preto-4.jpg",
+      "/sneakers_dataset/BQ3060-011_Tenis-Nike-Kyrie-Flytrap-III-Masulino-Preto-5.jpg",
+      "/sneakers_dataset/BQ3060-011_Tenis-Nike-Kyrie-Flytrap-III-Masulino-Preto-6.jpg",
+      "/sneakers_dataset/BQ3060-011_Tenis-Nike-Kyrie-Flytrap-III-Masulino-Preto.jpg"
+    ],
+    "price": 178
+  },
+  {
+    "styleCode": "BQ3060-103",
+    "brand": "Nike",
+    "name": "Tenis Nike Kyrie Flytrap III Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/BQ3060-103_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/BQ3060-103_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/BQ3060-103_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/BQ3060-103_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/BQ3060-103_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Branco-6.jpg",
+      "/sneakers_dataset/BQ3060-103_Tenis-Nike-Kyrie-Flytrap-III-Masculino-Branco.jpg"
+    ],
+    "price": 186
+  },
+  {
+    "styleCode": "BQ3177-005",
+    "brand": "Nike",
+    "name": "Tenis Nike Lebron XVII Masculino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/BQ3177-005_Tenis-Nike-Lebron-XVII-Masculino-Multicolor-2.jpg",
+      "/sneakers_dataset/BQ3177-005_Tenis-Nike-Lebron-XVII-Masculino-Multicolor-3.jpg",
+      "/sneakers_dataset/BQ3177-005_Tenis-Nike-Lebron-XVII-Masculino-Multicolor-4.jpg",
+      "/sneakers_dataset/BQ3177-005_Tenis-Nike-Lebron-XVII-Masculino-Multicolor-5.jpg",
+      "/sneakers_dataset/BQ3177-005_Tenis-Nike-Lebron-XVII-Masculino-Multicolor-6.jpg",
+      "/sneakers_dataset/BQ3177-005_Tenis-Nike-Lebron-XVII-Masculino-Multicolor.jpg"
+    ],
+    "price": 191
+  },
+  {
+    "styleCode": "BQ3177-006",
+    "brand": "Nike",
+    "name": "Tenis Nike Lebron XVII Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/BQ3177-006_Tenis-Nike-Lebron-XVII-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/BQ3177-006_Tenis-Nike-Lebron-XVII-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/BQ3177-006_Tenis-Nike-Lebron-XVII-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/BQ3177-006_Tenis-Nike-Lebron-XVII-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/BQ3177-006_Tenis-Nike-Lebron-XVII-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/BQ3177-006_Tenis-Nike-Lebron-XVII-Masculino-Preto.jpg"
+    ],
+    "price": 101
+  },
+  {
+    "styleCode": "BQ3177-100",
+    "brand": "Nike",
+    "name": "Tenis Nike Lebron XVII Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/BQ3177-100_Tenis-Nike-Lebron-XVII-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/BQ3177-100_Tenis-Nike-Lebron-XVII-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/BQ3177-100_Tenis-Nike-Lebron-XVII-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/BQ3177-100_Tenis-Nike-Lebron-XVII-Masculino-Branco-6.jpg",
+      "/sneakers_dataset/BQ3177-100_Tenis-Nike-Lebron-XVII-Masculino-Branco.jpg"
+    ],
+    "price": 106
+  },
+  {
+    "styleCode": "BQ3378-002",
+    "brand": "Nike",
+    "name": "Tenis Nike M2K Tekno Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/BQ3378-002_Tenis-Nike-M2K-Tekno-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/BQ3378-002_Tenis-Nike-M2K-Tekno-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/BQ3378-002_Tenis-Nike-M2K-Tekno-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/BQ3378-002_Tenis-Nike-M2K-Tekno-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/BQ3378-002_Tenis-Nike-M2K-Tekno-Feminino-Preto-6.jpg",
+      "/sneakers_dataset/BQ3378-002_Tenis-Nike-M2K-Tekno-Feminino-Preto.jpg"
+    ],
+    "price": 116
+  },
+  {
+    "styleCode": "BQ2728-003",
+    "brand": "Nike",
+    "name": "Tenis Nike React Element 55 Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/BQ2728-003_Tenis-Nike-React-Element-55-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/BQ2728-003_Tenis-Nike-React-Element-55-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/BQ2728-003_Tenis-Nike-React-Element-55-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/BQ2728-003_Tenis-Nike-React-Element-55-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/BQ2728-003_Tenis-Nike-React-Element-55-Feminino-Preto-6.jpg",
+      "/sneakers_dataset/BQ2728-003_Tenis-Nike-React-Element-55-Feminino-Preto.jpg"
+    ],
+    "price": 111
+  },
+  {
+    "styleCode": "CI0054-100",
+    "brand": "Nike",
+    "name": "Tenis Nike AF1 Type Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/CI0054-100_Tenis-Nike-AF1-Type-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/CI0054-100_Tenis-Nike-AF1-Type-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/CI0054-100_Tenis-Nike-AF1-Type-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/CI0054-100_Tenis-Nike-AF1-Type-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/CI0054-100_Tenis-Nike-AF1-Type-Masculino-Branco-6.jpg",
+      "/sneakers_dataset/CI0054-100_Tenis-Nike-AF1-Type-Masculino-Branco.jpg"
+    ],
+    "price": 135
+  },
+  {
+    "styleCode": "CI0064-400",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 07 LV8 3 Masculino 2",
+    "images": [
+      "/sneakers_dataset/CI0064-400_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-2.jpg",
+      "/sneakers_dataset/CI0064-400_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-3.jpg",
+      "/sneakers_dataset/CI0064-400_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-4.jpg",
+      "/sneakers_dataset/CI0064-400_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-5.jpg",
+      "/sneakers_dataset/CI0064-400_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-6.jpg",
+      "/sneakers_dataset/CI0064-400_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino.jpg"
+    ],
+    "price": 144
+  },
+  {
+    "styleCode": "CI0064-700",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 07 LV8 3 Masculino Amarelo 1",
+    "images": [
+      "/sneakers_dataset/CI0064-700_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-Amarelo-1.jpg",
+      "/sneakers_dataset/CI0064-700_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-Amarelo-2.jpg",
+      "/sneakers_dataset/CI0064-700_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-Amarelo-3.jpg",
+      "/sneakers_dataset/CI0064-700_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-Amarelo-4.jpg",
+      "/sneakers_dataset/CI0064-700_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-Amarelo-5.jpg",
+      "/sneakers_dataset/CI0064-700_Tenis-Nike-Air-Force-1-07-LV8-3-Masculino-Amarelo-6.jpg"
+    ],
+    "price": 150
+  },
+  {
+    "styleCode": "CI0905-002",
+    "brand": "Nike",
+    "name": "Tenis Nike Vista Lite Feminino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CI0905-002_Tenis-Nike-Vista-Lite-Feminino-Multicolor-2.jpg",
+      "/sneakers_dataset/CI0905-002_Tenis-Nike-Vista-Lite-Feminino-Multicolor-3.jpg",
+      "/sneakers_dataset/CI0905-002_Tenis-Nike-Vista-Lite-Feminino-Multicolor-4.jpg",
+      "/sneakers_dataset/CI0905-002_Tenis-Nike-Vista-Lite-Feminino-Multicolor-5.jpg",
+      "/sneakers_dataset/CI0905-002_Tenis-Nike-Vista-Lite-Feminino-Multicolor-6.jpg",
+      "/sneakers_dataset/CI0905-002_Tenis-Nike-Vista-Lite-Feminino-Multicolor.jpg"
+    ],
+    "price": 160
+  },
+  {
+    "styleCode": "CI0919-003",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 Feminino Bege 2",
+    "images": [
+      "/sneakers_dataset/CI0919-003_Tenis-Nike-Air-Force-1-Feminino-Bege-2.jpg",
+      "/sneakers_dataset/CI0919-003_Tenis-Nike-Air-Force-1-Feminino-Bege-3.jpg",
+      "/sneakers_dataset/CI0919-003_Tenis-Nike-Air-Force-1-Feminino-Bege-4.jpg",
+      "/sneakers_dataset/CI0919-003_Tenis-Nike-Air-Force-1-Feminino-Bege-5.jpg",
+      "/sneakers_dataset/CI0919-003_Tenis-Nike-Air-Force-1-Feminino-Bege-6.jpg",
+      "/sneakers_dataset/CI0919-003_Tenis-Nike-Air-Force-1-Feminino-Bege.jpg"
+    ],
+    "price": 168
+  },
+  {
+    "styleCode": "CI0919-004",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 Shadow Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/CI0919-004_Tenis-Nike-Air-Force-1-Shadow-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/CI0919-004_Tenis-Nike-Air-Force-1-Shadow-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/CI0919-004_Tenis-Nike-Air-Force-1-Shadow-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/CI0919-004_Tenis-Nike-Air-Force-1-Shadow-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/CI0919-004_Tenis-Nike-Air-Force-1-Shadow-Feminino-Branco-6.jpg",
+      "/sneakers_dataset/CI0919-004_Tenis-Nike-Air-Force-1-Shadow-Feminino-Branco.jpg"
+    ],
+    "price": 174
+  },
+  {
+    "styleCode": "CI0919-112",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Force 1 Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/CI0919-112_Tenis-Nike-Air-Force-1-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/CI0919-112_Tenis-Nike-Air-Force-1-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/CI0919-112_Tenis-Nike-Air-Force-1-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/CI0919-112_Tenis-Nike-Air-Force-1-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/CI0919-112_Tenis-Nike-Air-Force-1-Feminino-Branco-6.jpg",
+      "/sneakers_dataset/CI0919-112_Tenis-Nike-Air-Force-1-Feminino-Branco.jpg"
+    ],
+    "price": 180
+  },
+  {
+    "styleCode": "CK5836-100",
+    "brand": "Nike",
+    "name": "Tenis Nike Kyrie 5 Bandulu Masculino Bege 2",
+    "images": [
+      "/sneakers_dataset/CK5836-100_Tenis-Nike-Kyrie-5-Bandulu-Masculino-Bege-2.jpg",
+      "/sneakers_dataset/CK5836-100_Tenis-Nike-Kyrie-5-Bandulu-Masculino-Bege-3.jpg",
+      "/sneakers_dataset/CK5836-100_Tenis-Nike-Kyrie-5-Bandulu-Masculino-Bege-4.jpg",
+      "/sneakers_dataset/CK5836-100_Tenis-Nike-Kyrie-5-Bandulu-Masculino-Bege-5.jpg",
+      "/sneakers_dataset/CK5836-100_Tenis-Nike-Kyrie-5-Bandulu-Masculino-Bege-6.jpg",
+      "/sneakers_dataset/CK5836-100_Tenis-Nike-Kyrie-5-Bandulu-Masculino-Bege-7.jpg",
+      "/sneakers_dataset/CK5836-100_Tenis-Nike-Kyrie-5-Bandulu-Masculino-Bege.jpg"
+    ],
+    "price": 159
+  },
+  {
+    "styleCode": "CK6024-005",
+    "brand": "Nike",
+    "name": "Tenis Nike Lebron Soldier XIV Masculino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CK6024-005_Tenis-Nike-Lebron-Soldier-XIV-Masculino-Multicolor-2.jpg",
+      "/sneakers_dataset/CK6024-005_Tenis-Nike-Lebron-Soldier-XIV-Masculino-Multicolor-3.jpg",
+      "/sneakers_dataset/CK6024-005_Tenis-Nike-Lebron-Soldier-XIV-Masculino-Multicolor-4.jpg",
+      "/sneakers_dataset/CK6024-005_Tenis-Nike-Lebron-Soldier-XIV-Masculino-Multicolor-5.jpg",
+      "/sneakers_dataset/CK6024-005_Tenis-Nike-Lebron-Soldier-XIV-Masculino-Multicolor-6.jpg",
+      "/sneakers_dataset/CK6024-005_Tenis-Nike-Lebron-Soldier-XIV-Masculino-Multicolor.jpg"
+    ],
+    "price": 168
+  },
+  {
+    "styleCode": "CK6467-001",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 Nrg Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/CK6467-001_Tenis-Nike-Air-Max-90-Nrg-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/CK6467-001_Tenis-Nike-Air-Max-90-Nrg-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/CK6467-001_Tenis-Nike-Air-Max-90-Nrg-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/CK6467-001_Tenis-Nike-Air-Max-90-Nrg-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/CK6467-001_Tenis-Nike-Air-Max-90-Nrg-Masculino-Cinza-6.jpg",
+      "/sneakers_dataset/CK6467-001_Tenis-Nike-Air-Max-90-Nrg-Masculino-Cinza.jpg",
+      "/sneakers_dataset/CK6467-001_ck6467-001-1.jpg",
+      "/sneakers_dataset/CK6467-001_ck6467-001-2.jpg",
+      "/sneakers_dataset/CK6467-001_ck6467-001-3.jpg",
+      "/sneakers_dataset/CK6467-001_ck6467-001-4.jpg",
+      "/sneakers_dataset/CK6467-001_ck6467-001-5.jpg",
+      "/sneakers_dataset/CK6467-001_ck6467-001-6.jpg"
+    ],
+    "price": 174
+  },
+  {
+    "styleCode": "CK6533-001",
+    "brand": "Nike",
+    "name": "Tenis Nike Court Blanc SE Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/CK6533-001_Tenis-Nike-Court-Blanc-SE-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/CK6533-001_Tenis-Nike-Court-Blanc-SE-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/CK6533-001_Tenis-Nike-Court-Blanc-SE-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/CK6533-001_Tenis-Nike-Court-Blanc-SE-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/CK6533-001_Tenis-Nike-Court-Blanc-SE-Feminino-Branco-6.jpg",
+      "/sneakers_dataset/CK6533-001_Tenis-Nike-Court-Blanc-SE-Feminino-Branco.jpg"
+    ],
+    "price": 180
+  },
+  {
+    "styleCode": "CK6533-003",
+    "brand": "Nike",
+    "name": "Tenis Nike Court Blanc SE Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/CK6533-003_Tenis-Nike-Court-Blanc-SE-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/CK6533-003_Tenis-Nike-Court-Blanc-SE-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/CK6533-003_Tenis-Nike-Court-Blanc-SE-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/CK6533-003_Tenis-Nike-Court-Blanc-SE-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/CK6533-003_Tenis-Nike-Court-Blanc-SE-Feminino-Preto-6.jpg",
+      "/sneakers_dataset/CK6533-003_Tenis-Nike-Court-Blanc-SE-Feminino-Preto.jpg"
+    ],
+    "price": 190
+  },
+  {
+    "styleCode": "CK6884-001",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/CK6884-001_Tenis-Nike-Air-Max-95-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/CK6884-001_Tenis-Nike-Air-Max-95-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/CK6884-001_Tenis-Nike-Air-Max-95-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/CK6884-001_Tenis-Nike-Air-Max-95-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/CK6884-001_Tenis-Nike-Air-Max-95-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/CK6884-001_Tenis-Nike-Air-Max-95-Masculino-Preto.jpg"
+    ],
+    "price": 195
+  },
+  {
+    "styleCode": "CK7070-001",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 95 Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/CK7070-001_Tenis-Nike-Air-Max-95-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/CK7070-001_Tenis-Nike-Air-Max-95-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/CK7070-001_Tenis-Nike-Air-Max-95-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/CK7070-001_Tenis-Nike-Air-Max-95-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/CK7070-001_Tenis-Nike-Air-Max-95-Feminino-Preto-6.jpg",
+      "/sneakers_dataset/CK7070-001_Tenis-Nike-Air-Max-95-Feminino-Preto.jpg"
+    ],
+    "price": 102
+  },
+  {
+    "styleCode": "CN7664-800",
+    "brand": "Nike",
+    "name": "Tenis Nike React Presto Print Masculino Laranja 2",
+    "images": [
+      "/sneakers_dataset/CN7664-800_Tenis-Nike-React-Presto-Print-Masculino-Laranja-2.jpg",
+      "/sneakers_dataset/CN7664-800_Tenis-Nike-React-Presto-Print-Masculino-Laranja-3.jpg",
+      "/sneakers_dataset/CN7664-800_Tenis-Nike-React-Presto-Print-Masculino-Laranja-4.jpg",
+      "/sneakers_dataset/CN7664-800_Tenis-Nike-React-Presto-Print-Masculino-Laranja-5.jpg",
+      "/sneakers_dataset/CN7664-800_Tenis-Nike-React-Presto-Print-Masculino-Laranja-6.jpg",
+      "/sneakers_dataset/CN7664-800_Tenis-Nike-React-Presto-Print-Masculino-Laranja-7.jpg",
+      "/sneakers_dataset/CN7664-800_Tenis-Nike-React-Presto-Print-Masculino-Laranja.jpg"
+    ],
+    "price": 119
+  },
+  {
+    "styleCode": "CN8490-002",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 365 Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/CN8490-002_Tenis-Nike-Air-Max-90-365-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/CN8490-002_Tenis-Nike-Air-Max-90-365-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/CN8490-002_Tenis-Nike-Air-Max-90-365-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/CN8490-002_Tenis-Nike-Air-Max-90-365-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/CN8490-002_Tenis-Nike-Air-Max-90-365-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/CN8490-002_Tenis-Nike-Air-Max-90-365-Masculino-Preto.jpg"
+    ],
+    "price": 129
+  },
+  {
+    "styleCode": "CN8490-003",
+    "brand": "Nike",
+    "name": "Tenis Nike Air Max 90 365 Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/CN8490-003_Tenis-Nike-Air-Max-90-365-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/CN8490-003_Tenis-Nike-Air-Max-90-365-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/CN8490-003_Tenis-Nike-Air-Max-90-365-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/CN8490-003_Tenis-Nike-Air-Max-90-365-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/CN8490-003_Tenis-Nike-Air-Max-90-365-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/CN8490-003_Tenis-Nike-Air-Max-90-365-Masculino-Preto.jpg",
+      "/sneakers_dataset/CN8490-003_cn8490cor003-1.jpg",
+      "/sneakers_dataset/CN8490-003_cn8490cor003-2.jpg",
+      "/sneakers_dataset/CN8490-003_cn8490cor003-3.jpg",
+      "/sneakers_dataset/CN8490-003_cn8490cor003-4.jpg",
+      "/sneakers_dataset/CN8490-003_cn8490cor003-5.jpg",
+      "/sneakers_dataset/CN8490-003_cn8490cor003-6.jpg"
+    ],
+    "price": 134
+  },
+  {
+    "styleCode": "CN8490-100-BCO",
+    "brand": "Nike",
+    "name": "TENISNIKEAIRMAX90BRANCOMASCULINO",
+    "images": [
+      "/sneakers_dataset/CN8490-100-BCO_TENISNIKEAIRMAX90BRANCOMASCULINO_1_0bb82092-4ba1-4631-88e4-1dd62394119a.jpg",
+      "/sneakers_dataset/CN8490-100-BCO_TENISNIKEAIRMAX90BRANCOMASCULINO_1_b7a87024-0b6b-4813-b913-b48d26fcbd11.jpg",
+      "/sneakers_dataset/CN8490-100-BCO_TENISNIKEAIRMAX90BRANCOMASCULINO_2_4c1ef0b6-6482-4ce6-857b-adac83289cb5.jpg",
+      "/sneakers_dataset/CN8490-100-BCO_TENISNIKEAIRMAX90BRANCOMASCULINO_2_699fb246-da85-49d1-8693-bdd4d0adea89.jpg",
+      "/sneakers_dataset/CN8490-100-BCO_TENISNIKEAIRMAX90BRANCOMASCULINO_3_184ac7b1-038f-441c-acb7-553fafdfbdef.jpg"
+    ],
+    "price": 139
+  },
+  {
+    "styleCode": "CN9694-600",
+    "brand": "Nike",
+    "name": "Tenis Nike React Presto Extreme V Day GS Infantil Rosa 2",
+    "images": [
+      "/sneakers_dataset/CN9694-600_Tenis-Nike-React-Presto-Extreme-V-Day-GS-Infantil-Rosa-2.jpg",
+      "/sneakers_dataset/CN9694-600_Tenis-Nike-React-Presto-Extreme-V-Day-GS-Infantil-Rosa-3.jpg",
+      "/sneakers_dataset/CN9694-600_Tenis-Nike-React-Presto-Extreme-V-Day-GS-Infantil-Rosa-4.jpg",
+      "/sneakers_dataset/CN9694-600_Tenis-Nike-React-Presto-Extreme-V-Day-GS-Infantil-Rosa-5.jpg",
+      "/sneakers_dataset/CN9694-600_Tenis-Nike-React-Presto-Extreme-V-Day-GS-Infantil-Rosa-6.jpg",
+      "/sneakers_dataset/CN9694-600_Tenis-Nike-React-Presto-Extreme-V-Day-GS-Infantil-Rosa.jpg"
+    ],
+    "price": 144
+  },
+  {
+    "styleCode": "CQ0989-002",
+    "brand": "Nike",
+    "name": "Tenis Nike Drop Type Hbr Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/CQ0989-002_Tenis-Nike-Drop-Type-Hbr-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/CQ0989-002_Tenis-Nike-Drop-Type-Hbr-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/CQ0989-002_Tenis-Nike-Drop-Type-Hbr-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/CQ0989-002_Tenis-Nike-Drop-Type-Hbr-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/CQ0989-002_Tenis-Nike-Drop-Type-Hbr-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/CQ0989-002_Tenis-Nike-Drop-Type-Hbr-Masculino-Preto.jpg"
+    ],
+    "price": 190
+  },
+  {
+    "styleCode": "CQ0989-100",
+    "brand": "Nike",
+    "name": "Tenis Nike Drop Type Hbr Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/CQ0989-100_Tenis-Nike-Drop-Type-Hbr-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/CQ0989-100_Tenis-Nike-Drop-Type-Hbr-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/CQ0989-100_Tenis-Nike-Drop-Type-Hbr-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/CQ0989-100_Tenis-Nike-Drop-Type-Hbr-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/CQ0989-100_Tenis-Nike-Drop-Type-Hbr-Masculino-Branco-6.jpg",
+      "/sneakers_dataset/CQ0989-100_Tenis-Nike-Drop-Type-Hbr-Masculino-Branco.jpg",
+      "/sneakers_dataset/CQ0989-100_cq0989-100.1.jpg",
+      "/sneakers_dataset/CQ0989-100_cq0989-100.2.jpg",
+      "/sneakers_dataset/CQ0989-100_cq0989-100.3.jpg",
+      "/sneakers_dataset/CQ0989-100_cq0989-100.4.jpg",
+      "/sneakers_dataset/CQ0989-100_cq0989-100.6.jpg"
+    ],
+    "price": 200
+  },
+  {
+    "styleCode": "CQ7731-900",
+    "brand": "Nike",
+    "name": "Tenis Nike Zoom KD12 QS Masculino Vermelho 2",
+    "images": [
+      "/sneakers_dataset/CQ7731-900_Tenis-Nike-Zoom-KD12-QS-Masculino-Vermelho-2.jpg",
+      "/sneakers_dataset/CQ7731-900_Tenis-Nike-Zoom-KD12-QS-Masculino-Vermelho-3.jpg",
+      "/sneakers_dataset/CQ7731-900_Tenis-Nike-Zoom-KD12-QS-Masculino-Vermelho-4.jpg",
+      "/sneakers_dataset/CQ7731-900_Tenis-Nike-Zoom-KD12-QS-Masculino-Vermelho-5.jpg",
+      "/sneakers_dataset/CQ7731-900_Tenis-Nike-Zoom-KD12-QS-Masculino-Vermelho-6.jpg",
+      "/sneakers_dataset/CQ7731-900_Tenis-Nike-Zoom-KD12-QS-Masculino-Vermelho-7.jpg",
+      "/sneakers_dataset/CQ7731-900_Tenis-Nike-Zoom-KD12-QS-Masculino-Vermelho.jpg"
+    ],
+    "price": 140
+  },
+  {
+    "styleCode": "CQ9182-100",
+    "brand": "Nike",
+    "name": "Tenis Nike Cross Trainer Low Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/CQ9182-100_Tenis-Nike-Cross-Trainer-Low-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/CQ9182-100_Tenis-Nike-Cross-Trainer-Low-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/CQ9182-100_Tenis-Nike-Cross-Trainer-Low-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/CQ9182-100_Tenis-Nike-Cross-Trainer-Low-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/CQ9182-100_Tenis-Nike-Cross-Trainer-Low-Masculino-Branco-6.jpg",
+      "/sneakers_dataset/CQ9182-100_Tenis-Nike-Cross-Trainer-Low-Masculino-Branco.jpg"
+    ],
+    "price": 150
+  },
+  {
+    "styleCode": "CQ9283-001",
+    "brand": "Nike",
+    "name": "Tenis Nike Lebron XVIII Preto 2",
+    "images": [
+      "/sneakers_dataset/CQ9283-001_Tenis-Nike-Lebron-XVIII-Preto-2.jpg",
+      "/sneakers_dataset/CQ9283-001_Tenis-Nike-Lebron-XVIII-Preto-3.jpg",
+      "/sneakers_dataset/CQ9283-001_Tenis-Nike-Lebron-XVIII-Preto-4.jpg",
+      "/sneakers_dataset/CQ9283-001_Tenis-Nike-Lebron-XVIII-Preto-5.jpg",
+      "/sneakers_dataset/CQ9283-001_Tenis-Nike-Lebron-XVIII-Preto-6.jpg",
+      "/sneakers_dataset/CQ9283-001_Tenis-Nike-Lebron-XVIII-Preto.jpg"
+    ],
+    "price": 156
+  },
+  {
+    "styleCode": "CQ9283-005",
+    "brand": "Nike",
+    "name": "Tenis Nike Lebron XVIII Preto 2",
+    "images": [
+      "/sneakers_dataset/CQ9283-005_Tenis-Nike-Lebron-XVIII-Preto-2.jpg",
+      "/sneakers_dataset/CQ9283-005_Tenis-Nike-Lebron-XVIII-Preto-3.jpg",
+      "/sneakers_dataset/CQ9283-005_Tenis-Nike-Lebron-XVIII-Preto-4.jpg",
+      "/sneakers_dataset/CQ9283-005_Tenis-Nike-Lebron-XVIII-Preto-5.jpg",
+      "/sneakers_dataset/CQ9283-005_Tenis-Nike-Lebron-XVIII-Preto-6.jpg",
+      "/sneakers_dataset/CQ9283-005_Tenis-Nike-Lebron-XVIII-Preto.jpg"
+    ],
+    "price": 161
+  },
+  {
+    "styleCode": "CQ9283-006",
+    "brand": "Nike",
+    "name": "Tenis Nike LeBron XVIII Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CQ9283-006_Tenis-Nike-LeBron-XVIII-Multicolor-2.jpg",
+      "/sneakers_dataset/CQ9283-006_Tenis-Nike-LeBron-XVIII-Multicolor-3.jpg",
+      "/sneakers_dataset/CQ9283-006_Tenis-Nike-LeBron-XVIII-Multicolor-4.jpg",
+      "/sneakers_dataset/CQ9283-006_Tenis-Nike-LeBron-XVIII-Multicolor-5.jpg",
+      "/sneakers_dataset/CQ9283-006_Tenis-Nike-LeBron-XVIII-Multicolor-6.jpg",
+      "/sneakers_dataset/CQ9283-006_Tenis-Nike-LeBron-XVIII-Multicolor.jpg"
+    ],
+    "price": 170
+  },
+  {
+    "styleCode": "CQ9283-007",
+    "brand": "Nike",
+    "name": "Tenis Nike LeBron XVIII Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CQ9283-007_Tenis-Nike-LeBron-XVIII-Multicolor-2.jpg",
+      "/sneakers_dataset/CQ9283-007_Tenis-Nike-LeBron-XVIII-Multicolor-3.jpg",
+      "/sneakers_dataset/CQ9283-007_Tenis-Nike-LeBron-XVIII-Multicolor-4.jpg",
+      "/sneakers_dataset/CQ9283-007_Tenis-Nike-LeBron-XVIII-Multicolor-5.jpg",
+      "/sneakers_dataset/CQ9283-007_Tenis-Nike-LeBron-XVIII-Multicolor-6.jpg",
+      "/sneakers_dataset/CQ9283-007_Tenis-Nike-LeBron-XVIII-Multicolor.jpg"
+    ],
+    "price": 180
+  },
+  {
+    "styleCode": "CQ9283-100",
+    "brand": "Nike",
+    "name": "Tenis Nike Lebron XVIII Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CQ9283-100_Tenis-Nike-Lebron-XVIII-Multicolor-2.jpg",
+      "/sneakers_dataset/CQ9283-100_Tenis-Nike-Lebron-XVIII-Multicolor-3.jpg",
+      "/sneakers_dataset/CQ9283-100_Tenis-Nike-Lebron-XVIII-Multicolor-4.jpg",
+      "/sneakers_dataset/CQ9283-100_Tenis-Nike-Lebron-XVIII-Multicolor-5.jpg",
+      "/sneakers_dataset/CQ9283-100_Tenis-Nike-Lebron-XVIII-Multicolor-6.jpg",
+      "/sneakers_dataset/CQ9283-100_Tenis-Nike-Lebron-XVIII-Multicolor.jpg"
+    ],
+    "price": 186
+  },
+  {
+    "styleCode": "CQ9283-900",
+    "brand": "Nike",
+    "name": "Tenis Nike Lebron XVIII Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CQ9283-900_Tenis-Nike-Lebron-XVIII-Multicolor-2.jpg",
+      "/sneakers_dataset/CQ9283-900_Tenis-Nike-Lebron-XVIII-Multicolor-3.jpg",
+      "/sneakers_dataset/CQ9283-900_Tenis-Nike-Lebron-XVIII-Multicolor-4.jpg",
+      "/sneakers_dataset/CQ9283-900_Tenis-Nike-Lebron-XVIII-Multicolor-5.jpg",
+      "/sneakers_dataset/CQ9283-900_Tenis-Nike-Lebron-XVIII-Multicolor-6.jpg",
+      "/sneakers_dataset/CQ9283-900_Tenis-Nike-Lebron-XVIII-Multicolor.jpg"
+    ],
+    "price": 193
+  },
+  {
+    "styleCode": "CQ9323-001",
+    "brand": "Nike",
+    "name": "Tenis Nike Kybrid S2 Masculino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CQ9323-001_Tenis-Nike-Kybrid-S2-Masculino-Multicolor-2.jpg",
+      "/sneakers_dataset/CQ9323-001_Tenis-Nike-Kybrid-S2-Masculino-Multicolor-3.jpg",
+      "/sneakers_dataset/CQ9323-001_Tenis-Nike-Kybrid-S2-Masculino-Multicolor-4.jpg",
+      "/sneakers_dataset/CQ9323-001_Tenis-Nike-Kybrid-S2-Masculino-Multicolor-5.jpg",
+      "/sneakers_dataset/CQ9323-001_Tenis-Nike-Kybrid-S2-Masculino-Multicolor-6.jpg",
+      "/sneakers_dataset/CQ9323-001_Tenis-Nike-Kybrid-S2-Masculino-Multicolor.jpg"
+    ],
+    "price": 198
+  },
+  {
+    "styleCode": "CQ9323-300",
+    "brand": "Nike",
+    "name": "Tenis Nike Kybrid S2 Masculino Verde 2",
+    "images": [
+      "/sneakers_dataset/CQ9323-300_Tenis-Nike-Kybrid-S2-Masculino-Verde-2.jpg",
+      "/sneakers_dataset/CQ9323-300_Tenis-Nike-Kybrid-S2-Masculino-Verde-3.jpg",
+      "/sneakers_dataset/CQ9323-300_Tenis-Nike-Kybrid-S2-Masculino-Verde-4.jpg",
+      "/sneakers_dataset/CQ9323-300_Tenis-Nike-Kybrid-S2-Masculino-Verde-5.jpg",
+      "/sneakers_dataset/CQ9323-300_Tenis-Nike-Kybrid-S2-Masculino-Verde-6.jpg",
+      "/sneakers_dataset/CQ9323-300_Tenis-Nike-Kybrid-S2-Masculino-Verde.jpg"
+    ],
+    "price": 102
+  },
+  {
+    "styleCode": "DB3017-001",
+    "brand": "Nike",
+    "name": "tenis nike be do win sp DB3017 001 1 11633451274",
+    "images": [
+      "/sneakers_dataset/DB3017-001_tenis-nike-be-do-win-sp-DB3017-001-1-11633451274_ul8QsYUhV.jpg",
+      "/sneakers_dataset/DB3017-001_tenis-nike-be-do-win-sp-DB3017-001-11-111633451284_DUQ_hISXC.jpg",
+      "/sneakers_dataset/DB3017-001_tenis-nike-be-do-win-sp-DB3017-001-16-161633451287_Y9h0IJkIQ.jpg",
+      "/sneakers_dataset/DB3017-001_tenis-nike-be-do-win-sp-DB3017-001-2-21633451275_mFAQNlzL1xg.jpg",
+      "/sneakers_dataset/DB3017-001_tenis-nike-be-do-win-sp-DB3017-001-3-31633451276_fU-K5ynaw.jpg",
+      "/sneakers_dataset/DB3017-001_tenis-nike-be-do-win-sp-DB3017-001-4-41633451278_-BaS30NtLMx.jpg",
+      "/sneakers_dataset/DB3017-001_tenis-nike-be-do-win-sp-DB3017-001-5-51633451279_uAGqz_6uSU.jpg",
+      "/sneakers_dataset/DB3017-001_tenis-nike-be-do-win-sp-DB3017-001-8-81633451282_fCl6AQBmOyyc.jpg"
+    ],
+    "price": 163
+  },
+  {
+    "styleCode": "B24105",
+    "brand": "Adidas",
+    "name": "Tenis adidas Stan Smith Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/B24105_Tenis-adidas-Stan-Smith-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/B24105_Tenis-adidas-Stan-Smith-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/B24105_Tenis-adidas-Stan-Smith-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/B24105_Tenis-adidas-Stan-Smith-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/B24105_Tenis-adidas-Stan-Smith-Feminino-Branco-6.jpg",
+      "/sneakers_dataset/B24105_Tenis-adidas-Stan-Smith-Feminino-Branco.jpg"
+    ],
+    "price": 144
+  },
+  {
+    "styleCode": "B24698",
+    "brand": "Adidas",
+    "name": "Tenis adidas Stan Smith Masculino 2",
+    "images": [
+      "/sneakers_dataset/B24698_Tenis-adidas-Stan-Smith-Masculino-2.jpg",
+      "/sneakers_dataset/B24698_Tenis-adidas-Stan-Smith-Masculino-3.jpg",
+      "/sneakers_dataset/B24698_Tenis-adidas-Stan-Smith-Masculino-4.jpg",
+      "/sneakers_dataset/B24698_Tenis-adidas-Stan-Smith-Masculino-5.jpg",
+      "/sneakers_dataset/B24698_Tenis-adidas-Stan-Smith-Masculino.jpg"
+    ],
+    "price": 153
+  },
+  {
+    "styleCode": "B24783",
+    "brand": "Adidas",
+    "name": "Tenis adidas LA Trainer Masculino 2",
+    "images": [
+      "/sneakers_dataset/B24783_Tenis-adidas-LA-Trainer-Masculino-2.jpg",
+      "/sneakers_dataset/B24783_Tenis-adidas-LA-Trainer-Masculino-3.jpg",
+      "/sneakers_dataset/B24783_Tenis-adidas-LA-Trainer-Masculino-4.jpg",
+      "/sneakers_dataset/B24783_Tenis-adidas-LA-Trainer-Masculino-5.jpg",
+      "/sneakers_dataset/B24783_Tenis-adidas-LA-Trainer-Masculino.jpg"
+    ],
+    "price": 162
+  },
+  {
+    "styleCode": "B27136",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar Found 2",
+    "images": [
+      "/sneakers_dataset/B27136_Tenis-adidas-Superstar-Found-2.jpg",
+      "/sneakers_dataset/B27136_Tenis-adidas-Superstar-Found-3.jpg",
+      "/sneakers_dataset/B27136_Tenis-adidas-Superstar-Found-4.jpg",
+      "/sneakers_dataset/B27136_Tenis-adidas-Superstar-Found-5.jpg",
+      "/sneakers_dataset/B27136_Tenis-adidas-Superstar-Found.jpg"
+    ],
+    "price": 178
+  },
+  {
+    "styleCode": "B28013",
+    "brand": "Adidas",
+    "name": "Tenis adidas Stan Smith Feminino Amarelo 2",
+    "images": [
+      "/sneakers_dataset/B28013_Tenis-adidas-Stan-Smith-Feminino-Amarelo-2.jpg",
+      "/sneakers_dataset/B28013_Tenis-adidas-Stan-Smith-Feminino-Amarelo-3.jpg",
+      "/sneakers_dataset/B28013_Tenis-adidas-Stan-Smith-Feminino-Amarelo-4.jpg",
+      "/sneakers_dataset/B28013_Tenis-adidas-Stan-Smith-Feminino-Amarelo-5.jpg",
+      "/sneakers_dataset/B28013_Tenis-adidas-Stan-Smith-Feminino-Amarelo.jpg"
+    ],
+    "price": 184
+  },
+  {
+    "styleCode": "B28014",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/B28014_Tenis-adidas-Superstar-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/B28014_Tenis-adidas-Superstar-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/B28014_Tenis-adidas-Superstar-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/B28014_Tenis-adidas-Superstar-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/B28014_Tenis-adidas-Superstar-Feminino-Branco.jpg"
+    ],
+    "price": 193
+  },
+  {
+    "styleCode": "B28040",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar Feminino Vermelho 2",
+    "images": [
+      "/sneakers_dataset/B28040_Tenis-adidas-Superstar-Feminino-Vermelho-2.jpg",
+      "/sneakers_dataset/B28040_Tenis-adidas-Superstar-Feminino-Vermelho-3.jpg",
+      "/sneakers_dataset/B28040_Tenis-adidas-Superstar-Feminino-Vermelho-4.jpg",
+      "/sneakers_dataset/B28040_Tenis-adidas-Superstar-Feminino-Vermelho-5.jpg",
+      "/sneakers_dataset/B28040_Tenis-adidas-Superstar-Feminino-Vermelho.jpg"
+    ],
+    "price": 102
+  },
+  {
+    "styleCode": "B28067",
+    "brand": "Adidas",
+    "name": "Tenis adidas FLB Runner Feminino Roxo 2",
+    "images": [
+      "/sneakers_dataset/B28067_Tenis-adidas-FLB-Runner-Feminino-Roxo-2.jpg",
+      "/sneakers_dataset/B28067_Tenis-adidas-FLB-Runner-Feminino-Roxo-3.jpg",
+      "/sneakers_dataset/B28067_Tenis-adidas-FLB-Runner-Feminino-Roxo-4.jpg",
+      "/sneakers_dataset/B28067_Tenis-adidas-FLB-Runner-Feminino-Roxo-5.jpg",
+      "/sneakers_dataset/B28067_Tenis-adidas-FLB-Runner-Feminino-Roxo.jpg"
+    ],
+    "price": 136
+  },
+  {
+    "styleCode": "B28068",
+    "brand": "Adidas",
+    "name": "Tenis adidas FLB Runner Feminino Cinza 2",
+    "images": [
+      "/sneakers_dataset/B28068_Tenis-adidas-FLB-Runner-Feminino-Cinza-2.jpg",
+      "/sneakers_dataset/B28068_Tenis-adidas-FLB-Runner-Feminino-Cinza-3.jpg",
+      "/sneakers_dataset/B28068_Tenis-adidas-FLB-Runner-Feminino-Cinza-4.jpg",
+      "/sneakers_dataset/B28068_Tenis-adidas-FLB-Runner-Feminino-Cinza-5.jpg",
+      "/sneakers_dataset/B28068_Tenis-adidas-FLB-Runner-Feminino-Cinza.jpg"
+    ],
+    "price": 145
+  },
+  {
+    "styleCode": "B28080",
+    "brand": "Adidas",
+    "name": "Tenis adidas POD S3 1 Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B28080_Tenis-adidas-POD-S3-1-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B28080_Tenis-adidas-POD-S3-1-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B28080_Tenis-adidas-POD-S3-1-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B28080_Tenis-adidas-POD-S3-1-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B28080_Tenis-adidas-POD-S3-1-Masculino-Preto.jpg"
+    ],
+    "price": 153
+  },
+  {
+    "styleCode": "B28089",
+    "brand": "Adidas",
+    "name": "Tenis adidas Pod S3 1 Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/B28089_Tenis-adidas-Pod-S3-1-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/B28089_Tenis-adidas-Pod-S3-1-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/B28089_Tenis-adidas-Pod-S3-1-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/B28089_Tenis-adidas-Pod-S3-1-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/B28089_Tenis-adidas-Pod-S3-1-Masculino-Branco.jpg"
+    ],
+    "price": 161
+  },
+  {
+    "styleCode": "B28162",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar Boot Feminino Amarelo 2",
+    "images": [
+      "/sneakers_dataset/B28162_Tenis-adidas-Superstar-Boot-Feminino-Amarelo-2.jpg",
+      "/sneakers_dataset/B28162_Tenis-adidas-Superstar-Boot-Feminino-Amarelo-3.jpg",
+      "/sneakers_dataset/B28162_Tenis-adidas-Superstar-Boot-Feminino-Amarelo-4.jpg",
+      "/sneakers_dataset/B28162_Tenis-adidas-Superstar-Boot-Feminino-Amarelo-5.jpg",
+      "/sneakers_dataset/B28162_Tenis-adidas-Superstar-Boot-Feminino-Amarelo.jpg"
+    ],
+    "price": 166
+  },
+  {
+    "styleCode": "B35363",
+    "brand": "Adidas",
+    "name": "Tenis adidas Pro Play 2 Masculino 2",
+    "images": [
+      "/sneakers_dataset/B35363_Tenis-adidas-Pro-Play-2-Masculino-2.jpg",
+      "/sneakers_dataset/B35363_Tenis-adidas-Pro-Play-2-Masculino-3.jpg",
+      "/sneakers_dataset/B35363_Tenis-adidas-Pro-Play-2-Masculino-4.jpg",
+      "/sneakers_dataset/B35363_Tenis-adidas-Pro-Play-2-Masculino-5.jpg",
+      "/sneakers_dataset/B35363_Tenis-adidas-Pro-Play-2-Masculino.jpg"
+    ],
+    "price": 173
+  },
+  {
+    "styleCode": "B37067",
+    "brand": "Adidas",
+    "name": "Tenis adidas Samba Rose Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37067_Tenis-adidas-Samba-Rose-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/B37067_Tenis-adidas-Samba-Rose-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/B37067_Tenis-adidas-Samba-Rose-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/B37067_Tenis-adidas-Samba-Rose-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/B37067_Tenis-adidas-Samba-Rose-Feminino-Preto.jpg"
+    ],
+    "price": 181
+  },
+  {
+    "styleCode": "B37068",
+    "brand": "Adidas",
+    "name": "Tenis adidas Samba Rose Feminino Roxo 2",
+    "images": [
+      "/sneakers_dataset/B37068_Tenis-adidas-Samba-Rose-Feminino-Roxo-2.jpg",
+      "/sneakers_dataset/B37068_Tenis-adidas-Samba-Rose-Feminino-Roxo-3.jpg",
+      "/sneakers_dataset/B37068_Tenis-adidas-Samba-Rose-Feminino-Roxo-4.jpg",
+      "/sneakers_dataset/B37068_Tenis-adidas-Samba-Rose-Feminino-Roxo-5.jpg",
+      "/sneakers_dataset/B37068_Tenis-adidas-Samba-Rose-Feminino-Roxo.jpg"
+    ],
+    "price": 186
+  },
+  {
+    "styleCode": "B37073",
+    "brand": "Adidas",
+    "name": "Tenis adidas Prophere Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/B37073_Tenis-adidas-Prophere-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/B37073_Tenis-adidas-Prophere-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/B37073_Tenis-adidas-Prophere-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/B37073_Tenis-adidas-Prophere-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/B37073_Tenis-adidas-Prophere-Masculino-Cinza.jpg"
+    ],
+    "price": 194
+  },
+  {
+    "styleCode": "B37182",
+    "brand": "Adidas",
+    "name": "Tenis adidas Prophere Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/B37182_Tenis-adidas-Prophere-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/B37182_Tenis-adidas-Prophere-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/B37182_Tenis-adidas-Prophere-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/B37182_Tenis-adidas-Prophere-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/B37182_Tenis-adidas-Prophere-Masculino-Branco.jpg"
+    ],
+    "price": 199
+  },
+  {
+    "styleCode": "B37193",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar Slip On Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37193_Tenis-adidas-Superstar-Slip-On-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/B37193_Tenis-adidas-Superstar-Slip-On-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/B37193_Tenis-adidas-Superstar-Slip-On-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/B37193_Tenis-adidas-Superstar-Slip-On-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/B37193_Tenis-adidas-Superstar-Slip-On-Feminino-Preto.jpg"
+    ],
+    "price": 104
+  },
+  {
+    "styleCode": "B37213",
+    "brand": "Adidas",
+    "name": "Tenis adidas Gazelle Infantil Azul 2",
+    "images": [
+      "/sneakers_dataset/B37213_Tenis-adidas-Gazelle-Infantil-Azul-2.jpg",
+      "/sneakers_dataset/B37213_Tenis-adidas-Gazelle-Infantil-Azul-3.jpg",
+      "/sneakers_dataset/B37213_Tenis-adidas-Gazelle-Infantil-Azul-4.jpg",
+      "/sneakers_dataset/B37213_Tenis-adidas-Gazelle-Infantil-Azul-5.jpg",
+      "/sneakers_dataset/B37213_Tenis-adidas-Gazelle-Infantil-Azul.jpg"
+    ],
+    "price": 112
+  },
+  {
+    "styleCode": "B37215",
+    "brand": "Adidas",
+    "name": "Tenis adidas Gazelle Infantil Azul 2",
+    "images": [
+      "/sneakers_dataset/B37215_Tenis-adidas-Gazelle-Infantil-Azul-2.jpg",
+      "/sneakers_dataset/B37215_Tenis-adidas-Gazelle-Infantil-Azul-3.jpg",
+      "/sneakers_dataset/B37215_Tenis-adidas-Gazelle-Infantil-Azul-4.jpg",
+      "/sneakers_dataset/B37215_Tenis-adidas-Gazelle-Infantil-Azul-5.jpg",
+      "/sneakers_dataset/B37215_Tenis-adidas-Gazelle-Infantil-Azul.jpg"
+    ],
+    "price": 121
+  },
+  {
+    "styleCode": "B37216",
+    "brand": "Adidas",
+    "name": "Tenis adidas Gazelle CF Infantil Azul 2",
+    "images": [
+      "/sneakers_dataset/B37216_Tenis-adidas-Gazelle-CF-Infantil-Azul-2.jpg",
+      "/sneakers_dataset/B37216_Tenis-adidas-Gazelle-CF-Infantil-Azul-3.jpg",
+      "/sneakers_dataset/B37216_Tenis-adidas-Gazelle-CF-Infantil-Azul-4.jpg",
+      "/sneakers_dataset/B37216_Tenis-adidas-Gazelle-CF-Infantil-Azul-5.jpg",
+      "/sneakers_dataset/B37216_Tenis-adidas-Gazelle-CF-Infantil-Azul.jpg"
+    ],
+    "price": 127
+  },
+  {
+    "styleCode": "B37299",
+    "brand": "Adidas",
+    "name": "Tenis adidas Stan Smith New Bold Feminino Azul 2",
+    "images": [
+      "/sneakers_dataset/B37299_Tenis-adidas-Stan-Smith-New-Bold-Feminino-Azul-2.jpg",
+      "/sneakers_dataset/B37299_Tenis-adidas-Stan-Smith-New-Bold-Feminino-Azul-3.jpg",
+      "/sneakers_dataset/B37299_Tenis-adidas-Stan-Smith-New-Bold-Feminino-Azul-4.jpg",
+      "/sneakers_dataset/B37299_Tenis-adidas-Stan-Smith-New-Bold-Feminino-Azul-5.jpg",
+      "/sneakers_dataset/B37299_Tenis-adidas-Stan-Smith-New-Bold-Feminino-Azul.jpg"
+    ],
+    "price": 132
+  },
+  {
+    "styleCode": "B37301",
+    "brand": "Adidas",
+    "name": "Tenis adidas Stan Smith New Bold Feminino Roxo 2",
+    "images": [
+      "/sneakers_dataset/B37301_Tenis-adidas-Stan-Smith-New-Bold-Feminino-Roxo-2.jpg",
+      "/sneakers_dataset/B37301_Tenis-adidas-Stan-Smith-New-Bold-Feminino-Roxo-3.jpg",
+      "/sneakers_dataset/B37301_Tenis-adidas-Stan-Smith-New-Bold-Feminino-Roxo-4.jpg",
+      "/sneakers_dataset/B37301_Tenis-adidas-Stan-Smith-New-Bold-Feminino-Roxo-5.jpg",
+      "/sneakers_dataset/B37301_Tenis-adidas-Stan-Smith-New-Bold-Feminino-Roxo.jpg"
+    ],
+    "price": 142
+  },
+  {
+    "styleCode": "B37364",
+    "brand": "Adidas",
+    "name": "Tenis adidas Pod S3 1 Masculino Rosa 2",
+    "images": [
+      "/sneakers_dataset/B37364_Tenis-adidas-Pod-S3-1-Masculino-Rosa-2.jpg",
+      "/sneakers_dataset/B37364_Tenis-adidas-Pod-S3-1-Masculino-Rosa-3.jpg",
+      "/sneakers_dataset/B37364_Tenis-adidas-Pod-S3-1-Masculino-Rosa-4.jpg",
+      "/sneakers_dataset/B37364_Tenis-adidas-Pod-S3-1-Masculino-Rosa-5.jpg",
+      "/sneakers_dataset/B37364_Tenis-adidas-Pod-S3-1-Masculino-Rosa.jpg"
+    ],
+    "price": 149
+  },
+  {
+    "styleCode": "B37366",
+    "brand": "Adidas",
+    "name": "Tenis adidas Pod S3 1 Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37366_Tenis-adidas-Pod-S3-1-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B37366_Tenis-adidas-Pod-S3-1-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B37366_Tenis-adidas-Pod-S3-1-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B37366_Tenis-adidas-Pod-S3-1-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B37366_Tenis-adidas-Pod-S3-1-Masculino-Preto.jpg"
+    ],
+    "price": 156
+  },
+  {
+    "styleCode": "B37367",
+    "brand": "Adidas",
+    "name": "Tenis adidas POD S3 1 Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/B37367_Tenis-adidas-POD-S3-1-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/B37367_Tenis-adidas-POD-S3-1-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/B37367_Tenis-adidas-POD-S3-1-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/B37367_Tenis-adidas-POD-S3-1-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/B37367_Tenis-adidas-POD-S3-1-Masculino-Branco.jpg"
+    ],
+    "price": 163
+  },
+  {
+    "styleCode": "B37436",
+    "brand": "Adidas",
+    "name": "Tenis adidas EQT Support MID ADV Masculino Verde 2",
+    "images": [
+      "/sneakers_dataset/B37436_Tenis-adidas-EQT-Support-MID-ADV-Masculino-Verde-2.jpg",
+      "/sneakers_dataset/B37436_Tenis-adidas-EQT-Support-MID-ADV-Masculino-Verde-3.jpg",
+      "/sneakers_dataset/B37436_Tenis-adidas-EQT-Support-MID-ADV-Masculino-Verde-4.jpg",
+      "/sneakers_dataset/B37436_Tenis-adidas-EQT-Support-MID-ADV-Masculino-Verde-5.jpg",
+      "/sneakers_dataset/B37436_Tenis-adidas-EQT-Support-MID-ADV-Masculino-Verde.jpg"
+    ],
+    "price": 173
+  },
+  {
+    "styleCode": "B37437",
+    "brand": "Adidas",
+    "name": "Tenis adidas X PLR Masculino Azul 2",
+    "images": [
+      "/sneakers_dataset/B37437_Tenis-adidas-X-PLR-Masculino-Azul-2.jpg",
+      "/sneakers_dataset/B37437_Tenis-adidas-X-PLR-Masculino-Azul-3.jpg",
+      "/sneakers_dataset/B37437_Tenis-adidas-X-PLR-Masculino-Azul-4.jpg",
+      "/sneakers_dataset/B37437_Tenis-adidas-X-PLR-Masculino-Azul-5.jpg",
+      "/sneakers_dataset/B37437_Tenis-adidas-X-PLR-Masculino-Azul.jpg"
+    ],
+    "price": 180
+  },
+  {
+    "styleCode": "B37438",
+    "brand": "Adidas",
+    "name": "Tenis adidas X PLR Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37438_Tenis-adidas-X-PLR-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B37438_Tenis-adidas-X-PLR-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B37438_Tenis-adidas-X-PLR-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B37438_Tenis-adidas-X-PLR-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B37438_Tenis-adidas-X-PLR-Masculino-Preto.jpg"
+    ],
+    "price": 186
+  },
+  {
+    "styleCode": "B37453",
+    "brand": "Adidas",
+    "name": "Tenis adidas Prophere Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37453_Tenis-adidas-Prophere-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B37453_Tenis-adidas-Prophere-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B37453_Tenis-adidas-Prophere-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B37453_Tenis-adidas-Prophere-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B37453_Tenis-adidas-Prophere-Masculino-Preto.jpg"
+    ],
+    "price": 196
+  },
+  {
+    "styleCode": "B37454",
+    "brand": "Adidas",
+    "name": "Tenis adidas Prophere Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/B37454_Tenis-adidas-Prophere-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/B37454_Tenis-adidas-Prophere-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/B37454_Tenis-adidas-Prophere-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/B37454_Tenis-adidas-Prophere-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/B37454_Tenis-adidas-Prophere-Masculino-Branco.jpg"
+    ],
+    "price": 104
+  },
+  {
+    "styleCode": "B37456",
+    "brand": "Adidas",
+    "name": "Tenis adidas EQT Support Mid ADV Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37456_Tenis-adidas-EQT-Support-Mid-ADV-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B37456_Tenis-adidas-EQT-Support-Mid-ADV-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B37456_Tenis-adidas-EQT-Support-Mid-ADV-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B37456_Tenis-adidas-EQT-Support-Mid-ADV-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B37456_Tenis-adidas-EQT-Support-Mid-ADV-Masculino-Preto.jpg"
+    ],
+    "price": 110
+  },
+  {
+    "styleCode": "B37458",
+    "brand": "Adidas",
+    "name": "Tenis adidas Pod S3 1 Feminino Cinza 2",
+    "images": [
+      "/sneakers_dataset/B37458_Tenis-adidas-Pod-S3-1-Feminino-Cinza-2.jpg",
+      "/sneakers_dataset/B37458_Tenis-adidas-Pod-S3-1-Feminino-Cinza-3.jpg",
+      "/sneakers_dataset/B37458_Tenis-adidas-Pod-S3-1-Feminino-Cinza-4.jpg",
+      "/sneakers_dataset/B37458_Tenis-adidas-Pod-S3-1-Feminino-Cinza-5.jpg",
+      "/sneakers_dataset/B37458_Tenis-adidas-Pod-S3-1-Feminino-Cinza.jpg"
+    ],
+    "price": 119
+  },
+  {
+    "styleCode": "B37459",
+    "brand": "Adidas",
+    "name": "Tenis adidas POD S3 1 Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/B37459_Tenis-adidas-POD-S3-1-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/B37459_Tenis-adidas-POD-S3-1-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/B37459_Tenis-adidas-POD-S3-1-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/B37459_Tenis-adidas-POD-S3-1-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/B37459_Tenis-adidas-POD-S3-1-Feminino-Branco.jpg"
+    ],
+    "price": 125
+  },
+  {
+    "styleCode": "B37465",
+    "brand": "Adidas",
+    "name": "Tenis adidas POD S3 1 Feminino Verde 2",
+    "images": [
+      "/sneakers_dataset/B37465_Tenis-adidas-POD-S3-1-Feminino-Verde-2.jpg",
+      "/sneakers_dataset/B37465_Tenis-adidas-POD-S3-1-Feminino-Verde-3.jpg",
+      "/sneakers_dataset/B37465_Tenis-adidas-POD-S3-1-Feminino-Verde-4.jpg",
+      "/sneakers_dataset/B37465_Tenis-adidas-POD-S3-1-Feminino-Verde-5.jpg",
+      "/sneakers_dataset/B37465_Tenis-adidas-POD-S3-1-Feminino-Verde.jpg"
+    ],
+    "price": 132
+  },
+  {
+    "styleCode": "B37466",
+    "brand": "Adidas",
+    "name": "Tenis adidas Pod S3 1 Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37466_Tenis-adidas-Pod-S3-1-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/B37466_Tenis-adidas-Pod-S3-1-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/B37466_Tenis-adidas-Pod-S3-1-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/B37466_Tenis-adidas-Pod-S3-1-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/B37466_Tenis-adidas-Pod-S3-1-Feminino-Preto.jpg"
+    ],
+    "price": 142
+  },
+  {
+    "styleCode": "B37513",
+    "brand": "Adidas",
+    "name": "Tenis adidas EQT Support Mid ADV Masculino Verde 2",
+    "images": [
+      "/sneakers_dataset/B37513_Tenis-adidas-EQT-Support-Mid-ADV-Masculino-Verde-2.jpg",
+      "/sneakers_dataset/B37513_Tenis-adidas-EQT-Support-Mid-ADV-Masculino-Verde-3.jpg",
+      "/sneakers_dataset/B37513_Tenis-adidas-EQT-Support-Mid-ADV-Masculino-Verde-4.jpg",
+      "/sneakers_dataset/B37513_Tenis-adidas-EQT-Support-Mid-ADV-Masculino-Verde-5.jpg",
+      "/sneakers_dataset/B37513_Tenis-adidas-EQT-Support-Mid-ADV-Masculino-Verde.jpg"
+    ],
+    "price": 148
+  },
+  {
+    "styleCode": "B37550",
+    "brand": "Adidas",
+    "name": "Tenis adidas Crazy Byw LVL  I Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37550_Tenis-adidas-Crazy-Byw-LVL--I-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B37550_Tenis-adidas-Crazy-Byw-LVL--I-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B37550_Tenis-adidas-Crazy-Byw-LVL--I-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B37550_Tenis-adidas-Crazy-Byw-LVL--I-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B37550_Tenis-adidas-Crazy-Byw-LVL--I-Masculino-Preto.jpg"
+    ],
+    "price": 158
+  },
+  {
+    "styleCode": "B37633",
+    "brand": "Adidas",
+    "name": "Tenis adidas NMD TS1 Primeknit Masculino Verde 2",
+    "images": [
+      "/sneakers_dataset/B37633_Tenis-adidas-NMD-TS1-Primeknit-Masculino-Verde-2.jpg",
+      "/sneakers_dataset/B37633_Tenis-adidas-NMD-TS1-Primeknit-Masculino-Verde-3.jpg",
+      "/sneakers_dataset/B37633_Tenis-adidas-NMD-TS1-Primeknit-Masculino-Verde-4.jpg",
+      "/sneakers_dataset/B37633_Tenis-adidas-NMD-TS1-Primeknit-Masculino-Verde-5.jpg",
+      "/sneakers_dataset/B37633_Tenis-adidas-NMD-TS1-Primeknit-Masculino-Verde.jpg"
+    ],
+    "price": 166
+  },
+  {
+    "styleCode": "B37634",
+    "brand": "Adidas",
+    "name": "Tenis adidas NMD TS1 Primeknit Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37634_Tenis-adidas-NMD-TS1-Primeknit-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B37634_Tenis-adidas-NMD-TS1-Primeknit-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B37634_Tenis-adidas-NMD-TS1-Primeknit-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B37634_Tenis-adidas-NMD-TS1-Primeknit-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B37634_Tenis-adidas-NMD-TS1-Primeknit-Masculino-Preto.jpg"
+    ],
+    "price": 176
+  },
+  {
+    "styleCode": "B37641",
+    "brand": "Adidas",
+    "name": "Tenis adidas NMD Racer Primeknit Masculino Amarelo 2",
+    "images": [
+      "/sneakers_dataset/B37641_Tenis-adidas-NMD-Racer-Primeknit-Masculino-Amarelo-2.jpg",
+      "/sneakers_dataset/B37641_Tenis-adidas-NMD-Racer-Primeknit-Masculino-Amarelo-3.jpg",
+      "/sneakers_dataset/B37641_Tenis-adidas-NMD-Racer-Primeknit-Masculino-Amarelo-4.jpg",
+      "/sneakers_dataset/B37641_Tenis-adidas-NMD-Racer-Primeknit-Masculino-Amarelo-5.jpg",
+      "/sneakers_dataset/B37641_Tenis-adidas-NMD-Racer-Primeknit-Masculino-Amarelo.jpg"
+    ],
+    "price": 186
+  },
+  {
+    "styleCode": "B37657",
+    "brand": "Adidas",
+    "name": "Tenis adidas NMD CS1 Primeknit Feminino Azul 2",
+    "images": [
+      "/sneakers_dataset/B37657_Tenis-adidas-NMD-CS1-Primeknit-Feminino-Azul-2.jpg",
+      "/sneakers_dataset/B37657_Tenis-adidas-NMD-CS1-Primeknit-Feminino-Azul-3.jpg",
+      "/sneakers_dataset/B37657_Tenis-adidas-NMD-CS1-Primeknit-Feminino-Azul-4.jpg",
+      "/sneakers_dataset/B37657_Tenis-adidas-NMD-CS1-Primeknit-Feminino-Azul-5.jpg",
+      "/sneakers_dataset/B37657_Tenis-adidas-NMD-CS1-Primeknit-Feminino-Azul.jpg"
+    ],
+    "price": 196
+  },
+  {
+    "styleCode": "B37658",
+    "brand": "Adidas",
+    "name": "Tenis adidas NMD CS1 Primeknit Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/B37658_Tenis-adidas-NMD-CS1-Primeknit-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/B37658_Tenis-adidas-NMD-CS1-Primeknit-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/B37658_Tenis-adidas-NMD-CS1-Primeknit-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/B37658_Tenis-adidas-NMD-CS1-Primeknit-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/B37658_Tenis-adidas-NMD-CS1-Primeknit-Feminino-Rosa.jpg"
+    ],
+    "price": 102
+  },
+  {
+    "styleCode": "B37659",
+    "brand": "Adidas",
+    "name": "Tenis adidas Prophere Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/B37659_Tenis-adidas-Prophere-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/B37659_Tenis-adidas-Prophere-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/B37659_Tenis-adidas-Prophere-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/B37659_Tenis-adidas-Prophere-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/B37659_Tenis-adidas-Prophere-Feminino-Branco.jpg"
+    ],
+    "price": 108
+  },
+  {
+    "styleCode": "B37660",
+    "brand": "Adidas",
+    "name": "Tenis adidas Prophere Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37660_Tenis-adidas-Prophere-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/B37660_Tenis-adidas-Prophere-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/B37660_Tenis-adidas-Prophere-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/B37660_Tenis-adidas-Prophere-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/B37660_Tenis-adidas-Prophere-Feminino-Preto.jpg"
+    ],
+    "price": 118
+  },
+  {
+    "styleCode": "B37692",
+    "brand": "Adidas",
+    "name": "Tenis adidas Ultraboost Uncaged Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37692_Tenis-adidas-Ultraboost-Uncaged-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B37692_Tenis-adidas-Ultraboost-Uncaged-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B37692_Tenis-adidas-Ultraboost-Uncaged-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B37692_Tenis-adidas-Ultraboost-Uncaged-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B37692_Tenis-adidas-Ultraboost-Uncaged-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/B37692_Tenis-adidas-Ultraboost-Uncaged-Masculino-Preto.jpg"
+    ],
+    "price": 124
+  },
+  {
+    "styleCode": "B37717",
+    "brand": "Adidas",
+    "name": "Tenis adidas Swift Run Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37717_Tenis-adidas-Swift-Run-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/B37717_Tenis-adidas-Swift-Run-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/B37717_Tenis-adidas-Swift-Run-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/B37717_Tenis-adidas-Swift-Run-Feminino-Preto.jpg",
+      "/sneakers_dataset/B37717_Tenis-adidas-Swift-Run-Feminino-Preto3.jpg"
+    ],
+    "price": 133
+  },
+  {
+    "styleCode": "B37726",
+    "brand": "Adidas",
+    "name": "Tenis adidas Swift Run Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B37726_Tenis-adidas-Swift-Run-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B37726_Tenis-adidas-Swift-Run-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B37726_Tenis-adidas-Swift-Run-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B37726_Tenis-adidas-Swift-Run-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B37726_Tenis-adidas-Swift-Run-Masculino-Preto.jpg"
+    ],
+    "price": 140
+  },
+  {
+    "styleCode": "B37878",
+    "brand": "Adidas",
+    "name": "Tenis adidas Deerupt Runner Feminino Azul 2",
+    "images": [
+      "/sneakers_dataset/B37878_Tenis-adidas-Deerupt-Runner-Feminino-Azul-2.jpg",
+      "/sneakers_dataset/B37878_Tenis-adidas-Deerupt-Runner-Feminino-Azul-3.jpg",
+      "/sneakers_dataset/B37878_Tenis-adidas-Deerupt-Runner-Feminino-Azul-4.jpg",
+      "/sneakers_dataset/B37878_Tenis-adidas-Deerupt-Runner-Feminino-Azul-5.jpg",
+      "/sneakers_dataset/B37878_Tenis-adidas-Deerupt-Runner-Feminino-Azul.jpg"
+    ],
+    "price": 146
+  },
+  {
+    "styleCode": "B37912",
+    "brand": "Adidas",
+    "name": "Tenis adidas Stan Smith Masculino Azul 2",
+    "images": [
+      "/sneakers_dataset/B37912_Tenis-adidas-Stan-Smith-Masculino-Azul-2.jpg",
+      "/sneakers_dataset/B37912_Tenis-adidas-Stan-Smith-Masculino-Azul-3.jpg",
+      "/sneakers_dataset/B37912_Tenis-adidas-Stan-Smith-Masculino-Azul-4.jpg",
+      "/sneakers_dataset/B37912_Tenis-adidas-Stan-Smith-Masculino-Azul-5.jpg",
+      "/sneakers_dataset/B37912_Tenis-adidas-Stan-Smith-Masculino-Azul.jpg"
+    ],
+    "price": 153
+  },
+  {
+    "styleCode": "B37924",
+    "brand": "Adidas",
+    "name": "Tenis adidas I 5923 Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/B37924_Tenis-adidas-I-5923-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/B37924_Tenis-adidas-I-5923-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/B37924_Tenis-adidas-I-5923-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/B37924_Tenis-adidas-I-5923-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/B37924_Tenis-adidas-I-5923-Masculino-Cinza.jpg"
+    ],
+    "price": 158
+  },
+  {
+    "styleCode": "B37930",
+    "brand": "Adidas",
+    "name": "Tenis adidas X PLR Masculino Bege 2",
+    "images": [
+      "/sneakers_dataset/B37930_Tenis-adidas-X-PLR-Masculino-Bege-2.jpg",
+      "/sneakers_dataset/B37930_Tenis-adidas-X-PLR-Masculino-Bege-3.jpg",
+      "/sneakers_dataset/B37930_Tenis-adidas-X-PLR-Masculino-Bege-4.jpg",
+      "/sneakers_dataset/B37930_Tenis-adidas-X-PLR-Masculino-Bege-5.jpg",
+      "/sneakers_dataset/B37930_Tenis-adidas-X-PLR-Masculino-Bege.jpg"
+    ],
+    "price": 168
+  },
+  {
+    "styleCode": "B37932",
+    "brand": "Adidas",
+    "name": "Tenis adidas X PLR Masculino Verde 2",
+    "images": [
+      "/sneakers_dataset/B37932_Tenis-adidas-X-PLR-Masculino-Verde-2.jpg",
+      "/sneakers_dataset/B37932_Tenis-adidas-X-PLR-Masculino-Verde-3.jpg",
+      "/sneakers_dataset/B37932_Tenis-adidas-X-PLR-Masculino-Verde-4.jpg",
+      "/sneakers_dataset/B37932_Tenis-adidas-X-PLR-Masculino-Verde-5.jpg",
+      "/sneakers_dataset/B37932_Tenis-adidas-X-PLR-Masculino-Verde.jpg"
+    ],
+    "price": 173
+  },
+  {
+    "styleCode": "B37938",
+    "brand": "Adidas",
+    "name": "Tenis adidas Campus Feminino Laranja 2",
+    "images": [
+      "/sneakers_dataset/B37938_Tenis-adidas-Campus-Feminino-Laranja-2.jpg",
+      "/sneakers_dataset/B37938_Tenis-adidas-Campus-Feminino-Laranja-3.jpg",
+      "/sneakers_dataset/B37938_Tenis-adidas-Campus-Feminino-Laranja-4.jpg",
+      "/sneakers_dataset/B37938_Tenis-adidas-Campus-Feminino-Laranja-5.jpg",
+      "/sneakers_dataset/B37938_Tenis-adidas-Campus-Feminino-Laranja.jpg"
+    ],
+    "price": 183
+  },
+  {
+    "styleCode": "B37947",
+    "brand": "Adidas",
+    "name": "Tenis adidas I 5923 Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/B37947_Tenis-adidas-I-5923-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/B37947_Tenis-adidas-I-5923-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/B37947_Tenis-adidas-I-5923-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/B37947_Tenis-adidas-I-5923-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/B37947_Tenis-adidas-I-5923-Masculino-Cinza.jpg"
+    ],
+    "price": 191
+  },
+  {
+    "styleCode": "B37992",
+    "brand": "Adidas",
+    "name": "Tenis adidas Forest Grove Feminino Azul 2",
+    "images": [
+      "/sneakers_dataset/B37992_Tenis-adidas-Forest-Grove-Feminino-Azul-2.jpg",
+      "/sneakers_dataset/B37992_Tenis-adidas-Forest-Grove-Feminino-Azul-3.jpg",
+      "/sneakers_dataset/B37992_Tenis-adidas-Forest-Grove-Feminino-Azul-4.jpg",
+      "/sneakers_dataset/B37992_Tenis-adidas-Forest-Grove-Feminino-Azul-5.jpg",
+      "/sneakers_dataset/B37992_Tenis-adidas-Forest-Grove-Feminino-Azul.jpg"
+    ],
+    "price": 103
+  },
+  {
+    "styleCode": "B37993",
+    "brand": "Adidas",
+    "name": "Tenis adidas Forest Grove Feminino Verde 2",
+    "images": [
+      "/sneakers_dataset/B37993_Tenis-adidas-Forest-Grove-Feminino-Verde-2.jpg",
+      "/sneakers_dataset/B37993_Tenis-adidas-Forest-Grove-Feminino-Verde-3.jpg",
+      "/sneakers_dataset/B37993_Tenis-adidas-Forest-Grove-Feminino-Verde-4.jpg",
+      "/sneakers_dataset/B37993_Tenis-adidas-Forest-Grove-Feminino-Verde-5.jpg",
+      "/sneakers_dataset/B37993_Tenis-adidas-Forest-Grove-Feminino-Verde.jpg"
+    ],
+    "price": 112
+  },
+  {
+    "styleCode": "B41520",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar 80S Feminino Azul 2",
+    "images": [
+      "/sneakers_dataset/B41520_Tenis-adidas-Superstar-80S-Feminino-Azul-2.jpg",
+      "/sneakers_dataset/B41520_Tenis-adidas-Superstar-80S-Feminino-Azul-3.jpg",
+      "/sneakers_dataset/B41520_Tenis-adidas-Superstar-80S-Feminino-Azul-4.jpg",
+      "/sneakers_dataset/B41520_Tenis-adidas-Superstar-80S-Feminino-Azul-5.jpg",
+      "/sneakers_dataset/B41520_Tenis-adidas-Superstar-80S-Feminino-Azul.jpg"
+    ],
+    "price": 118
+  },
+  {
+    "styleCode": "B41529",
+    "brand": "Adidas",
+    "name": "Tenis adidas Forest Grove Masculino Azul 2",
+    "images": [
+      "/sneakers_dataset/B41529_Tenis-adidas-Forest-Grove-Masculino-Azul-2.jpg",
+      "/sneakers_dataset/B41529_Tenis-adidas-Forest-Grove-Masculino-Azul-3.jpg",
+      "/sneakers_dataset/B41529_Tenis-adidas-Forest-Grove-Masculino-Azul-4.jpg",
+      "/sneakers_dataset/B41529_Tenis-adidas-Forest-Grove-Masculino-Azul-5.jpg",
+      "/sneakers_dataset/B41529_Tenis-adidas-Forest-Grove-Masculino-Azul.jpg"
+    ],
+    "price": 128
+  },
+  {
+    "styleCode": "B41546",
+    "brand": "Adidas",
+    "name": "Tenis adidas Forest Grove Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/B41546_Tenis-adidas-Forest-Grove-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/B41546_Tenis-adidas-Forest-Grove-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/B41546_Tenis-adidas-Forest-Grove-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/B41546_Tenis-adidas-Forest-Grove-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/B41546_Tenis-adidas-Forest-Grove-Masculino-Branco.jpg"
+    ],
+    "price": 138
+  },
+  {
+    "styleCode": "B41547",
+    "brand": "Adidas",
+    "name": "Tenis adidas Forest Grove Masculino Vermelho 2",
+    "images": [
+      "/sneakers_dataset/B41547_Tenis-adidas-Forest-Grove-Masculino-Vermelho-2.jpg",
+      "/sneakers_dataset/B41547_Tenis-adidas-Forest-Grove-Masculino-Vermelho-3.jpg",
+      "/sneakers_dataset/B41547_Tenis-adidas-Forest-Grove-Masculino-Vermelho-4.jpg",
+      "/sneakers_dataset/B41547_Tenis-adidas-Forest-Grove-Masculino-Vermelho-5.jpg",
+      "/sneakers_dataset/B41547_Tenis-adidas-Forest-Grove-Masculino-Vermelho.jpg"
+    ],
+    "price": 146
+  },
+  {
+    "styleCode": "B41662",
+    "brand": "Adidas",
+    "name": "Tenis adidas Gazelle Feminino Preto 2",
+    "images": [
+      "/sneakers_dataset/B41662_Tenis-adidas-Gazelle-Feminino-Preto-2.jpg",
+      "/sneakers_dataset/B41662_Tenis-adidas-Gazelle-Feminino-Preto-3.jpg",
+      "/sneakers_dataset/B41662_Tenis-adidas-Gazelle-Feminino-Preto-4.jpg",
+      "/sneakers_dataset/B41662_Tenis-adidas-Gazelle-Feminino-Preto-5.jpg",
+      "/sneakers_dataset/B41662_Tenis-adidas-Gazelle-Feminino-Preto.jpg"
+    ],
+    "price": 152
+  },
+  {
+    "styleCode": "B41663",
+    "brand": "Adidas",
+    "name": "Tenis adidas Gazelle Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/B41663_Tenis-adidas-Gazelle-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/B41663_Tenis-adidas-Gazelle-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/B41663_Tenis-adidas-Gazelle-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/B41663_Tenis-adidas-Gazelle-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/B41663_Tenis-adidas-Gazelle-Feminino-Rosa.jpg"
+    ],
+    "price": 157
+  },
+  {
+    "styleCode": "B41758",
+    "brand": "Adidas",
+    "name": "Tenis adidas Deerupt Runner Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B41758_Tenis-adidas-Deerupt-Runner-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B41758_Tenis-adidas-Deerupt-Runner-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B41758_Tenis-adidas-Deerupt-Runner-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B41758_Tenis-adidas-Deerupt-Runner-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B41758_Tenis-adidas-Deerupt-Runner-Masculino-Preto.jpg"
+    ],
+    "price": 162
+  },
+  {
+    "styleCode": "B41763",
+    "brand": "Adidas",
+    "name": "Tenis adidas Deerupt Runner Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B41763_Tenis-adidas-Deerupt-Runner-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B41763_Tenis-adidas-Deerupt-Runner-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B41763_Tenis-adidas-Deerupt-Runner-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B41763_Tenis-adidas-Deerupt-Runner-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B41763_Tenis-adidas-Deerupt-Runner-Masculino-Preto.jpg"
+    ],
+    "price": 169
+  },
+  {
+    "styleCode": "B41769",
+    "brand": "Adidas",
+    "name": "Tenis adidas Deerupt Runner Masculino Vermelho 2",
+    "images": [
+      "/sneakers_dataset/B41769_Tenis-adidas-Deerupt-Runner-Masculino-Vermelho-2.jpg",
+      "/sneakers_dataset/B41769_Tenis-adidas-Deerupt-Runner-Masculino-Vermelho-3.jpg",
+      "/sneakers_dataset/B41769_Tenis-adidas-Deerupt-Runner-Masculino-Vermelho-4.jpg",
+      "/sneakers_dataset/B41769_Tenis-adidas-Deerupt-Runner-Masculino-Vermelho-5.jpg",
+      "/sneakers_dataset/B41769_Tenis-adidas-Deerupt-Runner-Masculino-Vermelho.jpg"
+    ],
+    "price": 178
+  },
+  {
+    "styleCode": "B41771",
+    "brand": "Adidas",
+    "name": "Tenis adidas Deerupt Runner Masculino Verde 2",
+    "images": [
+      "/sneakers_dataset/B41771_Tenis-adidas-Deerupt-Runner-Masculino-Verde-2.jpg",
+      "/sneakers_dataset/B41771_Tenis-adidas-Deerupt-Runner-Masculino-Verde-3.jpg",
+      "/sneakers_dataset/B41771_Tenis-adidas-Deerupt-Runner-Masculino-Verde-4.jpg",
+      "/sneakers_dataset/B41771_Tenis-adidas-Deerupt-Runner-Masculino-Verde-5.jpg",
+      "/sneakers_dataset/B41771_Tenis-adidas-Deerupt-Runner-Masculino-Verde.jpg"
+    ],
+    "price": 185
+  },
+  {
+    "styleCode": "B41798",
+    "brand": "Adidas",
+    "name": "Tenis adidas Swift Run Preto 2",
+    "images": [
+      "/sneakers_dataset/B41798_Tenis-adidas-Swift-Run-Preto-2.jpg",
+      "/sneakers_dataset/B41798_Tenis-adidas-Swift-Run-Preto-3.jpg",
+      "/sneakers_dataset/B41798_Tenis-adidas-Swift-Run-Preto-4.jpg",
+      "/sneakers_dataset/B41798_Tenis-adidas-Swift-Run-Preto-5.jpg",
+      "/sneakers_dataset/B41798_Tenis-adidas-Swift-Run-Preto.jpg"
+    ],
+    "price": 194
+  },
+  {
+    "styleCode": "B41854",
+    "brand": "Adidas",
+    "name": "Tenis adidas Deerupt Runner Feminino Roxo 2",
+    "images": [
+      "/sneakers_dataset/B41854_Tenis-adidas-Deerupt-Runner-Feminino-Roxo-2.jpg",
+      "/sneakers_dataset/B41854_Tenis-adidas-Deerupt-Runner-Feminino-Roxo-3.jpg",
+      "/sneakers_dataset/B41854_Tenis-adidas-Deerupt-Runner-Feminino-Roxo-4.jpg",
+      "/sneakers_dataset/B41854_Tenis-adidas-Deerupt-Runner-Feminino-Roxo-5.jpg",
+      "/sneakers_dataset/B41854_Tenis-adidas-Deerupt-Runner-Feminino-Roxo-6.jpg",
+      "/sneakers_dataset/B41854_Tenis-adidas-Deerupt-Runner-Feminino-Roxo.jpg"
+    ],
+    "price": 101
+  },
+  {
+    "styleCode": "B41928",
+    "brand": "Adidas",
+    "name": "Tenis adidas PW Tennis Hu Azul 2",
+    "images": [
+      "/sneakers_dataset/B41928_Tenis-adidas-PW-Tennis-Hu-Azul-2.jpg",
+      "/sneakers_dataset/B41928_Tenis-adidas-PW-Tennis-Hu-Azul-3.jpg",
+      "/sneakers_dataset/B41928_Tenis-adidas-PW-Tennis-Hu-Azul-4.jpg",
+      "/sneakers_dataset/B41928_Tenis-adidas-PW-Tennis-Hu-Azul-5.jpg",
+      "/sneakers_dataset/B41928_Tenis-adidas-PW-Tennis-Hu-Azul.jpg"
+    ],
+    "price": 111
+  },
+  {
+    "styleCode": "B42204",
+    "brand": "Adidas",
+    "name": "Tenis adidas ZX 500 RM Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/B42204_Tenis-adidas-ZX-500-RM-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/B42204_Tenis-adidas-ZX-500-RM-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/B42204_Tenis-adidas-ZX-500-RM-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/B42204_Tenis-adidas-ZX-500-RM-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/B42204_Tenis-adidas-ZX-500-RM-Masculino-Cinza.jpg"
+    ],
+    "price": 119
+  },
+  {
+    "styleCode": "B42217",
+    "brand": "Adidas",
+    "name": "Tenis adidas ZX 500 RM Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/B42217_Tenis-adidas-ZX-500-RM-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/B42217_Tenis-adidas-ZX-500-RM-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/B42217_Tenis-adidas-ZX-500-RM-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/B42217_Tenis-adidas-ZX-500-RM-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/B42217_Tenis-adidas-ZX-500-RM-Masculino-Cinza.jpg"
+    ],
+    "price": 127
+  },
+  {
+    "styleCode": "B44861",
+    "brand": "Adidas",
+    "name": "Tenis adidas CF Element Race Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/B44861_Tenis-adidas-CF-Element-Race-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/B44861_Tenis-adidas-CF-Element-Race-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/B44861_Tenis-adidas-CF-Element-Race-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/B44861_Tenis-adidas-CF-Element-Race-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/B44861_Tenis-adidas-CF-Element-Race-Masculino-Cinza-6.jpg",
+      "/sneakers_dataset/B44861_Tenis-adidas-CF-Element-Race-Masculino-Cinza.jpg"
+    ],
+    "price": 132
+  },
+  {
+    "styleCode": "B75615",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar 360 TD Infantil Preto 2",
+    "images": [
+      "/sneakers_dataset/B75615_Tenis-adidas-Superstar-360-TD-Infantil-Preto-2.jpg",
+      "/sneakers_dataset/B75615_Tenis-adidas-Superstar-360-TD-Infantil-Preto-3.jpg",
+      "/sneakers_dataset/B75615_Tenis-adidas-Superstar-360-TD-Infantil-Preto-4.jpg",
+      "/sneakers_dataset/B75615_Tenis-adidas-Superstar-360-TD-Infantil-Preto-5.jpg",
+      "/sneakers_dataset/B75615_Tenis-adidas-Superstar-360-TD-Infantil-Preto.jpg"
+    ],
+    "price": 137
+  },
+  {
+    "styleCode": "B75673",
+    "brand": "Adidas",
+    "name": "Tenis adidas Pureboost Dpr Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/B75673_Tenis-adidas-Pureboost-Dpr-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/B75673_Tenis-adidas-Pureboost-Dpr-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/B75673_Tenis-adidas-Pureboost-Dpr-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/B75673_Tenis-adidas-Pureboost-Dpr-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/B75673_Tenis-adidas-Pureboost-Dpr-Feminino-Rosa.jpg"
+    ],
+    "price": 145
+  },
+  {
+    "styleCode": "B75824",
+    "brand": "Adidas",
+    "name": "Tenis adidas Pureboost Go Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/B75824_Tenis-adidas-Pureboost-Go-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/B75824_Tenis-adidas-Pureboost-Go-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/B75824_Tenis-adidas-Pureboost-Go-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/B75824_Tenis-adidas-Pureboost-Go-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/B75824_Tenis-adidas-Pureboost-Go-Feminino-Rosa-6.jpg",
+      "/sneakers_dataset/B75824_Tenis-adidas-Pureboost-Go-Feminino-Rosa.jpg"
+    ],
+    "price": 151
+  },
+  {
+    "styleCode": "B75829",
+    "brand": "Adidas",
+    "name": "Tenis adidas Pureboost Go Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/B75829_Tenis-adidas-Pureboost-Go-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/B75829_Tenis-adidas-Pureboost-Go-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/B75829_Tenis-adidas-Pureboost-Go-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/B75829_Tenis-adidas-Pureboost-Go-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/B75829_Tenis-adidas-Pureboost-Go-Feminino-Rosa-6.jpg",
+      "/sneakers_dataset/B75829_Tenis-adidas-Pureboost-Go-Feminino-Rosa.jpg"
+    ],
+    "price": 160
+  },
+  {
+    "styleCode": "B75861",
+    "brand": "Adidas",
+    "name": "Tenis adidas Ultraboost Uncaged Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/B75861_Tenis-adidas-Ultraboost-Uncaged-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/B75861_Tenis-adidas-Ultraboost-Uncaged-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/B75861_Tenis-adidas-Ultraboost-Uncaged-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/B75861_Tenis-adidas-Ultraboost-Uncaged-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/B75861_Tenis-adidas-Ultraboost-Uncaged-Feminino-Rosa-6.jpg",
+      "/sneakers_dataset/B75861_Tenis-adidas-Ultraboost-Uncaged-Feminino-Rosa.jpg"
+    ],
+    "price": 170
+  },
+  {
+    "styleCode": "B96509",
+    "brand": "Adidas",
+    "name": "Tenis adidas Arkyn PK Feminino Branco 2",
+    "images": [
+      "/sneakers_dataset/B96509_Tenis-adidas-Arkyn-PK-Feminino-Branco-2.jpg",
+      "/sneakers_dataset/B96509_Tenis-adidas-Arkyn-PK-Feminino-Branco-3.jpg",
+      "/sneakers_dataset/B96509_Tenis-adidas-Arkyn-PK-Feminino-Branco-4.jpg",
+      "/sneakers_dataset/B96509_Tenis-adidas-Arkyn-PK-Feminino-Branco-5.jpg",
+      "/sneakers_dataset/B96509_Tenis-adidas-Arkyn-PK-Feminino-Branco.jpg"
+    ],
+    "price": 178
+  },
+  {
+    "styleCode": "B96578",
+    "brand": "Adidas",
+    "name": "Tenis adidas Duramo 9 Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/B96578_Tenis-adidas-Duramo-9-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/B96578_Tenis-adidas-Duramo-9-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/B96578_Tenis-adidas-Duramo-9-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/B96578_Tenis-adidas-Duramo-9-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/B96578_Tenis-adidas-Duramo-9-Masculino-Preto.jpg"
+    ],
+    "price": 188
+  },
+  {
+    "styleCode": "BA7261",
+    "brand": "Adidas",
+    "name": "Tenis adidas NMD R2 Feminino Verde 2",
+    "images": [
+      "/sneakers_dataset/BA7261_Tenis-adidas-NMD-R2-Feminino-Verde-2.jpg",
+      "/sneakers_dataset/BA7261_Tenis-adidas-NMD-R2-Feminino-Verde-3.jpg",
+      "/sneakers_dataset/BA7261_Tenis-adidas-NMD-R2-Feminino-Verde-4.jpg",
+      "/sneakers_dataset/BA7261_Tenis-adidas-NMD-R2-Feminino-Verde-5.jpg",
+      "/sneakers_dataset/BA7261_Tenis-adidas-NMD-R2-Feminino-Verde.jpg"
+    ],
+    "price": 195
+  },
+  {
+    "styleCode": "BA8378",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar Foundation el Infantil 2",
+    "images": [
+      "/sneakers_dataset/BA8378_Tenis-adidas-Superstar-Foundation-el-Infantil-2.jpg",
+      "/sneakers_dataset/BA8378_Tenis-adidas-Superstar-Foundation-el-Infantil-3.jpg",
+      "/sneakers_dataset/BA8378_Tenis-adidas-Superstar-Foundation-el-Infantil-4.jpg",
+      "/sneakers_dataset/BA8378_Tenis-adidas-Superstar-Foundation-el-Infantil-5.jpg",
+      "/sneakers_dataset/BA8378_Tenis-adidas-Superstar-Foundation-el-Infantil.jpg"
+    ],
+    "price": 103
+  },
+  {
+    "styleCode": "BA8379",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar Foundation PS Infantil Preto 2",
+    "images": [
+      "/sneakers_dataset/BA8379_Tenis-adidas-Superstar-Foundation-PS-Infantil-Preto-2.jpg",
+      "/sneakers_dataset/BA8379_Tenis-adidas-Superstar-Foundation-PS-Infantil-Preto-3.jpg",
+      "/sneakers_dataset/BA8379_Tenis-adidas-Superstar-Foundation-PS-Infantil-Preto-4.jpg",
+      "/sneakers_dataset/BA8379_Tenis-adidas-Superstar-Foundation-PS-Infantil-Preto-5.jpg",
+      "/sneakers_dataset/BA8379_Tenis-adidas-Superstar-Foundation-PS-Infantil-Preto.jpg"
+    ],
+    "price": 113
+  },
+  {
+    "styleCode": "BA8382",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar Foundation PS Infantil 2",
+    "images": [
+      "/sneakers_dataset/BA8382_Tenis-adidas-Superstar-Foundation-PS-Infantil-2.jpg",
+      "/sneakers_dataset/BA8382_Tenis-adidas-Superstar-Foundation-PS-Infantil-3.jpg",
+      "/sneakers_dataset/BA8382_Tenis-adidas-Superstar-Foundation-PS-Infantil-4.jpg",
+      "/sneakers_dataset/BA8382_Tenis-adidas-Superstar-Foundation-PS-Infantil-5.jpg",
+      "/sneakers_dataset/BA8382_Tenis-adidas-Superstar-Foundation-PS-Infantil.jpg"
+    ],
+    "price": 122
+  },
+  {
+    "styleCode": "BB0531",
+    "brand": "Adidas",
+    "name": "Tenis adidas Superstar Feminino 2",
+    "images": [
+      "/sneakers_dataset/BB0531_Tenis-adidas-Superstar-Feminino-2.jpg",
+      "/sneakers_dataset/BB0531_Tenis-adidas-Superstar-Feminino-3.jpg",
+      "/sneakers_dataset/BB0531_Tenis-adidas-Superstar-Feminino-4.jpg",
+      "/sneakers_dataset/BB0531_Tenis-adidas-Superstar-Feminino-5.jpg",
+      "/sneakers_dataset/BB0531_Tenis-adidas-Superstar-Feminino.jpg"
+    ],
+    "price": 128
+  },
+  {
+    "styleCode": "BB1100",
+    "brand": "Adidas",
+    "name": "Tenis adidas X PLR Masculino 2",
+    "images": [
+      "/sneakers_dataset/BB1100_Tenis-adidas-X-PLR-Masculino-2.jpg",
+      "/sneakers_dataset/BB1100_Tenis-adidas-X-PLR-Masculino-3.jpg",
+      "/sneakers_dataset/BB1100_Tenis-adidas-X-PLR-Masculino-4.jpg",
+      "/sneakers_dataset/BB1100_Tenis-adidas-X-PLR-Masculino-5.jpg",
+      "/sneakers_dataset/BB1100_Tenis-adidas-X-PLR-Masculino.jpg"
+    ],
+    "price": 135
+  },
+  {
+    "styleCode": "BB1109",
+    "brand": "Adidas",
+    "name": "Tenis adidas X PLR Masculino 2",
+    "images": [
+      "/sneakers_dataset/BB1109_Tenis-adidas-X-PLR-Masculino-2.jpg",
+      "/sneakers_dataset/BB1109_Tenis-adidas-X-PLR-Masculino-3.jpg",
+      "/sneakers_dataset/BB1109_Tenis-adidas-X-PLR-Masculino-4.jpg",
+      "/sneakers_dataset/BB1109_Tenis-adidas-X-PLR-Masculino-5.jpg",
+      "/sneakers_dataset/BB1109_Tenis-adidas-X-PLR-Masculino.jpg"
+    ],
+    "price": 142
+  },
+  {
+    "styleCode": "BB6309",
+    "brand": "Adidas",
+    "name": "Tenis adidas Ultraboost Feminino Laranja 2",
+    "images": [
+      "/sneakers_dataset/BB6309_Tenis-adidas-Ultraboost-Feminino-Laranja-2.jpg",
+      "/sneakers_dataset/BB6309_Tenis-adidas-Ultraboost-Feminino-Laranja-3.jpg",
+      "/sneakers_dataset/BB6309_Tenis-adidas-Ultraboost-Feminino-Laranja-4.jpg",
+      "/sneakers_dataset/BB6309_Tenis-adidas-Ultraboost-Feminino-Laranja-5.jpg",
+      "/sneakers_dataset/BB6309_Tenis-adidas-Ultraboost-Feminino-Laranja.jpg"
+    ],
+    "price": 151
+  },
+  {
+    "styleCode": "BB6917",
+    "brand": "Adidas",
+    "name": "Tenis adidas Duramo 9 Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/BB6917_Tenis-adidas-Duramo-9-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/BB6917_Tenis-adidas-Duramo-9-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/BB6917_Tenis-adidas-Duramo-9-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/BB6917_Tenis-adidas-Duramo-9-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/BB6917_Tenis-adidas-Duramo-9-Masculino-Cinza.jpg"
+    ],
+    "price": 157
+  },
+  {
+    "styleCode": "BB6918",
+    "brand": "Adidas",
+    "name": "Tenis adidas Duramo 9 Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/BB6918_Tenis-adidas-Duramo-9-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/BB6918_Tenis-adidas-Duramo-9-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/BB6918_Tenis-adidas-Duramo-9-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/BB6918_Tenis-adidas-Duramo-9-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/BB6918_Tenis-adidas-Duramo-9-Masculino-Cinza.jpg"
+    ],
+    "price": 165
+  },
+  {
+    "styleCode": "BB6932",
+    "brand": "Adidas",
+    "name": "Tenis adidas Duramo 9 Feminino Vinho 2",
+    "images": [
+      "/sneakers_dataset/BB6932_Tenis-adidas-Duramo-9-Feminino-Vinho-2.jpg",
+      "/sneakers_dataset/BB6932_Tenis-adidas-Duramo-9-Feminino-Vinho-3.jpg",
+      "/sneakers_dataset/BB6932_Tenis-adidas-Duramo-9-Feminino-Vinho-4.jpg",
+      "/sneakers_dataset/BB6932_Tenis-adidas-Duramo-9-Feminino-Vinho-5.jpg",
+      "/sneakers_dataset/BB6932_Tenis-adidas-Duramo-9-Feminino-Vinho.jpg"
+    ],
+    "price": 174
+  },
+  {
+    "styleCode": "BB7005",
+    "brand": "Adidas",
+    "name": "Tenis adidas Duramo 9 Feminino Azul 2",
+    "images": [
+      "/sneakers_dataset/BB7005_Tenis-adidas-Duramo-9-Feminino-Azul-2.jpg",
+      "/sneakers_dataset/BB7005_Tenis-adidas-Duramo-9-Feminino-Azul-3.jpg",
+      "/sneakers_dataset/BB7005_Tenis-adidas-Duramo-9-Feminino-Azul-4.jpg",
+      "/sneakers_dataset/BB7005_Tenis-adidas-Duramo-9-Feminino-Azul-5.jpg",
+      "/sneakers_dataset/BB7005_Tenis-adidas-Duramo-9-Feminino-Azul-6.jpg",
+      "/sneakers_dataset/BB7005_Tenis-adidas-Duramo-9-Feminino-Azul.jpg"
+    ],
+    "price": 184
+  },
+  {
+    "styleCode": "BB7063",
+    "brand": "Adidas",
+    "name": "Tenis adidas Duramo 9 Infantil Cinza 2",
+    "images": [
+      "/sneakers_dataset/BB7063_Tenis-adidas-Duramo-9-Infantil-Cinza-2.jpg",
+      "/sneakers_dataset/BB7063_Tenis-adidas-Duramo-9-Infantil-Cinza-3.jpg",
+      "/sneakers_dataset/BB7063_Tenis-adidas-Duramo-9-Infantil-Cinza-4.jpg",
+      "/sneakers_dataset/BB7063_Tenis-adidas-Duramo-9-Infantil-Cinza-5.jpg",
+      "/sneakers_dataset/BB7063_Tenis-adidas-Duramo-9-Infantil-Cinza.jpg"
+    ],
+    "price": 193
+  },
+  {
+    "styleCode": "BB8821",
+    "brand": "Adidas",
+    "name": "Tenis adidas Tubular Shadow Masculino 2",
+    "images": [
+      "/sneakers_dataset/BB8821_Tenis-adidas-Tubular-Shadow-Masculino-2.jpg",
+      "/sneakers_dataset/BB8821_Tenis-adidas-Tubular-Shadow-Masculino-3.jpg",
+      "/sneakers_dataset/BB8821_Tenis-adidas-Tubular-Shadow-Masculino-4.jpg",
+      "/sneakers_dataset/BB8821_Tenis-adidas-Tubular-Shadow-Masculino-5.jpg",
+      "/sneakers_dataset/BB8821_Tenis-adidas-Tubular-Shadow-Masculino.jpg"
+    ],
+    "price": 198
+  },
+  {
+    "styleCode": "BB9260",
+    "brand": "Adidas",
+    "name": "Tenis adidas NMD CS1 Primeknit Branco 2",
+    "images": [
+      "/sneakers_dataset/BB9260_Tenis-adidas-NMD-CS1-Primeknit-Branco-2.jpg",
+      "/sneakers_dataset/BB9260_Tenis-adidas-NMD-CS1-Primeknit-Branco-3.jpg",
+      "/sneakers_dataset/BB9260_Tenis-adidas-NMD-CS1-Primeknit-Branco-4.jpg",
+      "/sneakers_dataset/BB9260_Tenis-adidas-NMD-CS1-Primeknit-Branco-5.jpg",
+      "/sneakers_dataset/BB9260_Tenis-adidas-NMD-CS1-Primeknit-Branco.jpg"
+    ],
+    "price": 101
+  },
+  {
+    "styleCode": "BD7099",
+    "brand": "Adidas",
+    "name": "Tenis Adidas Alphabounce Beyond Masculino PReto 2",
+    "images": [
+      "/sneakers_dataset/BD7099_Tenis-Adidas-Alphabounce-Beyond-Masculino-PReto-2.jpg",
+      "/sneakers_dataset/BD7099_Tenis-Adidas-Alphabounce-Beyond-Masculino-PReto-3.jpg",
+      "/sneakers_dataset/BD7099_Tenis-Adidas-Alphabounce-Beyond-Masculino-PReto-4.jpg",
+      "/sneakers_dataset/BD7099_Tenis-Adidas-Alphabounce-Beyond-Masculino-PReto-5.jpg",
+      "/sneakers_dataset/BD7099_Tenis-Adidas-Alphabounce-Beyond-Masculino-PReto-6.jpg",
+      "/sneakers_dataset/BD7099_Tenis-Adidas-Alphabounce-Beyond-Masculino-PReto.jpg",
+      "/sneakers_dataset/BD7099_Tenis-adidas-EQT-Support-Masculino-Mid-ADV-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/BD7099_Tenis-adidas-EQT-Support-Masculino-Mid-ADV-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/BD7099_Tenis-adidas-EQT-Support-Masculino-Mid-ADV-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/BD7099_Tenis-adidas-EQT-Support-Masculino-Mid-ADV-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/BD7099_Tenis-adidas-EQT-Support-Masculino-Mid-ADV-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/BD7099_Tenis-adidas-EQT-Support-Masculino-Mid-ADV-Masculino-Preto.jpg"
+    ],
+    "price": 107
+  },
+  {
+    "styleCode": "BD7475",
+    "brand": "Adidas",
+    "name": "Tenis adidas Sleek Feminino Rosa 2",
+    "images": [
+      "/sneakers_dataset/BD7475_Tenis-adidas-Sleek-Feminino-Rosa-2.jpg",
+      "/sneakers_dataset/BD7475_Tenis-adidas-Sleek-Feminino-Rosa-3.jpg",
+      "/sneakers_dataset/BD7475_Tenis-adidas-Sleek-Feminino-Rosa-4.jpg",
+      "/sneakers_dataset/BD7475_Tenis-adidas-Sleek-Feminino-Rosa-5.jpg",
+      "/sneakers_dataset/BD7475_Tenis-adidas-Sleek-Feminino-Rosa-6.jpg",
+      "/sneakers_dataset/BD7475_Tenis-adidas-Sleek-Feminino-Rosa.jpg"
+    ],
+    "price": 115
+  },
+  {
+    "styleCode": "BD7480",
+    "brand": "Adidas",
+    "name": "Tenis adidas Gazelle Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/BD7480_Tenis-adidas-Gazelle-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/BD7480_Tenis-adidas-Gazelle-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/BD7480_Tenis-adidas-Gazelle-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/BD7480_Tenis-adidas-Gazelle-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/BD7480_Tenis-adidas-Gazelle-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/BD7480_Tenis-adidas-Gazelle-Masculino-Preto.jpg"
+    ],
+    "price": 125
+  },
+  {
+    "styleCode": "BD7486",
+    "brand": "Adidas",
+    "name": "Tenis adidas Samba RM Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/BD7486_Tenis-adidas-Samba-RM-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/BD7486_Tenis-adidas-Samba-RM-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/BD7486_Tenis-adidas-Samba-RM-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/BD7486_Tenis-adidas-Samba-RM-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/BD7486_Tenis-adidas-Samba-RM-Masculino-Branco.jpg"
+    ],
+    "price": 131
+  },
+  {
+    "styleCode": "BD7525",
+    "brand": "Adidas",
+    "name": "Tenis adidas I 5923 Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/BD7525_Tenis-adidas-I-5923-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/BD7525_Tenis-adidas-I-5923-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/BD7525_Tenis-adidas-I-5923-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/BD7525_Tenis-adidas-I-5923-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/BD7525_Tenis-adidas-I-5923-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/BD7525_Tenis-adidas-I-5923-Masculino-Preto.jpg"
+    ],
+    "price": 141
+  },
+  {
+    "styleCode": "BQ7669-160",
+    "brand": "Jordan",
+    "name": "Tenis Air Jordan 4 Retro PS Infantil Multicolor 2",
+    "images": [
+      "/sneakers_dataset/BQ7669-160_Tenis-Air-Jordan-4-Retro-PS-Infantil-Multicolor-2.jpg",
+      "/sneakers_dataset/BQ7669-160_Tenis-Air-Jordan-4-Retro-PS-Infantil-Multicolor-3.jpg",
+      "/sneakers_dataset/BQ7669-160_Tenis-Air-Jordan-4-Retro-PS-Infantil-Multicolor-4.jpg",
+      "/sneakers_dataset/BQ7669-160_Tenis-Air-Jordan-4-Retro-PS-Infantil-Multicolor-5.jpg",
+      "/sneakers_dataset/BQ7669-160_Tenis-Air-Jordan-4-Retro-PS-Infantil-Multicolor-6.jpg",
+      "/sneakers_dataset/BQ7669-160_Tenis-Air-Jordan-4-Retro-PS-Infantil-Multicolor.jpg"
+    ],
+    "price": 119
+  },
+  {
+    "styleCode": "CD6109-002",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Delta Masculino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CD6109-002_Tenis-Jordan-Delta-Masculino-Multicolor-2.jpg",
+      "/sneakers_dataset/CD6109-002_Tenis-Jordan-Delta-Masculino-Multicolor-3.jpg",
+      "/sneakers_dataset/CD6109-002_Tenis-Jordan-Delta-Masculino-Multicolor-4.jpg",
+      "/sneakers_dataset/CD6109-002_Tenis-Jordan-Delta-Masculino-Multicolor-5.jpg",
+      "/sneakers_dataset/CD6109-002_Tenis-Jordan-Delta-Masculino-Multicolor-6.jpg",
+      "/sneakers_dataset/CD6109-002_Tenis-Jordan-Delta-Masculino-Multicolor.jpg"
+    ],
+    "price": 127
+  },
+  {
+    "styleCode": "CJ0780-101",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Westbrook One Take Masculino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CJ0780-101_Tenis-Jordan-Westbrook-One-Take-Masculino-Multicolor-2.jpg",
+      "/sneakers_dataset/CJ0780-101_Tenis-Jordan-Westbrook-One-Take-Masculino-Multicolor-3.jpg",
+      "/sneakers_dataset/CJ0780-101_Tenis-Jordan-Westbrook-One-Take-Masculino-Multicolor-4.jpg",
+      "/sneakers_dataset/CJ0780-101_Tenis-Jordan-Westbrook-One-Take-Masculino-Multicolor-5.jpg",
+      "/sneakers_dataset/CJ0780-101_Tenis-Jordan-Westbrook-One-Take-Masculino-Multicolor-6.jpg",
+      "/sneakers_dataset/CJ0780-101_Tenis-Jordan-Westbrook-One-Take-Masculino-Multicolor.jpg"
+    ],
+    "price": 186
+  },
+  {
+    "styleCode": "CK9183-001",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Zoom 92 Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/CK9183-001_Tenis-Jordan-Zoom-92-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/CK9183-001_Tenis-Jordan-Zoom-92-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/CK9183-001_Tenis-Jordan-Zoom-92-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/CK9183-001_Tenis-Jordan-Zoom-92-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/CK9183-001_Tenis-Jordan-Zoom-92-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/CK9183-001_Tenis-Jordan-Zoom-92-Masculino-Preto.jpg"
+    ],
+    "price": 125
+  },
+  {
+    "styleCode": "CK9184-105",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Zoom 92 Feminino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CK9184-105_Tenis-Jordan-Zoom-92-Feminino-Multicolor-2.jpg",
+      "/sneakers_dataset/CK9184-105_Tenis-Jordan-Zoom-92-Feminino-Multicolor-3.jpg",
+      "/sneakers_dataset/CK9184-105_Tenis-Jordan-Zoom-92-Feminino-Multicolor-4.jpg",
+      "/sneakers_dataset/CK9184-105_Tenis-Jordan-Zoom-92-Feminino-Multicolor-5.jpg",
+      "/sneakers_dataset/CK9184-105_Tenis-Jordan-Zoom-92-Feminino-Multicolor-6.jpg",
+      "/sneakers_dataset/CK9184-105_Tenis-Jordan-Zoom-92-Feminino-Multicolor.jpg"
+    ],
+    "price": 133
+  },
+  {
+    "styleCode": "CN3498-002",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Air Cadence Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza-6.jpg",
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza.jpg"
+    ],
+    "price": 110
+  },
+  {
+    "styleCode": "CQ4227-001",
+    "brand": "Jordan",
+    "name": "Tenis Air Jordan XXXV Masculino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CQ4227-001_Tenis-Air-Jordan-XXXV-Masculino-Multicolor-2.jpg",
+      "/sneakers_dataset/CQ4227-001_Tenis-Air-Jordan-XXXV-Masculino-Multicolor-3.jpg",
+      "/sneakers_dataset/CQ4227-001_Tenis-Air-Jordan-XXXV-Masculino-Multicolor-4.jpg",
+      "/sneakers_dataset/CQ4227-001_Tenis-Air-Jordan-XXXV-Masculino-Multicolor-5.jpg",
+      "/sneakers_dataset/CQ4227-001_Tenis-Air-Jordan-XXXV-Masculino-Multicolor-6.jpg",
+      "/sneakers_dataset/CQ4227-001_Tenis-Air-Jordan-XXXV-Masculino-Multicolor.jpg"
+    ],
+    "price": 118
+  },
+  {
+    "styleCode": "CQ4230-102",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Why Not Zero.4 Masculino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CQ4230-102_Tenis-Jordan-Why-Not-Zero.4-Masculino-Multicolor-2.jpg",
+      "/sneakers_dataset/CQ4230-102_Tenis-Jordan-Why-Not-Zero.4-Masculino-Multicolor-3.jpg",
+      "/sneakers_dataset/CQ4230-102_Tenis-Jordan-Why-Not-Zero.4-Masculino-Multicolor-4.jpg",
+      "/sneakers_dataset/CQ4230-102_Tenis-Jordan-Why-Not-Zero.4-Masculino-Multicolor-5.jpg",
+      "/sneakers_dataset/CQ4230-102_Tenis-Jordan-Why-Not-Zero.4-Masculino-Multicolor-6.jpg",
+      "/sneakers_dataset/CQ4230-102_Tenis-Jordan-Why-Not-Zero.4-Masculino-Multicolor.jpg"
+    ],
+    "price": 124
+  },
+  {
+    "styleCode": "CQ4230-400",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Why Not Zero.4 Masculino Azul 2",
+    "images": [
+      "/sneakers_dataset/CQ4230-400_Tenis-Jordan-Why-Not-Zero.4-Masculino-Azul-2.jpg",
+      "/sneakers_dataset/CQ4230-400_Tenis-Jordan-Why-Not-Zero.4-Masculino-Azul-3.jpg",
+      "/sneakers_dataset/CQ4230-400_Tenis-Jordan-Why-Not-Zero.4-Masculino-Azul-4.jpg",
+      "/sneakers_dataset/CQ4230-400_Tenis-Jordan-Why-Not-Zero.4-Masculino-Azul-5.jpg",
+      "/sneakers_dataset/CQ4230-400_Tenis-Jordan-Why-Not-Zero.4-Masculino-Azul-6.jpg",
+      "/sneakers_dataset/CQ4230-400_Tenis-Jordan-Why-Not-Zero.4-Masculino-Azul.jpg"
+    ],
+    "price": 130
+  },
+  {
+    "styleCode": "CV8121-101",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Delta 2 Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/CV8121-101_Tenis-Jordan-Delta-2-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/CV8121-101_Tenis-Jordan-Delta-2-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/CV8121-101_Tenis-Jordan-Delta-2-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/CV8121-101_Tenis-Jordan-Delta-2-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/CV8121-101_Tenis-Jordan-Delta-2-Masculino-Cinza-6.jpg",
+      "/sneakers_dataset/CV8121-101_Tenis-Jordan-Delta-2-Masculino-Cinza.jpg"
+    ],
+    "price": 167
+  },
+  {
+    "styleCode": "CW2457-003",
+    "brand": "Jordan",
+    "name": "Tenis Jordan One Take II Masculino Multicolor 2",
+    "images": [
+      "/sneakers_dataset/CW2457-003_Tenis-Jordan-One-Take-II-Masculino-Multicolor-2.jpg",
+      "/sneakers_dataset/CW2457-003_Tenis-Jordan-One-Take-II-Masculino-Multicolor-3.jpg",
+      "/sneakers_dataset/CW2457-003_Tenis-Jordan-One-Take-II-Masculino-Multicolor-4.jpg",
+      "/sneakers_dataset/CW2457-003_Tenis-Jordan-One-Take-II-Masculino-Multicolor-5.jpg",
+      "/sneakers_dataset/CW2457-003_Tenis-Jordan-One-Take-II-Masculino-Multicolor-6.jpg",
+      "/sneakers_dataset/CW2457-003_Tenis-Jordan-One-Take-II-Masculino-Multicolor.jpg"
+    ],
+    "price": 153
+  },
+  {
+    "styleCode": "CW2457-007",
+    "brand": "Jordan",
+    "name": "Tenis Jordan One Take II Masculino Preto 2",
+    "images": [
+      "/sneakers_dataset/CW2457-007_Tenis-Jordan-One-Take-II-Masculino-Preto-2.jpg",
+      "/sneakers_dataset/CW2457-007_Tenis-Jordan-One-Take-II-Masculino-Preto-3.jpg",
+      "/sneakers_dataset/CW2457-007_Tenis-Jordan-One-Take-II-Masculino-Preto-4.jpg",
+      "/sneakers_dataset/CW2457-007_Tenis-Jordan-One-Take-II-Masculino-Preto-5.jpg",
+      "/sneakers_dataset/CW2457-007_Tenis-Jordan-One-Take-II-Masculino-Preto-6.jpg",
+      "/sneakers_dataset/CW2457-007_Tenis-Jordan-One-Take-II-Masculino-Preto.jpg"
+    ],
+    "price": 159
+  },
+  {
+    "styleCode": "CW2457-163",
+    "brand": "Jordan",
+    "name": "Tenis Jordan One Take II Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/CW2457-163_Tenis-Jordan-One-Take-II-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/CW2457-163_Tenis-Jordan-One-Take-II-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/CW2457-163_Tenis-Jordan-One-Take-II-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/CW2457-163_Tenis-Jordan-One-Take-II-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/CW2457-163_Tenis-Jordan-One-Take-II-Masculino-Branco-6.jpg",
+      "/sneakers_dataset/CW2457-163_Tenis-Jordan-One-Take-II-Masculino-Branco.jpg"
+    ],
+    "price": 164
+  },
+  {
+    "styleCode": "CW2460-101",
+    "brand": "Jordan",
+    "name": "Tenis Air Jordan XXXV Low Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/CW2460-101_Tenis-Air-Jordan-XXXV-Low-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/CW2460-101_Tenis-Air-Jordan-XXXV-Low-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/CW2460-101_Tenis-Air-Jordan-XXXV-Low-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/CW2460-101_Tenis-Air-Jordan-XXXV-Low-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/CW2460-101_Tenis-Air-Jordan-XXXV-Low-Masculino-Branco-6.jpg",
+      "/sneakers_dataset/CW2460-101_Tenis-Air-Jordan-XXXV-Low-Masculino-Branco.jpg"
+    ],
+    "price": 170
+  },
+  {
+    "styleCode": "CN3498-002",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Air Cadence Masculino Cinza 2",
+    "images": [
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza-2.jpg",
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza-3.jpg",
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza-4.jpg",
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza-5.jpg",
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza-6.jpg",
+      "/sneakers_dataset/CN3498-002_Tenis-Jordan-Air-Cadence-Masculino-Cinza.jpg"
+    ],
+    "price": 110
+  },
+  {
+    "styleCode": "CD6109-100",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Delta Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/CD6109-100_Tenis-Jordan-Delta-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/CD6109-100_Tenis-Jordan-Delta-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/CD6109-100_Tenis-Jordan-Delta-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/CD6109-100_Tenis-Jordan-Delta-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/CD6109-100_Tenis-Jordan-Delta-Masculino-Branco-6.jpg",
+      "/sneakers_dataset/CD6109-100_Tenis-Jordan-Delta-Masculino-Branco.jpg"
+    ],
+    "price": 136
+  },
+  {
+    "styleCode": "CD6109-101",
+    "brand": "Jordan",
+    "name": "Tenis Jordan Delta Masculino Branco 2",
+    "images": [
+      "/sneakers_dataset/CD6109-101_Tenis-Jordan-Delta-Masculino-Branco-2.jpg",
+      "/sneakers_dataset/CD6109-101_Tenis-Jordan-Delta-Masculino-Branco-3.jpg",
+      "/sneakers_dataset/CD6109-101_Tenis-Jordan-Delta-Masculino-Branco-4.jpg",
+      "/sneakers_dataset/CD6109-101_Tenis-Jordan-Delta-Masculino-Branco-5.jpg",
+      "/sneakers_dataset/CD6109-101_Tenis-Jordan-Delta-Masculino-Branco-6.jpg",
+      "/sneakers_dataset/CD6109-101_Tenis-Jordan-Delta-Masculino-Branco.jpg"
+    ],
+    "price": 143
+  }
+]
